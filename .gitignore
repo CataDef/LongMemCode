@@ -1,0 +1,24 @@
+# Corpora clones, SCIP indexes, bundles — never committed. Scripts in
+# corpora/*.sh recreate them deterministically.
+corpora/_work/
+*.scip
+*.argosbundle
+*.tar.gz
+
+# Transient runs. Published results live in results/ (tracked).
+/_scratch/
+*.log
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Python venv if any adapter needs one
+.venv/
+__pycache__/
+*.pyc
+
+# Rust target (if an adapter is a Rust crate in-tree)
+target/
