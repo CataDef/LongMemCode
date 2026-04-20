@@ -13,6 +13,7 @@
 //! ```
 
 use std::collections::BTreeMap;
+use std::fs::File;
 use std::io::{BufRead, BufReader, BufWriter, Write};
 use std::path::PathBuf;
 use std::process::{ChildStdin, ChildStdout, Command, ExitCode, Stdio};
@@ -37,6 +38,13 @@ fn real_main() -> Result<()> {
     let adapter_args = flag(&args, "--adapter-args").unwrap_or_default();
     let scenarios_path = flag(&args, "--scenarios").context("--scenarios <path> required")?;
     let out_path = flag(&args, "--out");
+    // Audit trail: one JSON line per scenario, sibling to the summary.
+    let audit_path = out_path.as_deref().map(|p| p.replace(".json", ".jsonl"));
+    let mut audit_file: Option<BufWriter<File>> = audit_path
+        .as_deref()
+        .map(|p| File::create(p).map(BufWriter::new))
+        .transpose()
+        .context("create audit jsonl")?;
     let corpus_name = flag(&args, "--corpus-name").unwrap_or_else(|| "unknown".into());
     let corpus_commit = flag(&args, "--corpus-commit").unwrap_or_else(|| "unknown".into());
     let adapter_name = flag(&args, "--adapter-name").unwrap_or_else(|| "unknown".into());
@@ -69,6 +77,28 @@ fn real_main() -> Result<()> {
         let resp = recv_resp(&mut stdout)?;
         let elapsed = t0.elapsed().as_micros() as u64;
         let (score, precision, recall, notes) = score(&s.expected, &resp.results);
+        // Audit line: full expected + returned so any reviewer can
+        // diff. Written *after* scoring so `score` and `notes`
+        // reflect the final judgement.
+        if let Some(f) = audit_file.as_mut() {
+            let line = serde_json::json!({
+                "id": s.id,
+                "category": s.category,
+                "sub_type": s.sub_type,
+                "gold_source": s.gold_source,
+                "query": s.query,
+                "expected": s.expected,
+                "returned": resp.results,
+                "score": score,
+                "precision": precision,
+                "recall": recall,
+                "latency_us": elapsed,
+                "cost_usd": resp.cost_usd,
+                "notes": notes,
+            });
+            serde_json::to_writer(&mut *f, &line)?;
+            writeln!(f)?;
+        }
         outcomes.push(Outcome {
             scenario_id: s.id.clone(),
             category: s.category.clone(),
@@ -91,6 +121,12 @@ fn real_main() -> Result<()> {
     // Close stdin so the adapter exits cleanly.
     drop(stdin);
     let _ = child.wait();
+    if let Some(mut f) = audit_file.take() {
+        f.flush().ok();
+        if let Some(p) = audit_path.as_deref() {
+            eprintln!("audit trail → {p}");
+        }
+    }
 
     // Aggregate.
     let report = aggregate(&outcomes, scenarios.len());
@@ -165,6 +201,8 @@ fn flag(args: &[String], f: &str) -> Option<String> {
 struct Scenario {
     id: String,
     category: String,
+    #[serde(default)]
+    sub_type: String,
     #[allow(dead_code)]
     intent: String,
     query: serde_json::Value,

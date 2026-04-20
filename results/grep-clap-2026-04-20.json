@@ -1,6 +1,6 @@
 {
   "adapter": {
-    "name": "argosbrain",
+    "name": "grep-baseline",
     "version": "0.1.0"
   },
   "corpus": {
@@ -21,32 +21,32 @@
   ],
   "per_category": {
     "ApiDiscovery": {
-      "avg_precision": 1.0,
-      "avg_recall": 1.0,
-      "avg_score": 1.0,
+      "avg_precision": 0.875,
+      "avg_recall": 0.875,
+      "avg_score": 0.8494252873563217,
       "n": 87,
-      "passed": 87
+      "passed": 72
     },
     "BugFix": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.2435643564356436,
       "n": 101,
-      "passed": 101
+      "passed": 24
     },
     "Completion": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.7078534031413614,
       "n": 191,
-      "passed": 191
+      "passed": 126
     },
     "Config": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.08571428571428572,
       "n": 14,
-      "passed": 14
+      "passed": 1
     },
     "ControlFlow": {
       "avg_precision": null,
@@ -58,45 +58,45 @@
     "FeatureAdd": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.6666666666666666,
       "n": 33,
-      "passed": 33
+      "passed": 22
     },
     "Refactor": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.0,
       "n": 59,
-      "passed": 59
+      "passed": 0
     },
     "TestGen": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.7864145658263305,
       "n": 34,
-      "passed": 34
+      "passed": 23
     }
   },
   "per_gold_source": {
     "adversarial": {
-      "avg_score": 1.0,
+      "avg_score": 0.875,
       "n": 32,
-      "passed": 32
+      "passed": 28
     },
     "scip_roundtrip": {
-      "avg_score": 1.0,
+      "avg_score": 0.5409486016628874,
       "n": 504,
-      "passed": 504
+      "passed": 257
     }
   },
   "summary": {
     "cost_per_1k_queries_usd": 0.0,
-    "p50_latency_ms": 0.068,
-    "p95_latency_ms": 0.259,
-    "p99_latency_ms": 0.448,
-    "raw_accuracy": 1.0,
+    "p50_latency_ms": 31.413,
+    "p95_latency_ms": 36.103,
+    "p99_latency_ms": 38.767,
+    "raw_accuracy": 0.5608919687277897,
     "total_cost_usd": 0.0,
-    "total_tokens_returned": 595461,
-    "weighted_accuracy": 1.0
+    "total_tokens_returned": 171383,
+    "weighted_accuracy": 0.544324910900262
   }
 }

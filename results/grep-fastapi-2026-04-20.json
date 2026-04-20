@@ -1,6 +1,6 @@
 {
   "adapter": {
-    "name": "argosbrain",
+    "name": "grep-baseline",
     "version": "0.1.0"
   },
   "corpus": {
@@ -21,25 +21,25 @@
   ],
   "per_category": {
     "ApiDiscovery": {
-      "avg_precision": 1.0,
-      "avg_recall": 1.0,
-      "avg_score": 1.0,
+      "avg_precision": 0.9375,
+      "avg_recall": 0.9375,
+      "avg_score": 0.9016877637130801,
       "n": 79,
-      "passed": 79
+      "passed": 70
     },
     "BugFix": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.1766666666666667,
       "n": 90,
-      "passed": 90
+      "passed": 9
     },
     "Completion": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.6596436058700208,
       "n": 159,
-      "passed": 159
+      "passed": 99
     },
     "ControlFlow": {
       "avg_precision": null,
@@ -51,45 +51,45 @@
     "FeatureAdd": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.6457142857142858,
       "n": 35,
-      "passed": 35
+      "passed": 22
     },
     "Refactor": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.06538461538461539,
       "n": 52,
-      "passed": 52
+      "passed": 1
     },
     "TestGen": {
       "avg_precision": null,
       "avg_recall": null,
-      "avg_score": 1.0,
+      "avg_score": 0.0,
       "n": 1,
-      "passed": 1
+      "passed": 0
     }
   },
   "per_gold_source": {
     "adversarial": {
-      "avg_score": 1.0,
+      "avg_score": 0.9375,
       "n": 32,
-      "passed": 32
+      "passed": 30
     },
     "scip_roundtrip": {
-      "avg_score": 1.0,
+      "avg_score": 0.5013146734520784,
       "n": 393,
-      "passed": 393
+      "passed": 180
     }
   },
   "summary": {
     "cost_per_1k_queries_usd": 0.0,
-    "p50_latency_ms": 0.065,
-    "p95_latency_ms": 0.098,
-    "p99_latency_ms": 0.129,
-    "raw_accuracy": 1.0,
+    "p50_latency_ms": 15.132,
+    "p95_latency_ms": 16.882,
+    "p99_latency_ms": 17.826,
+    "raw_accuracy": 0.5341568627450983,
     "total_cost_usd": 0.0,
-    "total_tokens_returned": 33169,
-    "weighted_accuracy": 1.0
+    "total_tokens_returned": 71554,
+    "weighted_accuracy": 0.448606489882487
   }
 }
