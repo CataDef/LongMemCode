@@ -6,8 +6,8 @@
   "corpus": {
     "commit": "0.117.0",
     "name": "fastapi",
-    "scenarios_count": 435,
-    "scenarios_sha256": "fnv64:f5a20672e04bf7f2"
+    "scenarios_count": 425,
+    "scenarios_sha256": "fnv64:af0e1cb1f96ef263"
   },
   "longmemcode_version": "0.1",
   "machine": {
@@ -24,36 +24,43 @@
       "avg_precision": 1.0,
       "avg_recall": 1.0,
       "avg_score": 1.0,
-      "n": 68,
-      "passed": 68
+      "n": 79,
+      "passed": 79
     },
     "BugFix": {
       "avg_precision": null,
       "avg_recall": null,
       "avg_score": 1.0,
-      "n": 110,
-      "passed": 110
+      "n": 90,
+      "passed": 90
     },
     "Completion": {
       "avg_precision": null,
       "avg_recall": null,
       "avg_score": 1.0,
-      "n": 160,
-      "passed": 160
+      "n": 159,
+      "passed": 159
+    },
+    "ControlFlow": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 9,
+      "passed": 9
     },
     "FeatureAdd": {
       "avg_precision": null,
       "avg_recall": null,
       "avg_score": 1.0,
-      "n": 50,
-      "passed": 50
+      "n": 35,
+      "passed": 35
     },
     "Refactor": {
       "avg_precision": null,
       "avg_recall": null,
       "avg_score": 1.0,
-      "n": 46,
-      "passed": 46
+      "n": 52,
+      "passed": 52
     },
     "TestGen": {
       "avg_precision": null,
@@ -66,23 +73,23 @@
   "per_gold_source": {
     "adversarial": {
       "avg_score": 1.0,
-      "n": 35,
-      "passed": 35
+      "n": 32,
+      "passed": 32
     },
     "scip_roundtrip": {
       "avg_score": 1.0,
-      "n": 400,
-      "passed": 400
+      "n": 393,
+      "passed": 393
     }
   },
   "summary": {
     "cost_per_1k_queries_usd": 0.0,
-    "p50_latency_ms": 0.058,
-    "p95_latency_ms": 0.087,
-    "p99_latency_ms": 0.114,
+    "p50_latency_ms": 0.065,
+    "p95_latency_ms": 0.089,
+    "p99_latency_ms": 0.106,
     "raw_accuracy": 1.0,
     "total_cost_usd": 0.0,
-    "total_tokens_returned": 19332,
+    "total_tokens_returned": 33169,
     "weighted_accuracy": 1.0
   }
 }
