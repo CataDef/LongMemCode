@@ -1,0 +1,5239 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `SchemaController` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "SchemaController",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-000",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#getSchemas` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#getSchemas",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-001",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#add` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#add",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-002",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#getValidatorCompiler` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#getValidatorCompiler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-003",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#getSerializerBuilder` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#getSerializerBuilder",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-004",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#getValidatorBuilder` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#getValidatorBuilder",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-005",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#setupValidator` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#setupValidator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setupValidator()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-006",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#setupSerializer` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#setupSerializer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setupSerializer()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-007",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#setSerializerCompiler` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#setSerializerCompiler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setSerializerCompiler()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-008",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#getSerializerCompiler` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#getSerializerCompiler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerCompiler()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-009",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#getSchema` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#getSchema",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchema()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-010",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#setValidatorCompiler` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#setValidatorCompiler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setValidatorCompiler()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-011",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SchemaController#`<constructor>`` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SchemaController#`<constructor>`",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#`<constructor>`()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `getDisplayName` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `decorate` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `normalizeSchema` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `SchemaController#getSchemas` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sendTrailer` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `deepFreezeObject` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `onErrorHook` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `SchemaController#add` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `handleTimeout` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `handler` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `checkRequestExistence` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `appendStackTrace` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/appendStackTrace().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/appendStackTrace()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `validate` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `logServerAddress` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`server.js`/logServerAddress().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`server.js`/logServerAddress()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `onSendEnd` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `preHandlerCallback` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preHandlerCallback().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preHandlerCallback()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `createServer` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `validateRegExp` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `buildRoutePrefix` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/buildRoutePrefix().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/buildRoutePrefix()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `safeWriteHead` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `preSerializationHook` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `createPinoLogger` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`logger-pino.js`/createPinoLogger().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`logger-pino.js`/createPinoLogger()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `onSendHookRunner` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-023",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `getPluginName` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-024",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `checkDecorators` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-025",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `SchemaController#getValidatorCompiler` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-026",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `getServerInstance` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-027",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `isCustomSchemaPrototype` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/isCustomSchemaPrototype().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/isCustomSchemaPrototype()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-028",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `removeTrackedSocket` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`route.js`/removeTrackedSocket().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`route.js`/removeTrackedSocket()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-029",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `preValidationCallback` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preValidationCallback().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preValidationCallback()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-030",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Request` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-031",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `defaultChildLoggerFactory` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/defaultChildLoggerFactory().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/defaultChildLoggerFactory()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `getDisplayName` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `decorate` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `normalizeSchema` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `SchemaController#getSchemas` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `sendTrailer` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `deepFreezeObject` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `onErrorHook` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `SchemaController#add` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `handleTimeout` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `handler` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `checkRequestExistence` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `appendStackTrace` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/appendStackTrace().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/appendStackTrace()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `validate` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `logServerAddress` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`server.js`/logServerAddress().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`server.js`/logServerAddress()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `onSendEnd` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `preHandlerCallback` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preHandlerCallback().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preHandlerCallback()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `createServer` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `validateRegExp` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `buildRoutePrefix` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/buildRoutePrefix().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/buildRoutePrefix()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `safeWriteHead` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-023",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `preSerializationHook` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-024",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-025",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `createPinoLogger` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`logger-pino.js`/createPinoLogger().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`logger-pino.js`/createPinoLogger()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-026",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-027",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `onSendHookRunner` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-028",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `getPluginName` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-029",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `checkDecorators` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-030",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `SchemaController#getValidatorCompiler` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-031",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `getServerInstance` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/configValidator.js`",
+    "query": {
+      "file_path": "lib/configValidator.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/validate10().",
+        "file:lib/configValidator.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/symbols.js`",
+    "query": {
+      "file_path": "lib/symbols.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "file:lib/symbols.js",
+        "scip-typescript npm fastify 5.6.1 lib/`symbols.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/errors.js`",
+    "query": {
+      "file_path": "lib/errors.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`errors.js`/appendStackTrace().",
+        "scip-typescript npm fastify 5.6.1 lib/`errors.js`/",
+        "file:lib/errors.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/warnings.js`",
+    "query": {
+      "file_path": "lib/warnings.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`warnings.js`/",
+        "file:lib/warnings.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/contentTypeParser.js`",
+    "query": {
+      "file_path": "lib/contentTypeParser.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/Parser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/hasContentTypeParser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/addContentTypeParser()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/context.js`",
+    "query": {
+      "file_path": "lib/context.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`context.js`/Context().",
+        "scip-typescript npm fastify 5.6.1 lib/`context.js`/defaultSchemaErrorFormatter().",
+        "file:lib/context.js",
+        "scip-typescript npm fastify 5.6.1 lib/`context.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/decorate.js`",
+    "query": {
+      "file_path": "lib/decorate.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+        "file:lib/decorate.js",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkReferenceType()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/wrapThenable.js`",
+    "query": {
+      "file_path": "lib/wrapThenable.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`wrapThenable.js`/wrapThenable().",
+        "file:lib/wrapThenable.js",
+        "scip-typescript npm fastify 5.6.1 lib/`wrapThenable.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/schemas.js`",
+    "query": {
+      "file_path": "lib/schemas.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/isCustomSchemaPrototype().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/generateFluentSchema().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/",
+        "file:lib/schemas.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/error-serializer.js`",
+    "query": {
+      "file_path": "lib/error-serializer.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "file:lib/error-serializer.js",
+        "scip-typescript npm fastify 5.6.1 lib/`error-serializer.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/error-handler.js`",
+    "query": {
+      "file_path": "lib/error-handler.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/buildErrorHandler().",
+        "file:lib/error-handler.js",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/setErrorHeaders().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/defaultErrorHandler()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/hooks.js`",
+    "query": {
+      "file_path": "lib/hooks.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookIterator().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/buildHooks().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookRunnerApplication()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/validation.js`",
+    "query": {
+      "file_path": "lib/validation.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate().",
+        "file:lib/validation.js",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/getEssenceMediaType().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncBody()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/handleRequest.js`",
+    "query": {
+      "file_path": "lib/handleRequest.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preHandlerCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preValidationCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handleRequest().",
+        "file:lib/handleRequest.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/logger-pino.js`",
+    "query": {
+      "file_path": "lib/logger-pino.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`logger-pino.js`/createPinoLogger().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-pino.js`/",
+        "file:lib/logger-pino.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/logger-factory.js`",
+    "query": {
+      "file_path": "lib/logger-factory.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/defaultChildLoggerFactory().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/now().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/validateLogger().",
+        "file:lib/logger-factory.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/reply.js`",
+    "query": {
+      "file_path": "lib/reply.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/request.js`",
+    "query": {
+      "file_path": "lib/request.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/assertsRequestDecoration().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/getLastEntryInMultiHeaderValue().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/buildRequestWithTrustProxy()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/reqIdGenFactory.js`",
+    "query": {
+      "file_path": "lib/reqIdGenFactory.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reqIdGenFactory.js`/buildDefaultGenReqId().",
+        "scip-typescript npm fastify 5.6.1 lib/`reqIdGenFactory.js`/buildOptionalHeaderReqId().",
+        "scip-typescript npm fastify 5.6.1 lib/`reqIdGenFactory.js`/reqIdGenFactory().",
+        "file:lib/reqIdGenFactory.js",
+        "scip-typescript npm fastify 5.6.1 lib/`reqIdGenFactory.js`/getGenReqId()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/fourOhFour.js`",
+    "query": {
+      "file_path": "lib/fourOhFour.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`fourOhFour.js`/fourOhFour().",
+        "scip-typescript npm fastify 5.6.1 lib/`fourOhFour.js`/",
+        "file:lib/fourOhFour.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/headRoute.js`",
+    "query": {
+      "file_path": "lib/headRoute.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`headRoute.js`/",
+        "file:lib/headRoute.js",
+        "scip-typescript npm fastify 5.6.1 lib/`headRoute.js`/headRouteOnSendHandler().",
+        "scip-typescript npm fastify 5.6.1 lib/`headRoute.js`/parseHeadOnSendHandlers()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/initialConfigValidation.js`",
+    "query": {
+      "file_path": "lib/initialConfigValidation.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/validateInitialConfig().",
+        "file:lib/initialConfigValidation.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-023",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/noop-set.js`",
+    "query": {
+      "file_path": "lib/noop-set.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`noop-set.js`/",
+        "file:lib/noop-set.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-024",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/schema-controller.js`",
+    "query": {
+      "file_path": "lib/schema-controller.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-025",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/pluginUtils.js`",
+    "query": {
+      "file_path": "lib/pluginUtils.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkPluginHealthiness().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDependencies()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-026",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/pluginOverride.js`",
+    "query": {
+      "file_path": "lib/pluginOverride.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/buildRoutePrefix().",
+        "file:lib/pluginOverride.js",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-027",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/promise.js`",
+    "query": {
+      "file_path": "lib/promise.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "file:lib/promise.js",
+        "scip-typescript npm fastify 5.6.1 lib/`promise.js`/withResolvers().",
+        "scip-typescript npm fastify 5.6.1 lib/`promise.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-028",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/route.js`",
+    "query": {
+      "file_path": "lib/route.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/removeTrackedSocket().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouting().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/normalizeAndValidateMethod().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouterOptions()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-029",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lib/server.js`",
+    "query": {
+      "file_path": "lib/server.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/logServerAddress().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/listenCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-030",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `fastify.js`",
+    "query": {
+      "file_path": "fastify.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/fastify().",
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/",
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/defaultBuildPrettyMeta().",
+        "file:fastify.js",
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/validateSchemaErrorFormatter()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/reply.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`symbols.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/schema-controller.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/decorate.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkReferenceType().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkExistence()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/pluginUtils.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkPluginHealthiness().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDependencies()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/contentTypeParser.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/Parser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/hasContentTypeParser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/addContentTypeParser()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/validation.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/getEssenceMediaType().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncBody().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/compileSchemasForSerialization()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/route.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/removeTrackedSocket().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouting().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/normalizeAndValidateMethod().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouterOptions()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/hooks.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookIterator().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/buildHooks().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookRunnerApplication()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/server.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/logServerAddress().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/listenCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/request.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/assertsRequestDecoration().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/getLastEntryInMultiHeaderValue().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/buildRequestWithTrustProxy()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-012",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/handleRequest.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preHandlerCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preValidationCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handleRequest().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-013",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/",
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-014",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/schemas.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/isCustomSchemaPrototype().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/generateFluentSchema().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/Schemas()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-015",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `wrapValidationError` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncBody().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncHeaders().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncQuery()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-016",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/error-handler.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/buildErrorHandler().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/setErrorHeaders().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/defaultErrorHandler().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/handleError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-017",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/logger-factory.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/defaultChildLoggerFactory().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/now().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/validateLogger().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/createLogger()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `fastify` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 `fastify.js`/fastify()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`errors.js`/appendStackTrace().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/defaultChildLoggerFactory().",
+        "scip-typescript npm fastify 5.6.1 lib/`fourOhFour.js`/fourOhFour()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `buildRouting` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouting()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/removeTrackedSocket().",
+        "scip-typescript npm fastify 5.6.1 lib/`context.js`/Context().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/normalizeAndValidateMethod().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/buildErrorHandler()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/Parser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/hasContentTypeParser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/addContentTypeParser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/removeContentTypeParser()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookIterator().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/buildHooks().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookRunnerApplication().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onRequestAbortHookRunner()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkExistence().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/hasKey().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorateFastify().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorateReply()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/notFound().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/serialize().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/setupResponseListeners()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDependencies().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getFuncPreview()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `validate` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/getEssenceMediaType().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncBody().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncHeaders().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncQuery()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `registerPlugin` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/registerPlugin()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkPluginHealthiness().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDependencies().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkVersion()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `fourOhFour` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`fourOhFour.js`/fourOhFour()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request().",
+        "scip-typescript npm fastify 5.6.1 lib/`context.js`/Context().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/buildErrorHandler().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/Reply().",
+        "scip-typescript npm fastify 5.6.1 lib/`reqIdGenFactory.js`/getGenReqId()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `onSendEnd` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendStream().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendWebStream().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/noop()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `createServer` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/listenCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/listenPromise().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onListenHookRunner().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/multipleBindings()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-012",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/defaultChildLoggerFactory().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/now().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/validateLogger().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/createLogger().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/createChildLogger()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-013",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/buildRoutePrefix().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/buildHooks().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/Reply().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/ContentTypeParser()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-014",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `preSerializationHookEnd` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHookEnd()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/wrapSerializationError().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/serialize().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendHook()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-015",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `sendStream` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendStream()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/logStreamError().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendStreamTrailer().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/noop()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-016",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/validateInitialConfig().",
+        "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/validate10()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-017",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preHandlerCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handleRequest()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-000",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/reply.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-001",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`symbols.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-002",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-003",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/schema-controller.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-004",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/decorate.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkReferenceType().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkExistence()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-005",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/pluginUtils.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkPluginHealthiness().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDependencies()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-006",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/contentTypeParser.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/Parser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/hasContentTypeParser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/addContentTypeParser()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-007",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/validation.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/getEssenceMediaType().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncBody().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/compileSchemasForSerialization()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-008",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/route.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/removeTrackedSocket().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouting().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/normalizeAndValidateMethod().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouterOptions()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-009",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/hooks.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookIterator().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/buildHooks().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookRunnerApplication()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-010",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/server.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/logServerAddress().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/listenCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-011",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/request.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/assertsRequestDecoration().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/getLastEntryInMultiHeaderValue().",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/buildRequestWithTrustProxy()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-012",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/handleRequest.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preHandlerCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/preValidationCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handleRequest().",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-013",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/",
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-014",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/schemas.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/isCustomSchemaPrototype().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/generateFluentSchema().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/Schemas()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-015",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `wrapValidationError` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncBody().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncHeaders().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncQuery()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-016",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/error-handler.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/buildErrorHandler().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/setErrorHeaders().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/defaultErrorHandler().",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/handleError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-017",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `js` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/logger-factory.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/defaultChildLoggerFactory().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/now().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/validateLogger().",
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/createLogger()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-000",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `logStreamError` type",
+    "query": {
+      "bare_name": true,
+      "name": "logStreamError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/logStreamError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-001",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `wrapSerializationError` type",
+    "query": {
+      "bare_name": true,
+      "name": "wrapSerializationError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/wrapSerializationError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-002",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `wrapValidationError` type",
+    "query": {
+      "bare_name": true,
+      "name": "wrapValidationError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-003",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `handleError` type",
+    "query": {
+      "bare_name": true,
+      "name": "handleError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/handleError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-000",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `SchemaController` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-000",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `SchemaController` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setupValidator()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/reply.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendEnd().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/safeWriteHead().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/preSerializationHook()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`symbols.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/schema-controller.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/decorate.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkReferenceType().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkExistence()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/pluginUtils.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getPluginName().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDecorators().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkPluginHealthiness().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/checkDependencies()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/contentTypeParser.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/Parser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/hasContentTypeParser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/addContentTypeParser()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/validation.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validate().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/getEssenceMediaType().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/validateAsyncBody().",
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/compileSchemasForSerialization()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-008",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/route.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/removeTrackedSocket().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouting().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/normalizeAndValidateMethod().",
+        "scip-typescript npm fastify 5.6.1 lib/`route.js`/buildRouterOptions()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-009",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/hooks.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookIterator().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/buildHooks().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookRunnerApplication()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-010",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `js` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "file:lib/server.js"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/logServerAddress().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/getServerInstance().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/listenCallback().",
+        "scip-typescript npm fastify 5.6.1 lib/`server.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-000",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of ``",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-001",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of `appendStackTrace`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/appendStackTrace()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/fastify().",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/hookRunnerApplication()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-002",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of ``",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`errors.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-003",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of `createServer`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`server.js`/createServer()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/fastify()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-004",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of ``",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-005",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of ``",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-006",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of `createPinoLogger`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`logger-pino.js`/createPinoLogger()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/createLogger()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-007",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of ``",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-008",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of `onSendHookRunner`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`hooks.js`/onSendHookRunner()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onSendHook()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-009",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of `Request`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`request.js`/Request()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`fourOhFour.js`/fourOhFour().",
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/fastify().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginOverride.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_callers-010",
+    "category": "Refactor",
+    "sub_type": "cross_module_callers",
+    "intent": "Cross-module callers of `defaultChildLoggerFactory`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`logger-factory.js`/defaultChildLoggerFactory()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 `fastify.js`/fastify()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "assertion_idiom-000",
+    "category": "TestGen",
+    "sub_type": "assertion_idiom",
+    "intent": "Assertion idiom: `assertsRequestDecoration`",
+    "query": {
+      "bare_name": true,
+      "name": "assertsRequestDecoration",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`request.js`/assertsRequestDecoration()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "assertion_idiom-001",
+    "category": "TestGen",
+    "sub_type": "assertion_idiom",
+    "intent": "Assertion idiom: `assertNotStarted`",
+    "query": {
+      "bare_name": true,
+      "name": "assertNotStarted",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/assertNotStarted()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-000",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-000",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `registerPlugin`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/registerPlugin()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-001",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `registerPluginName`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/registerPluginName()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/registerPlugin().",
+        "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "schema_partner_file-000",
+    "category": "FeatureAdd",
+    "sub_type": "schema_partner_file",
+    "intent": "Schema partner file: `lib/schemas.js`",
+    "query": {
+      "file_path": "lib/schemas.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/isCustomSchemaPrototype().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/generateFluentSchema().",
+        "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/",
+        "file:lib/schemas.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "schema_partner_file-001",
+    "category": "FeatureAdd",
+    "sub_type": "schema_partner_file",
+    "intent": "Schema partner file: `lib/schema-controller.js`",
+    "query": {
+      "file_path": "lib/schema-controller.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder().",
+        "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `getDisplayName`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `decorate`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `normalizeSchema`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `SchemaController#getSchemas`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `sendTrailer`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `deepFreezeObject`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `onErrorHook`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `SchemaController#add`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-008",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `handleTimeout`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`route.js`/handleTimeout()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-009",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `handler`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`handleRequest.js`/handler()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-010",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `checkRequestExistence`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-006",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-007",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-006",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-007",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-006",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-007",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `geDtisplayName` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "geDtisplayName",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `deocrate` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "deocrate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `nomralizeSchema` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "nomralizeSchema",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `ScehmaController#getSchemas` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ScehmaController#getSchemas",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `sednTrailer` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "sednTrailer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `depeFreezeObject` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "depeFreezeObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-006",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `onrErorHook` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "onrErorHook",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-007",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `ScehmaController#add` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ScehmaController#add",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `getDisplayName` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `decorate` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `normalizeSchema` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `SchemaController#getSchemas` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `sendTrailer` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `deepFreezeObject` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-006",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `onErrorHook` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-007",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `SchemaController#add` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-006",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-007",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `SchemaController#getSchemas` on enclosing type `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `SchemaController#add` on enclosing type `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `SchemaController#getValidatorCompiler` on enclosing type `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorCompiler()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `SchemaController#getSerializerBuilder` on enclosing type `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSerializerBuilder()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `SchemaController#getValidatorBuilder` on enclosing type `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getValidatorBuilder()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `SchemaController#setupValidator` on enclosing type `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setupValidator().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setupValidator()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-006",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `SchemaController#setupSerializer` on enclosing type `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setupSerializer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setupSerializer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-007",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `SchemaController#setSerializerCompiler` on enclosing type `SchemaController`",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setSerializerCompiler().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#setSerializerCompiler()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`pluginUtils.js`/getDisplayName()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schemas.js`/normalizeSchema()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#getSchemas()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/sendTrailer()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-006",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`reply.js`/onErrorHook()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-007",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-typescript npm fastify 5.6.1 lib/`schema-controller.js`/SchemaController#add()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `lib/configValidator.js`",
+    "query": {
+      "file_path": "lib/configValidator.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/validate10().",
+        "file:lib/configValidator.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `lib/symbols.js`",
+    "query": {
+      "file_path": "lib/symbols.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "file:lib/symbols.js",
+        "scip-typescript npm fastify 5.6.1 lib/`symbols.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `lib/errors.js`",
+    "query": {
+      "file_path": "lib/errors.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`errors.js`/appendStackTrace().",
+        "scip-typescript npm fastify 5.6.1 lib/`errors.js`/",
+        "file:lib/errors.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `lib/warnings.js`",
+    "query": {
+      "file_path": "lib/warnings.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`warnings.js`/",
+        "file:lib/warnings.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `lib/contentTypeParser.js`",
+    "query": {
+      "file_path": "lib/contentTypeParser.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/validateRegExp().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/Parser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/hasContentTypeParser().",
+        "scip-typescript npm fastify 5.6.1 lib/`contentTypeParser.js`/addContentTypeParser()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-006",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `lib/context.js`",
+    "query": {
+      "file_path": "lib/context.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`context.js`/Context().",
+        "scip-typescript npm fastify 5.6.1 lib/`context.js`/defaultSchemaErrorFormatter().",
+        "file:lib/context.js",
+        "scip-typescript npm fastify 5.6.1 lib/`context.js`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-007",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `lib/decorate.js`",
+    "query": {
+      "file_path": "lib/decorate.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/decorate().",
+        "file:lib/decorate.js",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkRequestExistence().",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`decorate.js`/checkReferenceType()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `geDtisplayName` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "geDtisplayName",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `deocrate` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "deocrate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `nomralizeSchema` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "nomralizeSchema",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `ScehmaController#getSchemas` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ScehmaController#getSchemas",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `sednTrailer` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "sednTrailer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `depeFreezeObject` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "depeFreezeObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-006",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `onrErorHook` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "onrErorHook",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-007",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `ScehmaController#add` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ScehmaController#add",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exception_raisers-000",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `logStreamError` type",
+    "query": {
+      "bare_name": true,
+      "name": "logStreamError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/logStreamError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-001",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `wrapSerializationError` type",
+    "query": {
+      "bare_name": true,
+      "name": "wrapSerializationError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`reply.js`/wrapSerializationError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-002",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `wrapValidationError` type",
+    "query": {
+      "bare_name": true,
+      "name": "wrapValidationError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`validation.js`/wrapValidationError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-003",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `handleError` type",
+    "query": {
+      "bare_name": true,
+      "name": "handleError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`error-handler.js`/handleError()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-000",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `lib/configValidator.js`",
+    "query": {
+      "file_path": "lib/configValidator.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`configValidator.js`/validate10().",
+        "file:lib/configValidator.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-001",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `lib/initialConfigValidation.js`",
+    "query": {
+      "file_path": "lib/initialConfigValidation.js",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/deepFreezeObject().",
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/",
+        "scip-typescript npm fastify 5.6.1 lib/`initialConfigValidation.js`/validateInitialConfig().",
+        "file:lib/initialConfigValidation.js"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]
