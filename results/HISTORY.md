@@ -6,7 +6,8 @@ Format per row: **date** · **adapter@version** · **corpus** · **accuracy / P9
 
 ## v0.1 (current)
 
-_No runs yet — the first one will be committed by the ArgosBrain team as the reference baseline; submit yours via PR._
+- **2026-04-20** · `argosbrain@0.1.0` · `fastapi@0.117.0` · 100.0 % / 87 µs P95 / $0.00 → [argosbrain-fastapi-2026-04-20.json](argosbrain-fastapi-2026-04-20.json)
+- **2026-04-20** · `argosbrain@0.1.0` · `clap@v4.5.20` · 100.0 % / 181 µs P95 / $0.00 → [argosbrain-clap-2026-04-20.json](argosbrain-clap-2026-04-20.json)
 
 ## v0 (pre-release)
 

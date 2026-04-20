@@ -1,0 +1,259 @@
+[
+  {
+    "id": "py-completion-01-lookup-Task",
+    "category": "Completion",
+    "intent": "agent about to construct a Task — needs the class",
+    "query": {"op": "lookup", "name": "Task", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.tasks`/Task#"]}
+  },
+  {
+    "id": "py-completion-02-lookup-Future",
+    "category": "Completion",
+    "intent": "agent referencing Future type",
+    "query": {"op": "lookup", "name": "Future", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.futures`/Future#"]}
+  },
+  {
+    "id": "py-completion-03-lookup-AbstractEventLoop",
+    "category": "Completion",
+    "intent": "agent typing against abstract loop",
+    "query": {"op": "lookup", "name": "AbstractEventLoop", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.events`/AbstractEventLoop#"]}
+  },
+  {
+    "id": "py-completion-04-lookup-Task-cancel",
+    "category": "Completion",
+    "intent": "agent calling task.cancel() — needs method signature",
+    "query": {"op": "lookup", "name": "Task#cancel", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.tasks`/Task#cancel()."]}
+  },
+  {
+    "id": "py-completion-05-lookup-Future-done",
+    "category": "Completion",
+    "intent": "agent checking Future.done()",
+    "query": {"op": "lookup", "name": "Future#done", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.futures`/Future#done()."]}
+  },
+  {
+    "id": "py-completion-06-lookup-BaseEventLoop",
+    "category": "Completion",
+    "intent": "agent subclassing BaseEventLoop",
+    "query": {"op": "lookup", "name": "BaseEventLoop", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.base_events`/BaseEventLoop#"]}
+  },
+  {
+    "id": "py-completion-07-lookup-Future-set_exception",
+    "category": "Completion",
+    "intent": "agent setting an exception on a future",
+    "query": {"op": "lookup", "name": "Future#set_exception", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.futures`/Future#set_exception()."]}
+  },
+  {
+    "id": "py-completion-08-lookup-AbstractEventLoop-create_task",
+    "category": "Completion",
+    "intent": "agent calling loop.create_task()",
+    "query": {"op": "lookup", "name": "AbstractEventLoop#create_task", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.events`/AbstractEventLoop#create_task()."]}
+  },
+  {
+    "id": "py-completion-09-lookup-Task-uncancel",
+    "category": "Completion",
+    "intent": "agent calling Task.uncancel()",
+    "query": {"op": "lookup", "name": "Task#uncancel", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.tasks`/Task#uncancel()."]}
+  },
+  {
+    "id": "py-completion-10-lookup-Future-add_done_callback",
+    "category": "Completion",
+    "intent": "agent wiring a done-callback",
+    "query": {"op": "lookup", "name": "Future#add_done_callback", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.futures`/Future#add_done_callback()."]}
+  },
+  {
+    "id": "py-refactor-01-methods-of-Task",
+    "category": "Refactor",
+    "intent": "agent renaming a Task method — needs full class surface",
+    "query": {"op": "contained_by", "sym_stable_id": "python-stdlib `asyncio.tasks`/Task#"},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.tasks`/Task#cancel().",
+      "python-stdlib `asyncio.tasks`/Task#uncancel().",
+      "python-stdlib `asyncio.tasks`/Task#__init__().",
+      "python-stdlib `asyncio.tasks`/Task#get_name().",
+      "python-stdlib `asyncio.tasks`/Task#get_coro()."
+    ]}
+  },
+  {
+    "id": "py-refactor-02-methods-of-Future",
+    "category": "Refactor",
+    "intent": "agent extending Future — needs full method list",
+    "query": {"op": "contained_by", "sym_stable_id": "python-stdlib `asyncio.futures`/Future#"},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.futures`/Future#cancel().",
+      "python-stdlib `asyncio.futures`/Future#done().",
+      "python-stdlib `asyncio.futures`/Future#result().",
+      "python-stdlib `asyncio.futures`/Future#set_exception().",
+      "python-stdlib `asyncio.futures`/Future#add_done_callback()."
+    ]}
+  },
+  {
+    "id": "py-refactor-03-methods-of-AbstractEventLoop",
+    "category": "Refactor",
+    "intent": "agent adding a loop method — needs full interface",
+    "query": {"op": "contained_by", "sym_stable_id": "python-stdlib `asyncio.events`/AbstractEventLoop#"},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.events`/AbstractEventLoop#run_until_complete().",
+      "python-stdlib `asyncio.events`/AbstractEventLoop#create_task().",
+      "python-stdlib `asyncio.events`/AbstractEventLoop#run_in_executor().",
+      "python-stdlib `asyncio.events`/AbstractEventLoop#is_running().",
+      "python-stdlib `asyncio.events`/AbstractEventLoop#call_at()."
+    ]}
+  },
+  {
+    "id": "py-refactor-04-callers-of-Future-cancel",
+    "category": "Refactor",
+    "intent": "agent tightening Future.cancel contract — needs callers (subclass overrides too)",
+    "query": {"op": "callers", "sym_stable_id": "python-stdlib `asyncio.futures`/Future#cancel()."},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.tasks`/Task#cancel().",
+      "python-stdlib `asyncio.tasks`/_GatheringFuture#cancel()."
+    ]}
+  },
+  {
+    "id": "py-refactor-05-callers-of-Future-done",
+    "category": "Refactor",
+    "intent": "agent auditing Future.done() usage",
+    "query": {"op": "callers", "sym_stable_id": "python-stdlib `asyncio.futures`/Future#done()."},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.tasks`/Task#cancel()."
+    ]}
+  },
+  {
+    "id": "py-refactor-06-callers-Future-log-traceback",
+    "category": "Refactor",
+    "intent": "agent investigating traceback-logging exposure",
+    "query": {"op": "callers", "sym_stable_id": "python-stdlib `asyncio.futures`/Future#_log_traceback()."},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.tasks`/Task#cancel()."
+    ]}
+  },
+  {
+    "id": "py-api-01-exact-Task-cancel",
+    "category": "ApiDiscovery",
+    "intent": "precision-layer: Task.cancel() exists?",
+    "query": {"op": "lookup", "name": "python-stdlib `asyncio.tasks`/Task#cancel().", "bare_name": false},
+    "expected": {"kind": "exact_symbol", "stable_id": "python-stdlib `asyncio.tasks`/Task#cancel()."}
+  },
+  {
+    "id": "py-api-02-exact-Future-done",
+    "category": "ApiDiscovery",
+    "intent": "precision-layer: Future.done() exists?",
+    "query": {"op": "lookup", "name": "python-stdlib `asyncio.futures`/Future#done().", "bare_name": false},
+    "expected": {"kind": "exact_symbol", "stable_id": "python-stdlib `asyncio.futures`/Future#done()."}
+  },
+  {
+    "id": "py-api-03-absent-fake-method",
+    "category": "ApiDiscovery",
+    "intent": "precision-layer: a fabricated method should not exist",
+    "query": {"op": "lookup", "name": "python-stdlib `asyncio.tasks`/Task#teleport_to_mars().", "bare_name": false},
+    "expected": {"kind": "exact_set", "stable_ids": []}
+  },
+  {
+    "id": "py-api-04-absent-fake-class",
+    "category": "ApiDiscovery",
+    "intent": "precision-layer: a fabricated class should not exist",
+    "query": {"op": "lookup", "name": "QuantumCoroutine", "bare_name": true},
+    "expected": {"kind": "exact_set", "stable_ids": []}
+  },
+  {
+    "id": "py-bug-01-callers-Future-cancel",
+    "category": "BugFix",
+    "intent": "Future.cancel may be buggy — list callers to estimate exposure",
+    "query": {"op": "callers", "sym_stable_id": "python-stdlib `asyncio.futures`/Future#cancel()."},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.tasks`/Task#cancel().",
+      "python-stdlib `asyncio.tasks`/_GatheringFuture#cancel()."
+    ]}
+  },
+  {
+    "id": "py-bug-02-callees-Task-cancel",
+    "category": "BugFix",
+    "intent": "bug in Task.cancel — where does it call downstream?",
+    "query": {"op": "callees", "sym_stable_id": "python-stdlib `asyncio.tasks`/Task#cancel()."},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.futures`/Future#done().",
+      "python-stdlib `asyncio.futures`/Future#_log_traceback()."
+    ]}
+  },
+  {
+    "id": "py-bug-03-callers-set_result",
+    "category": "BugFix",
+    "intent": "set_result observed buggy — who calls it?",
+    "query": {"op": "callers", "sym_stable_id": "python-stdlib `asyncio.futures`/Future#set_result()."},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.tasks`/Task#set_result().",
+      "python-stdlib `asyncio.windows_events`/_OverlappedFuture#set_result()."
+    ]}
+  },
+  {
+    "id": "py-bug-04-callees-AEL-run_until_complete",
+    "category": "BugFix",
+    "intent": "run_until_complete hangs — what does it call? (abstract method, no body → no callees. Documents a real scip-python limitation.)",
+    "query": {"op": "callees", "sym_stable_id": "python-stdlib `asyncio.events`/AbstractEventLoop#run_until_complete()."},
+    "expected": {"kind": "exact_set", "stable_ids": []}
+  },
+  {
+    "id": "py-test-01-file-symbols-tasks",
+    "category": "TestGen",
+    "intent": "agent writing a tasks.py test — needs existing symbols for fixture patterns",
+    "query": {"op": "file_symbols", "file_path": "tasks.py"},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.tasks`/Task#",
+      "python-stdlib `asyncio.tasks`/Task#cancel()."
+    ]}
+  },
+  {
+    "id": "py-test-02-file-symbols-futures",
+    "category": "TestGen",
+    "intent": "agent writing a futures test",
+    "query": {"op": "file_symbols", "file_path": "futures.py"},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.futures`/Future#",
+      "python-stdlib `asyncio.futures`/Future#cancel()."
+    ]}
+  },
+  {
+    "id": "py-test-03-file-symbols-events",
+    "category": "TestGen",
+    "intent": "agent writing an event-loop test",
+    "query": {"op": "file_symbols", "file_path": "events.py"},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.events`/AbstractEventLoop#"
+    ]}
+  },
+  {
+    "id": "py-feature-01-lookup-BaseEventLoop",
+    "category": "FeatureAdd",
+    "intent": "agent extending BaseEventLoop — wants the class",
+    "query": {"op": "lookup", "name": "BaseEventLoop", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.base_events`/BaseEventLoop#"]}
+  },
+  {
+    "id": "py-feature-02-methods-of-BaseEventLoop",
+    "category": "FeatureAdd",
+    "intent": "agent overriding BaseEventLoop methods — needs the surface",
+    "query": {"op": "contained_by", "sym_stable_id": "python-stdlib `asyncio.base_events`/BaseEventLoop#"},
+    "expected": {"kind": "contains", "required": [
+      "python-stdlib `asyncio.base_events`/BaseEventLoop#run_in_executor().",
+      "python-stdlib `asyncio.base_events`/BaseEventLoop#create_task().",
+      "python-stdlib `asyncio.base_events`/BaseEventLoop#call_soon().",
+      "python-stdlib `asyncio.base_events`/BaseEventLoop#__del__()."
+    ]}
+  },
+  {
+    "id": "py-feature-03-lookup-Protocol",
+    "category": "FeatureAdd",
+    "intent": "agent implementing a Protocol subclass",
+    "query": {"op": "lookup", "name": "Protocol", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["python-stdlib `asyncio.protocols`/Protocol#"]}
+  }
+]
