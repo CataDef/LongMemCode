@@ -1,0 +1,20 @@
+[package]
+name = "lmc-adapter-argosbrain"
+description = "ArgosBrain adapter for LongMemCode — speaks JSON-over-stdio against a .argosbundle."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+publish = false
+
+[[bin]]
+name = "lmc-adapter-argosbrain"
+path = "src/main.rs"
+
+[dependencies]
+neurogenesis-bundle.workspace = true
+neurogenesis-ingest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true

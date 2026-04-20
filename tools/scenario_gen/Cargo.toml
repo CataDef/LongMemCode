@@ -1,0 +1,19 @@
+[package]
+name = "lmc-scenario-gen"
+description = "Generate ~500 LongMemCode scenarios from a .argosbundle, balanced across the 6-category taxonomy."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+publish = false
+
+[[bin]]
+name = "lmc-scenario-gen"
+path = "src/main.rs"
+
+[dependencies]
+neurogenesis-bundle.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true

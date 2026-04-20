@@ -1,0 +1,274 @@
+[
+  {
+    "id": "rust-completion-01-lookup-BundleWriter",
+    "category": "Completion",
+    "intent": "agent typing a new bundle writer path, needs the BundleWriter struct id",
+    "query": {"op": "lookup", "name": "BundleWriter", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/BundleWriter#"]}
+  },
+  {
+    "id": "rust-completion-02-lookup-Bundle",
+    "category": "Completion",
+    "intent": "agent importing Bundle reader, needs the struct",
+    "query": {"op": "lookup", "name": "Bundle", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/Bundle#"]}
+  },
+  {
+    "id": "rust-completion-03-lookup-EdgeKind",
+    "category": "Completion",
+    "intent": "agent adding new edge variant — needs the enum",
+    "query": {"op": "lookup", "name": "EdgeKind", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 format/EdgeKind#"]}
+  },
+  {
+    "id": "rust-completion-04-lookup-StringPool",
+    "category": "Completion",
+    "intent": "agent interning strings — wants StringPool",
+    "query": {"op": "lookup", "name": "StringPool", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/StringPool#"]}
+  },
+  {
+    "id": "rust-completion-05-lookup-Manifest",
+    "category": "Completion",
+    "intent": "agent referencing the sync manifest type",
+    "query": {"op": "lookup", "name": "Manifest", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 manifest/Manifest#"]}
+  },
+  {
+    "id": "rust-completion-06-lookup-add_symbol",
+    "category": "Completion",
+    "intent": "agent about to call add_symbol on a writer",
+    "query": {"op": "lookup", "name": "add_symbol", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]add_symbol()."]}
+  },
+  {
+    "id": "rust-completion-07-lookup-finish_to_path",
+    "category": "Completion",
+    "intent": "agent finalising a bundle writer",
+    "query": {"op": "lookup", "name": "finish_to_path", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]finish_to_path()."]}
+  },
+  {
+    "id": "rust-completion-08-lookup-lookup_bare_name",
+    "category": "Completion",
+    "intent": "agent calling bare-name lookup on a bundle",
+    "query": {"op": "lookup", "name": "lookup_bare_name", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]lookup_bare_name()."]}
+  },
+  {
+    "id": "rust-completion-09-lookup-intern",
+    "category": "Completion",
+    "intent": "agent interning a string via StringPool",
+    "query": {"op": "lookup", "name": "intern", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[StringPool]intern()."]}
+  },
+  {
+    "id": "rust-completion-10-lookup-with_tier",
+    "category": "Completion",
+    "intent": "builder: setting tier on writer",
+    "query": {"op": "lookup", "name": "with_tier", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]with_tier()."]}
+  },
+  {
+    "id": "rust-refactor-01-methods-of-BundleWriter",
+    "category": "Refactor",
+    "intent": "agent renaming a BundleWriter method — needs full surface to know the hit list",
+    "query": {"op": "contained_by", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/BundleWriter#"},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]new().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]with_tier().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]add_symbol().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]add_ref().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]finish_to_path().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]finalize_root()."
+    ]}
+  },
+  {
+    "id": "rust-refactor-02-methods-of-StringPool",
+    "category": "Refactor",
+    "intent": "agent renaming intern() — needs all StringPool surface",
+    "query": {"op": "contained_by", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/StringPool#"},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[StringPool]new().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[StringPool]intern()."
+    ]}
+  },
+  {
+    "id": "rust-refactor-03-methods-of-Bundle",
+    "category": "Refactor",
+    "intent": "agent adding a method to Bundle — needs existing surface to mirror conventions",
+    "query": {"op": "contained_by", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/Bundle#"},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]open().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]lookup_stable_id().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]lookup_bare_name().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]outgoing_edges().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]incoming()."
+    ]}
+  },
+  {
+    "id": "rust-refactor-04-variants-of-EdgeKind",
+    "category": "Refactor",
+    "intent": "agent adding a new EdgeKind variant — needs full enum shape",
+    "query": {"op": "contained_by", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 format/EdgeKind#"},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 format/EdgeKind#Calls#",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 format/EdgeKind#Implements#",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 format/EdgeKind#Uses#",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 format/EdgeKind#Contains#",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 format/EdgeKind#DefinedAt#"
+    ]}
+  },
+  {
+    "id": "rust-refactor-05-callers-of-BundleWriter-new",
+    "category": "Refactor",
+    "intent": "agent renaming BundleWriter::new — needs rename blast radius (tests that call it)",
+    "query": {"op": "callers", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]new()."},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 make_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 write_rust_stdlib_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/tests/roundtrip_tiny_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/tests/duplicate_stable_id_rejected()."
+    ]}
+  },
+  {
+    "id": "rust-refactor-06-callers-of-lookup_stable_id",
+    "category": "Refactor",
+    "intent": "agent tightening lookup_stable_id contract — needs callers",
+    "query": {"op": "callers", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]lookup_stable_id()."},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 alloc_cross_refs_resolve_into_core_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 set/impl#[BundleSet]lookup_stable_id().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/tests/roundtrip_tiny_bundle()."
+    ]}
+  },
+  {
+    "id": "rust-api-01-exact-BundleWriter-add_symbol",
+    "category": "ApiDiscovery",
+    "intent": "precision-layer: does BundleWriter::add_symbol exist? (anti-hallucination)",
+    "query": {"op": "lookup", "name": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]add_symbol().", "bare_name": false},
+    "expected": {"kind": "exact_symbol", "stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]add_symbol()."}
+  },
+  {
+    "id": "rust-api-02-exact-Bundle-open",
+    "category": "ApiDiscovery",
+    "intent": "precision-layer: does Bundle::open exist?",
+    "query": {"op": "lookup", "name": "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]open().", "bare_name": false},
+    "expected": {"kind": "exact_symbol", "stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]open()."}
+  },
+  {
+    "id": "rust-api-03-absent-fake-method",
+    "category": "ApiDiscovery",
+    "intent": "precision-layer: a fabricated method should not exist (agent hallucinated)",
+    "query": {"op": "lookup", "name": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]publish_to_registry().", "bare_name": false},
+    "expected": {"kind": "exact_set", "stable_ids": []}
+  },
+  {
+    "id": "rust-api-04-absent-fake-type",
+    "category": "ApiDiscovery",
+    "intent": "precision-layer: a fabricated type should not exist",
+    "query": {"op": "lookup", "name": "DistributedBundleMesh", "bare_name": true},
+    "expected": {"kind": "exact_set", "stable_ids": []}
+  },
+  {
+    "id": "rust-bug-01-callers-add_ref",
+    "category": "BugFix",
+    "intent": "bug in add_ref — agent needs all call sites to understand exposure",
+    "query": {"op": "callers", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]add_ref()."},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 make_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/tests/csr_offsets_are_wellformed_and_expose_neighbours().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/tests/roundtrip_tiny_bundle()."
+    ]}
+  },
+  {
+    "id": "rust-bug-02-callees-add_symbol",
+    "category": "BugFix",
+    "intent": "bug may be downstream of add_symbol — list callees to investigate",
+    "query": {"op": "callees", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]add_symbol()."},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/bare_name_of().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 format/hash_key().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[StringPool]intern()."
+    ]}
+  },
+  {
+    "id": "rust-bug-03-callers-finish_to_path",
+    "category": "BugFix",
+    "intent": "writer finalization bug — who finalises a writer?",
+    "query": {"op": "callers", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 writer/impl#[BundleWriter]finish_to_path()."},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 make_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 write_rust_stdlib_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/tests/roundtrip_tiny_bundle()."
+    ]}
+  },
+  {
+    "id": "rust-bug-04-callers-lookup_stable_id",
+    "category": "BugFix",
+    "intent": "lookup miss — who relies on this and might observe it?",
+    "query": {"op": "callers", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 reader/impl#[Bundle]lookup_stable_id()."},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 main().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 set/impl#[BundleSet]lookup_stable_id()."
+    ]}
+  },
+  {
+    "id": "rust-test-01-file-symbols-sync-integration",
+    "category": "TestGen",
+    "intent": "agent adding a sync test — wants existing fixtures/tests in sync_integration.rs",
+    "query": {"op": "file_symbols", "file_path": "tests/sync_integration.rs"},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 sync_happy_path_installs_missing_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 sync_detects_stale_bundle_and_plans_redownload().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 sync_detects_sha256_mismatch_and_reports_failure()."
+    ]}
+  },
+  {
+    "id": "rust-test-02-file-symbols-resolve-ingest",
+    "category": "TestGen",
+    "intent": "agent adding a cross-bundle test — wants resolve_ingest.rs test surface",
+    "query": {"op": "file_symbols", "file_path": "tests/resolve_ingest.rs"},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 ingest_report_resolves_against_bundle_set_end_to_end().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 build_scip_bytes()."
+    ]}
+  },
+  {
+    "id": "rust-test-03-file-symbols-cross-bundle-refs",
+    "category": "TestGen",
+    "intent": "agent mirroring an existing cross-bundle-refs test",
+    "query": {"op": "file_symbols", "file_path": "tests/cross_bundle_refs.rs"},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 cross_refs_not_captured_without_opt_in().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 alloc_cross_refs_resolve_into_core_bundle().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 cross_ref_scoping_rejects_cross_language_hits()."
+    ]}
+  },
+  {
+    "id": "rust-feature-01-lookup-BundleSet",
+    "category": "FeatureAdd",
+    "intent": "agent extending BundleSet — wants to see existing methods to mirror",
+    "query": {"op": "lookup", "name": "BundleSet", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 set/BundleSet#"]}
+  },
+  {
+    "id": "rust-feature-02-methods-of-BundleSet",
+    "category": "FeatureAdd",
+    "intent": "agent writing a new BundleSet API — needs existing surface",
+    "query": {"op": "contained_by", "sym_stable_id": "rust-analyzer cargo neurogenesis-bundle 0.1.0 set/BundleSet#"},
+    "expected": {"kind": "contains", "required": [
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 set/impl#[BundleSet]insert().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 set/impl#[BundleSet]resolve_refs().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 set/impl#[BundleSet]lookup_stable_id().",
+      "rust-analyzer cargo neurogenesis-bundle 0.1.0 set/impl#[BundleSet]bundle_ids()."
+    ]}
+  },
+  {
+    "id": "rust-feature-03-lookup-ReqwestFetcher",
+    "category": "FeatureAdd",
+    "intent": "agent plugging into the sync fetcher interface",
+    "query": {"op": "lookup", "name": "ReqwestFetcher", "bare_name": true},
+    "expected": {"kind": "contains", "required": ["rust-analyzer cargo neurogenesis-bundle 0.1.0 sync/ReqwestFetcher#"]}
+  }
+]

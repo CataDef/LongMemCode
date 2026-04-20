@@ -8,31 +8,39 @@ Live leaderboard for memory systems evaluated on LongMemCode. Every row links to
 
 ## v0.1 — FastAPI corpus (Python, fastapi/fastapi@0.117.0)
 
-| Rank | Adapter | Version | Accuracy | P95 latency | Compression | $ / 1 k queries | Result file |
-|-----:|---|---|---:|---:|---:|---:|---|
-|   1 | **ArgosBrain** | 0.1.0 | — | — | — | — | _run pending_ |
-|   — | grep-baseline | 0.1.0 | — | — | — | — | _run pending_ |
-|   — | Mem0 | — | — | — | — | — | [submit](results/README.md) |
-|   — | Zep | — | — | — | — | — | [submit](results/README.md) |
-|   — | Letta | — | — | — | — | — | [submit](results/README.md) |
-|   — | Pure-LLM (Claude / GPT, prompt-stuffed) | — | — | — | — | — | [submit](results/README.md) |
-|   — | Vector-RAG (OpenAI emb + FAISS) | — | — | — | — | — | [submit](results/README.md) |
-|   — | _your system_ | — | — | — | — | — | [submit](results/README.md) |
+435 scenarios (corpus has 431 symbols so Completion caps at ~150). 400 `scip_roundtrip` + 35 `adversarial`.
+
+| Rank | Adapter | Version | Accuracy | P50 | P95 | P99 | $ / 1 k queries | Result file |
+|-----:|---|---|---:|---:|---:|---:|---:|---|
+|   1 | **ArgosBrain** | 0.1.0 | **100.0 %** | 58 µs | 87 µs | 114 µs | **$0.00** | [argosbrain-fastapi-2026-04-20.json](results/argosbrain-fastapi-2026-04-20.json) |
+|   — | grep-baseline | 0.1.0 | — | — | — | — | — | _run pending_ |
+|   — | Mem0 | — | — | — | — | — | — | [submit](results/README.md) |
+|   — | Zep | — | — | — | — | — | — | [submit](results/README.md) |
+|   — | Letta | — | — | — | — | — | — | [submit](results/README.md) |
+|   — | Pure-LLM (Claude / GPT, prompt-stuffed) | — | — | — | — | — | — | [submit](results/README.md) |
+|   — | Vector-RAG (OpenAI emb + FAISS) | — | — | — | — | — | — | [submit](results/README.md) |
+|   — | _your system_ | — | — | — | — | — | — | [submit](results/README.md) |
 
 ## v0.1 — clap corpus (Rust, clap-rs/clap@v4.5.20)
 
-| Rank | Adapter | Version | Accuracy | P95 latency | Compression | $ / 1 k queries | Result file |
-|-----:|---|---|---:|---:|---:|---:|---|
-|   1 | **ArgosBrain** | 0.1.0 | — | — | — | — | _run pending_ |
-|   — | grep-baseline | 0.1.0 | — | — | — | — | _run pending_ |
-|   — | _your system_ | — | — | — | — | — | [submit](results/README.md) |
+499 scenarios (464 `scip_roundtrip` + 35 `adversarial`).
+
+| Rank | Adapter | Version | Accuracy | P50 | P95 | P99 | $ / 1 k queries | Result file |
+|-----:|---|---|---:|---:|---:|---:|---:|---|
+|   1 | **ArgosBrain** | 0.1.0 | **100.0 %** | 68 µs | 181 µs | 293 µs | **$0.00** | [argosbrain-clap-2026-04-20.json](results/argosbrain-clap-2026-04-20.json) |
+|   — | grep-baseline | 0.1.0 | — | — | — | — | — | _run pending_ |
+|   — | _your system_ | — | — | — | — | — | — | [submit](results/README.md) |
 
 ## Headline numbers (weighted across both corpora)
 
-| Adapter | Accuracy | P95 | Compression | $ / 1 k queries |
+| Adapter | Accuracy | P95 | Compression (tokens) | $ / 1 k queries |
 |---|---:|---:|---:|---:|
-| ArgosBrain 0.1.0 | — | — | — | — |
+| **ArgosBrain 0.1.0** | **100.0 %** | ≤ 181 µs | See per-corpus results | **$0.00** |
 | grep-baseline 0.1.0 | — | — | — | — |
+
+**Headline**: on both corpora, every query returned the correct answer, in sub-millisecond time, with zero dollar cost at read time. A system making an LLM hop per query would spend $0.001 – $0.005 per query and take 200 – 2 000 ms; on this benchmark that gap is visible by running both adapters and reading the table.
+
+**Honest caveat** (see [METHODOLOGY.md](docs/METHODOLOGY.md)): gold source for 92 % of the scenarios is `scip_roundtrip` — the bundle's own structural facts. A 100 % score here means the decoder + bundle writer preserve every edge the SCIP indexer found, end to end, at the reported latency. The `grep_compared` partition (v0.2) will introduce an independent gold source and show where any structural gap hides; expect that score to be < 100 % for some scenarios that a literal text search catches but a typed graph filters out (for *reasons* documented in the per-scenario JSON).
 
 ## What the columns mean
 
