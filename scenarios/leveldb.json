@@ -1,0 +1,6029 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `H` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "H",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate::H"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-001",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RandomGenerator` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RandomGenerator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-002",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AutoCompactTest` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AutoCompactTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-003",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `leveldb_readoptions_t` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "leveldb_readoptions_t",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_readoptions_t"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-004",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `MemTableInserter` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "MemTableInserter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-005",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `LRUHandle` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "LRUHandle",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-006",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `NewComparator` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "NewComparator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-007",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `EmptyIterator` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "EmptyIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-008",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `TwoLevelIterator` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "TwoLevelIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-009",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `PosixFileLock` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "PosixFileLock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-010",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `EnvPosixTest` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "EnvPosixTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-011",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `ThreadState` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "ThreadState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::ThreadState"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-012",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `leveldb_filterpolicy_t` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "leveldb_filterpolicy_t",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_filterpolicy_t"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-013",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `ShardedLRUCache` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "ShardedLRUCache",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-014",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `PosixRandomAccessFile` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "PosixRandomAccessFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixRandomAccessFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-015",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `VersionSet` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "VersionSet",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/version_set.cc::leveldb::VersionSet"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-016",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RecoveryTest` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RecoveryTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/recovery_test.cc::leveldb::RecoveryTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-017",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `ManifestFile` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "ManifestFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::SpecialEnv::NewWritableFile::ManifestFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-018",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `State` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "State",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/skiplist_test.cc::leveldb::ConcurrentTest::State"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-019",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `WindowsRandomAccessFile` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "WindowsRandomAccessFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::WindowsRandomAccessFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-020",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `CorruptionReporter` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "CorruptionReporter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/dumpfile.cc::leveldb::GuessType::CorruptionReporter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-021",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `ReverseKeyComparator` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "ReverseKeyComparator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/table_test.cc::leveldb::ReverseKeyComparator::ReverseKeyComparator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-022",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `CountingFile` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "CountingFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::SpecialEnv::NewRandomAccessFile::CountingFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-023",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `TableInfo` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "TableInfo",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::TableInfo"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-024",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `leveldb_filelock_t` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "leveldb_filelock_t",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_filelock_t"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-025",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `KeyBuffer` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "KeyBuffer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::KeyBuffer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-026",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `CorruptionTest` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "CorruptionTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/corruption_test.cc::leveldb::CorruptionTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-027",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `State` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "State",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/version_set.cc::leveldb::Version::State"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-028",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `leveldb_snapshot_t` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "leveldb_snapshot_t",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_snapshot_t"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-029",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `MemTableConstructor` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "MemTableConstructor",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/table_test.cc::leveldb::MemTableConstructor"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-030",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `TableAndFile` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "TableAndFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/table_cache.cc::leveldb::TableAndFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-031",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `KVMap` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "KVMap",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::std::KVMap"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-000",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Delete` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Delete",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Delete"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-001",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Put` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Put",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Put"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-002",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `RandomGenerator` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "RandomGenerator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::RandomGenerator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-003",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Generate` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Generate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::Generate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-004",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `AutoCompactTest` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "AutoCompactTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::AutoCompactTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-005",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Size` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Size",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Size"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-006",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Key` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-007",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Put` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Put",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter::Put"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-008",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Delete` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Delete",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter::Delete"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-009",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `key` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle::key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-010",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `FindShortestSeparator` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "FindShortestSeparator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::FindShortestSeparator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-011",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Compare` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Compare",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::Compare"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-012",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `FindShortSuccessor` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "FindShortSuccessor",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::FindShortSuccessor"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-013",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Name` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::Name"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-014",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `key` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-015",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Valid` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Valid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Valid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-016",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Prev` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Prev",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Prev"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-017",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SeekToLast` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SeekToLast",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::SeekToLast"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-018",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Seek` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Seek",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Seek"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-019",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SeekToFirst` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SeekToFirst",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::SeekToFirst"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-020",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `EmptyIterator` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "EmptyIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::EmptyIterator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-021",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `status` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "status",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::status"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-022",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `value` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "value",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::value"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-023",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Next` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Next",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Next"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-024",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Valid` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Valid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::Valid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-025",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `value` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "value",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::value"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-026",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `status` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "status",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::status"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-027",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `key` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-028",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `SaveError` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "SaveError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::SaveError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-029",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `PosixFileLock` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "PosixFileLock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::PosixFileLock"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-030",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `fd` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "fd",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::fd"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-031",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `filename` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "filename",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::filename"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `RemoveFile` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `key` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `LockOrUnlock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Merge` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Sync` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `main` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_tree_db.cc::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `ScanTable` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `leveldb_options_create` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_options_create",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_options_create"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Writer` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/db_impl.cc::leveldb::DBImpl::Writer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/db_impl.cc::leveldb::DBImpl::Writer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `env` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::SingletonEnv::env",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::SingletonEnv::env"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `leveldb_options_set_block_restart_interval` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_options_set_block_restart_interval",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_options_set_block_restart_interval"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `key` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/db_test.cc::leveldb::ModelDB::ModelIter::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/db_test.cc::leveldb::ModelDB::ModelIter::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Append` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::WritableFileImpl::Append",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::WritableFileImpl::Append"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Block` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/block.cc::leveldb::Block",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/block.cc::leveldb::Block"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `EncodeVarint32` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/coding.cc::leveldb::EncodeVarint32",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/coding.cc::leveldb::EncodeVarint32"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `DoTest` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/fault_injection_test.cc::leveldb::FaultInjectionTest::DoTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/fault_injection_test.cc::leveldb::FaultInjectionTest::DoTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Corrupt` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/corruption_test.cc::leveldb::CorruptionTest::Corrupt",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/corruption_test.cc::leveldb::CorruptionTest::Corrupt"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `SeekToLast` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::SeekToLast",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::SeekToLast"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `leveldb_create_iterator` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_create_iterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_create_iterator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `TestRandomAccess` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/table_test.cc::leveldb::Harness::TestRandomAccess",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/table_test.cc::leveldb::Harness::TestRandomAccess"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `VersionEditPrinter` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/dumpfile.cc::leveldb::GuessType::VersionEditPrinter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/dumpfile.cc::leveldb::GuessType::VersionEditPrinter"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `ConsumeDecimalNumberNoDigitsTest` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberNoDigitsTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberNoDigitsTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `ConsumeDecimalNumberOverflowTest` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberOverflowTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberOverflowTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-023",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `CreateDir` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::InMemoryEnv::CreateDir",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::InMemoryEnv::CreateDir"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-024",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `leveldb_create_default_env` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_create_default_env",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_create_default_env"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-025",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `IsManifest` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::IsManifest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::IsManifest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-026",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `TryReopen` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/db_test.cc::leveldb::DBTest::TryReopen",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/db_test.cc::leveldb::DBTest::TryReopen"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-027",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `AutoCompactTest` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::AutoCompactTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::AutoCompactTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-028",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `leveldb_options_set_write_buffer_size` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_options_set_write_buffer_size",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_options_set_write_buffer_size"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-029",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `value` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::value",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::value"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-030",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `main` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/arena_test.cc::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/arena_test.cc::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-031",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `leveldb_iter_next` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_iter_next",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_iter_next"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RemoveFile` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `key` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `LockOrUnlock` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Merge` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Sync` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `main` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_tree_db.cc::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `logging` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/logging.cc",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/logging.cc"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ScanTable` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `H` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RandomGenerator` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `leveldb_options_create` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_options_create",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_options_create"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Writer` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/db_impl.cc::leveldb::DBImpl::Writer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/db_impl.cc::leveldb::DBImpl::Writer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `env` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::SingletonEnv::env",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::SingletonEnv::env"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `leveldb_options_set_block_restart_interval` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_options_set_block_restart_interval",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_options_set_block_restart_interval"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `key` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/db_test.cc::leveldb::ModelDB::ModelIter::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/db_test.cc::leveldb::ModelDB::ModelIter::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Append` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::WritableFileImpl::Append",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::WritableFileImpl::Append"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Block` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/block.cc::leveldb::Block",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/block.cc::leveldb::Block"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `EncodeVarint32` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/coding.cc::leveldb::EncodeVarint32",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/coding.cc::leveldb::EncodeVarint32"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `version_edit` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/version_edit.cc",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/version_edit.cc"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `DoTest` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/fault_injection_test.cc::leveldb::FaultInjectionTest::DoTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/fault_injection_test.cc::leveldb::FaultInjectionTest::DoTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Corrupt` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/corruption_test.cc::leveldb::CorruptionTest::Corrupt",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/corruption_test.cc::leveldb::CorruptionTest::Corrupt"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `log` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/log_reader.cc::leveldb::log",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/log_reader.cc::leveldb::log"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `SeekToLast` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::SeekToLast",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::SeekToLast"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-023",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `leveldb_create_iterator` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_create_iterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_create_iterator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-024",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `TestRandomAccess` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/table_test.cc::leveldb::Harness::TestRandomAccess",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/table_test.cc::leveldb::Harness::TestRandomAccess"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-025",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `VersionEditPrinter` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/dumpfile.cc::leveldb::GuessType::VersionEditPrinter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/dumpfile.cc::leveldb::GuessType::VersionEditPrinter"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-026",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ConsumeDecimalNumberNoDigitsTest` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberNoDigitsTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberNoDigitsTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-027",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ConsumeDecimalNumberOverflowTest` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberOverflowTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberOverflowTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-028",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `CreateDir` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::InMemoryEnv::CreateDir",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::InMemoryEnv::CreateDir"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-029",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `AutoCompactTest` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-030",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `leveldb_create_default_env` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_create_default_env",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_create_default_env"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-031",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `IsManifest` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::IsManifest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::IsManifest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/testutil.cc`",
+    "query": {
+      "file_path": "util/testutil.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/testutil.cc",
+        "cpp::module::util/testutil.cc::leveldb::test::CompressibleString",
+        "cpp::module::util/testutil.cc::leveldb::test::RandomKey",
+        "cpp::module::util/testutil.cc::leveldb",
+        "cpp::module::util/testutil.cc::leveldb::test::RandomString"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/status.cc`",
+    "query": {
+      "file_path": "util/status.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/status.cc::leveldb",
+        "cpp::module::util/status.cc::leveldb::Status",
+        "cpp::module::util/status.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/arena.cc`",
+    "query": {
+      "file_path": "util/arena.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/arena.cc",
+        "cpp::module::util/arena.cc::leveldb::Arena",
+        "cpp::module::util/arena.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/bloom.cc`",
+    "query": {
+      "file_path": "util/bloom.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/bloom.cc::leveldb",
+        "cpp::module::util/bloom.cc::leveldb::BloomHash::BloomFilterPolicy::CreateFilter",
+        "cpp::module::util/bloom.cc::leveldb::BloomHash::BloomFilterPolicy",
+        "cpp::module::util/bloom.cc::leveldb::NewBloomFilterPolicy",
+        "cpp::module::util/bloom.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/env_windows_test.cc`",
+    "query": {
+      "file_path": "util/env_windows_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows_test.cc::leveldb::EnvWindowsTest::EnvWindowsTest",
+        "cpp::module::util/env_windows_test.cc::main",
+        "cpp::module::util/env_windows_test.cc::leveldb::TEST_F",
+        "cpp::module::util/env_windows_test.cc::leveldb::EnvWindowsTest::SetFileLimits",
+        "cpp::module::util/env_windows_test.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/hash.cc`",
+    "query": {
+      "file_path": "util/hash.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/hash.cc",
+        "cpp::module::util/hash.cc::leveldb",
+        "cpp::module::util/hash.cc::leveldb::Hash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/crc32c_test.cc`",
+    "query": {
+      "file_path": "util/crc32c_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/crc32c_test.cc::leveldb",
+        "cpp::module::util/crc32c_test.cc::leveldb::crc32c",
+        "cpp::module::util/crc32c_test.cc::main",
+        "cpp::module::util/crc32c_test.cc",
+        "cpp::module::util/crc32c_test.cc::leveldb::crc32c::TEST"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/bloom_test.cc`",
+    "query": {
+      "file_path": "util/bloom_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/bloom_test.cc::leveldb::TEST_F",
+        "cpp::module::util/bloom_test.cc::leveldb::BloomTest::Build",
+        "cpp::module::util/bloom_test.cc::leveldb",
+        "cpp::module::util/bloom_test.cc::leveldb::BloomTest::Add",
+        "cpp::module::util/bloom_test.cc::leveldb::BloomTest::Reset"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/hash_test.cc`",
+    "query": {
+      "file_path": "util/hash_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/hash_test.cc::leveldb",
+        "cpp::module::util/hash_test.cc",
+        "cpp::module::util/hash_test.cc::main",
+        "cpp::module::util/hash_test.cc::leveldb::TEST"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/filter_policy.cc`",
+    "query": {
+      "file_path": "util/filter_policy.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/filter_policy.cc",
+        "cpp::module::util/filter_policy.cc::leveldb",
+        "cpp::module::util/filter_policy.cc::leveldb::FilterPolicy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/arena_test.cc`",
+    "query": {
+      "file_path": "util/arena_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/arena_test.cc::main",
+        "cpp::module::util/arena_test.cc::leveldb::TEST",
+        "cpp::module::util/arena_test.cc::leveldb",
+        "cpp::module::util/arena_test.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/histogram.cc`",
+    "query": {
+      "file_path": "util/histogram.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/histogram.cc::leveldb",
+        "cpp::module::util/histogram.cc",
+        "cpp::module::util/histogram.cc::leveldb::Histogram"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/logging_test.cc`",
+    "query": {
+      "file_path": "util/logging_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberNoDigitsTest",
+        "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberOverflowTest",
+        "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberRoundtripTest",
+        "cpp::module::util/logging_test.cc::main",
+        "cpp::module::util/logging_test.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/crc32c.cc`",
+    "query": {
+      "file_path": "util/crc32c.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/crc32c.cc::leveldb::crc32c::Extend",
+        "cpp::module::util/crc32c.cc::leveldb::crc32c::kByteExtensionTable::ReadUint32LE",
+        "cpp::module::util/crc32c.cc",
+        "cpp::module::util/crc32c.cc::leveldb::crc32c::kByteExtensionTable",
+        "cpp::module::util/crc32c.cc::leveldb::crc32c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/coding_test.cc`",
+    "query": {
+      "file_path": "util/coding_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/coding_test.cc::leveldb::TEST",
+        "cpp::module::util/coding_test.cc::leveldb",
+        "cpp::module::util/coding_test.cc::main",
+        "cpp::module::util/coding_test.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/cache.cc`",
+    "query": {
+      "file_path": "util/cache.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache.cc",
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle",
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache::Lookup",
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache",
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::HandleTable::Insert"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/status_test.cc`",
+    "query": {
+      "file_path": "util/status_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/status_test.cc::leveldb::TEST",
+        "cpp::module::util/status_test.cc::main",
+        "cpp::module::util/status_test.cc",
+        "cpp::module::util/status_test.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/env_windows.cc`",
+    "query": {
+      "file_path": "util/env_windows.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock",
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::SingletonEnv::env",
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::WindowsEnv::NewLogger",
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::ScopedHandle::get",
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::WindowsEnv::UnlockFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/env_test.cc`",
+    "query": {
+      "file_path": "util/env_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_test.cc::leveldb::TEST_F::RunState::Run",
+        "cpp::module::util/env_test.cc::leveldb::State::State",
+        "cpp::module::util/env_test.cc::leveldb",
+        "cpp::module::util/env_test.cc::leveldb::TEST_F::Callback",
+        "cpp::module::util/env_test.cc::leveldb::TEST_F::RunState"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/logging.cc`",
+    "query": {
+      "file_path": "util/logging.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/logging.cc",
+        "cpp::module::util/logging.cc::leveldb::AppendNumberTo",
+        "cpp::module::util/logging.cc::leveldb::AppendEscapedStringTo",
+        "cpp::module::util/logging.cc::leveldb",
+        "cpp::module::util/logging.cc::leveldb::NumberToString"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/options.cc`",
+    "query": {
+      "file_path": "util/options.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/options.cc::leveldb::Options",
+        "cpp::module::util/options.cc::leveldb",
+        "cpp::module::util/options.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/cache_test.cc`",
+    "query": {
+      "file_path": "util/cache_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache_test.cc::main",
+        "cpp::module::util/cache_test.cc::leveldb::EncodeKey",
+        "cpp::module::util/cache_test.cc::leveldb::CacheTest::Erase",
+        "cpp::module::util/cache_test.cc::leveldb::CacheTest",
+        "cpp::module::util/cache_test.cc::leveldb::DecodeValue"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-023",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/comparator.cc`",
+    "query": {
+      "file_path": "util/comparator.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/comparator.cc::leveldb::BytewiseComparatorImpl::BytewiseComparatorImpl::BytewiseComparatorImpl",
+        "cpp::module::util/comparator.cc::leveldb::BytewiseComparatorImpl::BytewiseComparatorImpl::FindShortestSeparator",
+        "cpp::module::util/comparator.cc::leveldb::BytewiseComparator",
+        "cpp::module::util/comparator.cc::leveldb::BytewiseComparatorImpl::BytewiseComparatorImpl::FindShortSuccessor",
+        "cpp::module::util/comparator.cc::leveldb::BytewiseComparatorImpl::BytewiseComparatorImpl::Compare"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-024",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/coding.cc`",
+    "query": {
+      "file_path": "util/coding.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/coding.cc::leveldb::EncodeVarint32",
+        "cpp::module::util/coding.cc::leveldb::PutLengthPrefixedSlice",
+        "cpp::module::util/coding.cc::leveldb",
+        "cpp::module::util/coding.cc::leveldb::GetVarint32PtrFallback",
+        "cpp::module::util/coding.cc::leveldb::GetVarint64Ptr"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-025",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/env_posix_test.cc`",
+    "query": {
+      "file_path": "util/env_posix_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest",
+        "cpp::module::util/env_posix_test.cc",
+        "cpp::module::util/env_posix_test.cc::leveldb",
+        "cpp::module::util/env_posix_test.cc::kTextCloseOnExecHelperExecFailedCode::CheckCloseOnExecDoesNotLeakFDs",
+        "cpp::module::util/env_posix_test.cc::kTextCloseOnExecHelperExecFailedCode"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-026",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/env_posix.cc`",
+    "query": {
+      "file_path": "util/env_posix.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile",
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync",
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::IsManifest",
+        "cpp::module::util/env_posix.cc::leveldb",
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::FileExists"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-027",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/env.cc`",
+    "query": {
+      "file_path": "util/env.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env.cc::leveldb::Env",
+        "cpp::module::util/env.cc::leveldb::SequentialFile",
+        "cpp::module::util/env.cc::leveldb::ReadFileToString",
+        "cpp::module::util/env.cc::leveldb::WritableFile",
+        "cpp::module::util/env.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-028",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util/no_destructor_test.cc`",
+    "query": {
+      "file_path": "util/no_destructor_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/no_destructor_test.cc::leveldb",
+        "cpp::module::util/no_destructor_test.cc::leveldb::TEST",
+        "cpp::module::util/no_destructor_test.cc",
+        "cpp::module::util/no_destructor_test.cc::leveldb::DoNotDestruct",
+        "cpp::module::util/no_destructor_test.cc::leveldb::DoNotDestruct::DoNotDestruct"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-029",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `table/table.cc`",
+    "query": {
+      "file_path": "table/table.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/table.cc::leveldb::DeleteBlock",
+        "cpp::module::table/table.cc::leveldb::Table",
+        "cpp::module::table/table.cc::leveldb::DeleteCachedBlock",
+        "cpp::module::table/table.cc",
+        "cpp::module::table/table.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-030",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `table/block.cc`",
+    "query": {
+      "file_path": "table/block.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/block.cc::leveldb::Block",
+        "cpp::module::table/block.cc::leveldb::Block::key",
+        "cpp::module::table/block.cc::leveldb::Block::SeekToLast",
+        "cpp::module::table/block.cc::leveldb::Block::Iter",
+        "cpp::module::table/block.cc::leveldb::Block::value"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-031",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `table/merger.cc`",
+    "query": {
+      "file_path": "table/merger.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::SeekToLast",
+        "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::value",
+        "cpp::module::table/merger.cc::leveldb::MergingIterator",
+        "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::Valid",
+        "cpp::module::table/merger.cc::leveldb::MergingIterator::MergingIterator::key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "builder_chain_recall-000",
+    "category": "Completion",
+    "sub_type": "builder_chain_recall",
+    "intent": "Agent chaining builder calls on `TableBuilder`",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::table/table_builder.cc::leveldb::TableBuilder"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/table_builder.cc::leveldb::TableBuilder::Rep"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `RemoveFile` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `key` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `LockOrUnlock` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Merge` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Sync` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `main` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_tree_db.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `ScanTable` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/repair.cc::leveldb::Repairer::Repairer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `H` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `RandomGenerator` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `leveldb_options_create` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/c.cc::leveldb_options_create"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Writer` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/db_impl.cc::leveldb::DBImpl::Writer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_impl.cc::leveldb::DBImpl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `env` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::SingletonEnv::env"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::SingletonEnv"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-012",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `leveldb_options_set_block_restart_interval` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/c.cc::leveldb_options_set_block_restart_interval"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-013",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `key` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/db_test.cc::leveldb::ModelDB::ModelIter::key"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::ModelDB::ModelIter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-014",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Append` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::WritableFileImpl::Append"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::helpers/memenv/memenv.cc::leveldb::FileState::WritableFileImpl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-015",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Block` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::table/block.cc::leveldb::Block"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/block.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-016",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `EncodeVarint32` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::util/coding.cc::leveldb::EncodeVarint32"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/coding.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-017",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `DoTest` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/fault_injection_test.cc::leveldb::FaultInjectionTest::DoTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/fault_injection_test.cc::leveldb::FaultInjectionTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-000",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `MatchError` type",
+    "query": {
+      "bare_name": true,
+      "name": "MatchError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/log_test.cc::leveldb::log::LogTest::MatchError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-001",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `ForceError` type",
+    "query": {
+      "bare_name": true,
+      "name": "ForceError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/log_test.cc::leveldb::log::LogTest::ForceError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-002",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `PosixError` type",
+    "query": {
+      "bare_name": true,
+      "name": "PosixError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-003",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `WindowsError` type",
+    "query": {
+      "bare_name": true,
+      "name": "WindowsError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::WindowsError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-004",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `CorruptionError` type",
+    "query": {
+      "bare_name": true,
+      "name": "CorruptionError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/block.cc::leveldb::Block::CorruptionError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-005",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `SaveError` type",
+    "query": {
+      "bare_name": true,
+      "name": "SaveError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::SaveError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-006",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `SaveError` type",
+    "query": {
+      "bare_name": true,
+      "name": "SaveError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::SaveError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-000",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `H` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Delete",
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Put"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-001",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `RandomGenerator` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::RandomGenerator",
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::Generate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-002",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AutoCompactTest` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::AutoCompactTest",
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Size",
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-004",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `MemTableInserter` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter::Put",
+        "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter::Delete"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-005",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `LRUHandle` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle::key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-006",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `NewComparator` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::FindShortestSeparator",
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::Compare",
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::FindShortSuccessor",
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::Name"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-007",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `EmptyIterator` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Valid",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Prev",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::SeekToLast",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Seek"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-008",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `TwoLevelIterator` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::Valid",
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::value",
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::status",
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::key",
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::SaveError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-009",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `PosixFileLock` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::PosixFileLock",
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::fd",
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::filename"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-010",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `EnvPosixTest` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest::EnvPosixTest",
+        "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest::SetFileLimits"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-011",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `ThreadState` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::ThreadState"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::ThreadState::ThreadState"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-012",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `leveldb_filterpolicy_t` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/c.cc::leveldb_filterpolicy_t"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_filterpolicy_t::Name",
+        "cpp::module::db/c.cc::leveldb_filterpolicy_t::KeyMayMatch",
+        "cpp::module::db/c.cc::leveldb_filterpolicy_t::CreateFilter",
+        "cpp::module::db/c.cc::leveldb_filterpolicy_t::leveldb_filterpolicy_t"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-013",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `ShardedLRUCache` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache::Lookup",
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache::Prune",
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache::Value",
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache::Release",
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::ShardedLRUCache::TotalCharge"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-014",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `PosixRandomAccessFile` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixRandomAccessFile"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixRandomAccessFile::Read",
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixRandomAccessFile::PosixRandomAccessFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-015",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `VersionSet` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/version_set.cc::leveldb::VersionSet"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/version_set.cc::leveldb::VersionSet::MaybeAddFile",
+        "cpp::module::db/version_set.cc::leveldb::VersionSet::LogReporter",
+        "cpp::module::db/version_set.cc::leveldb::VersionSet::SaveTo",
+        "cpp::module::db/version_set.cc::leveldb::VersionSet::LevelState",
+        "cpp::module::db/version_set.cc::leveldb::VersionSet::BySmallestKey"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-016",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `RecoveryTest` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/recovery_test.cc::leveldb::RecoveryTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/recovery_test.cc::leveldb::RecoveryTest::dbfull",
+        "cpp::module::db/recovery_test.cc::leveldb::RecoveryTest::ManifestFileName",
+        "cpp::module::db/recovery_test.cc::leveldb::RecoveryTest::env",
+        "cpp::module::db/recovery_test.cc::leveldb::RecoveryTest::MakeLogFile",
+        "cpp::module::db/recovery_test.cc::leveldb::RecoveryTest::OpenWithStatus"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-017",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `ManifestFile` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/db_test.cc::leveldb::SpecialEnv::NewWritableFile::ManifestFile"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::SpecialEnv::NewWritableFile::ManifestFile::Sync",
+        "cpp::module::db/db_test.cc::leveldb::SpecialEnv::NewWritableFile::ManifestFile::Close",
+        "cpp::module::db/db_test.cc::leveldb::SpecialEnv::NewWritableFile::ManifestFile::ManifestFile",
+        "cpp::module::db/db_test.cc::leveldb::SpecialEnv::NewWritableFile::ManifestFile::Append",
+        "cpp::module::db/db_test.cc::leveldb::SpecialEnv::NewWritableFile::ManifestFile::Flush"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-000",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `H` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Delete",
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Put"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-001",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `RandomGenerator` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::RandomGenerator",
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::Generate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-002",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `AutoCompactTest` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::AutoCompactTest",
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Size",
+        "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-004",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `MemTableInserter` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter::Put",
+        "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter::Delete"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-005",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `LRUHandle` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle::key"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-006",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `NewComparator` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::FindShortestSeparator",
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::Compare",
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::FindShortSuccessor",
+        "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator::Name"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-007",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `EmptyIterator` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Valid",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Prev",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::SeekToLast",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::Seek",
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::SeekToFirst"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-008",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `TwoLevelIterator` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::Valid",
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::value",
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::status",
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::key",
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::SaveError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-009",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `PosixFileLock` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::PosixFileLock",
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::fd",
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock::filename"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-010",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `EnvPosixTest` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest::EnvPosixTest",
+        "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest::SetFileLimits"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `RemoveFile` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `key` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `LockOrUnlock` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Merge` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Sync` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `main` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_tree_db.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `ScanTable` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/repair.cc::leveldb::Repairer::Repairer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `H` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::leveldb_writebatch_iterate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-008",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `RandomGenerator` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-009",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `leveldb_options_create` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/c.cc::leveldb_options_create"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-010",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Writer` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "cpp::module::db/db_impl.cc::leveldb::DBImpl::Writer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/db_impl.cc::leveldb::DBImpl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/testutil.cc`",
+    "query": {
+      "file_path": "util/testutil.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/testutil.cc",
+        "cpp::module::util/testutil.cc::leveldb::test::CompressibleString",
+        "cpp::module::util/testutil.cc::leveldb::test::RandomKey",
+        "cpp::module::util/testutil.cc::leveldb",
+        "cpp::module::util/testutil.cc::leveldb::test::RandomString",
+        "cpp::module::util/testutil.cc::leveldb::test"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/env_windows_test.cc`",
+    "query": {
+      "file_path": "util/env_windows_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows_test.cc::leveldb::EnvWindowsTest::EnvWindowsTest",
+        "cpp::module::util/env_windows_test.cc::main",
+        "cpp::module::util/env_windows_test.cc::leveldb::TEST_F",
+        "cpp::module::util/env_windows_test.cc::leveldb::EnvWindowsTest::SetFileLimits",
+        "cpp::module::util/env_windows_test.cc::leveldb",
+        "cpp::module::util/env_windows_test.cc::leveldb::EnvWindowsTest",
+        "cpp::module::util/env_windows_test.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-002",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/crc32c_test.cc`",
+    "query": {
+      "file_path": "util/crc32c_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/crc32c_test.cc::leveldb",
+        "cpp::module::util/crc32c_test.cc::leveldb::crc32c",
+        "cpp::module::util/crc32c_test.cc::main",
+        "cpp::module::util/crc32c_test.cc",
+        "cpp::module::util/crc32c_test.cc::leveldb::crc32c::TEST"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-003",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/bloom_test.cc`",
+    "query": {
+      "file_path": "util/bloom_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/bloom_test.cc::leveldb::TEST_F",
+        "cpp::module::util/bloom_test.cc::leveldb::BloomTest::Build",
+        "cpp::module::util/bloom_test.cc::leveldb",
+        "cpp::module::util/bloom_test.cc::leveldb::BloomTest::Add",
+        "cpp::module::util/bloom_test.cc::leveldb::BloomTest::Reset",
+        "cpp::module::util/bloom_test.cc::leveldb::NextLength",
+        "cpp::module::util/bloom_test.cc::leveldb::BloomTest::FalsePositiveRate",
+        "cpp::module::util/bloom_test.cc::main"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-004",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/hash_test.cc`",
+    "query": {
+      "file_path": "util/hash_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/hash_test.cc::leveldb",
+        "cpp::module::util/hash_test.cc",
+        "cpp::module::util/hash_test.cc::main",
+        "cpp::module::util/hash_test.cc::leveldb::TEST"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-005",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/arena_test.cc`",
+    "query": {
+      "file_path": "util/arena_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/arena_test.cc::main",
+        "cpp::module::util/arena_test.cc::leveldb::TEST",
+        "cpp::module::util/arena_test.cc::leveldb",
+        "cpp::module::util/arena_test.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-006",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/logging_test.cc`",
+    "query": {
+      "file_path": "util/logging_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberNoDigitsTest",
+        "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberOverflowTest",
+        "cpp::module::util/logging_test.cc::leveldb::ConsumeDecimalNumberRoundtripTest",
+        "cpp::module::util/logging_test.cc::main",
+        "cpp::module::util/logging_test.cc",
+        "cpp::module::util/logging_test.cc::leveldb::TEST",
+        "cpp::module::util/logging_test.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-007",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/coding_test.cc`",
+    "query": {
+      "file_path": "util/coding_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/coding_test.cc::leveldb::TEST",
+        "cpp::module::util/coding_test.cc::leveldb",
+        "cpp::module::util/coding_test.cc::main",
+        "cpp::module::util/coding_test.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-008",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/status_test.cc`",
+    "query": {
+      "file_path": "util/status_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/status_test.cc::leveldb::TEST",
+        "cpp::module::util/status_test.cc::main",
+        "cpp::module::util/status_test.cc",
+        "cpp::module::util/status_test.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-009",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/env_test.cc`",
+    "query": {
+      "file_path": "util/env_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_test.cc::leveldb::TEST_F::RunState::Run",
+        "cpp::module::util/env_test.cc::leveldb::State::State",
+        "cpp::module::util/env_test.cc::leveldb",
+        "cpp::module::util/env_test.cc::leveldb::TEST_F::Callback",
+        "cpp::module::util/env_test.cc::leveldb::TEST_F::RunState",
+        "cpp::module::util/env_test.cc::leveldb::TEST_F",
+        "cpp::module::util/env_test.cc::leveldb::TEST_F::Callback::Run",
+        "cpp::module::util/env_test.cc::leveldb::ThreadBody"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-010",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `util/cache_test.cc`",
+    "query": {
+      "file_path": "util/cache_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/cache_test.cc::main",
+        "cpp::module::util/cache_test.cc::leveldb::EncodeKey",
+        "cpp::module::util/cache_test.cc::leveldb::CacheTest::Erase",
+        "cpp::module::util/cache_test.cc::leveldb::CacheTest",
+        "cpp::module::util/cache_test.cc::leveldb::DecodeValue",
+        "cpp::module::util/cache_test.cc",
+        "cpp::module::util/cache_test.cc::leveldb::EncodeValue",
+        "cpp::module::util/cache_test.cc::leveldb::CacheTest::Insert"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-000",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `H`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-001",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `RandomGenerator`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-002",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `AutoCompactTest`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-003",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `leveldb_readoptions_t`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_readoptions_t",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_readoptions_t"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-004",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `MemTableInserter`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-005",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `LRUHandle`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/cache.cc::leveldb::LRUHandle::LRUHandle"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-006",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `NewComparator`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/db_test.cc::leveldb::TEST_F::NewComparator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-007",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `EmptyIterator`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-008",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `TwoLevelIterator`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-009",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `PosixFileLock`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixFileLock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-010",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `EnvPosixTest`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix_test.cc::leveldb::EnvPosixTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `RemoveFile`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `key`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `LockOrUnlock`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Merge`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Sync`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `main`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_tree_db.cc::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `ScanTable`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `H`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-008",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `RandomGenerator`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-009",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `leveldb_options_create`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_options_create",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_options_create"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-010",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Writer`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/db_impl.cc::leveldb::DBImpl::Writer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/db_impl.cc::leveldb::DBImpl::Writer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_tree_db.cc::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-006",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/logging.cc",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/logging.cc"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-007",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-006",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-007",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-006",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-007",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `ReomveFile` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ReomveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `LokcOrUnlock` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "LokcOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `ScnaTable` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ScnaTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `RadnomGenerator` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "RadnomGenerator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `leevldb_options_create` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "leevldb_options_create",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `Wrtier` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Wrtier",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-006",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `leevldb_options_set_block_restart_interval` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "leevldb_options_set_block_restart_interval",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-007",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `Apepnd` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Apepnd",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "bare_name_collision-002",
+    "category": "ApiDiscovery",
+    "sub_type": "bare_name_collision",
+    "intent": "Ambiguity: `get` has 1 candidates — list them all",
+    "query": {
+      "bare_name": true,
+      "name": "get",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::ScopedHandle::get"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `RemoveFile` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `key` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `LockOrUnlock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `Merge` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `Sync` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `main` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_tree_db.cc::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-006",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `ScanTable` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-007",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `leveldb_options_create` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_options_create",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_options_create"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_tree_db.cc::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-006",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/logging.cc",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/logging.cc"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-007",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `Delete` on enclosing type `H`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Delete",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Delete"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `Put` on enclosing type `H`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Put",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/c.cc::leveldb_writebatch_iterate::H::Put"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `RandomGenerator` on enclosing type `RandomGenerator`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::RandomGenerator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::RandomGenerator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `Generate` on enclosing type `RandomGenerator`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::Generate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_sqlite3.cc::leveldb::RandomGenerator::RandomGenerator::Generate"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `AutoCompactTest` on enclosing type `AutoCompactTest`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::AutoCompactTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::AutoCompactTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `Size` on enclosing type `AutoCompactTest`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Size",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Size"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-006",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `Key` on enclosing type `AutoCompactTest`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/autocompact_test.cc::leveldb::AutoCompactTest::Key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-007",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `Put` on enclosing type `MemTableInserter`",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter::Put",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/write_batch.cc::leveldb::MemTableInserter::MemTableInserter::Put"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixEnv::RemoveFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::table/iterator.cc::leveldb::EmptyIterator::EmptyIterator::key"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::LockOrUnlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench.cc::leveldb::leveldb::Stats::Merge"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixWritableFile::Sync"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::benchmarks/db_bench_tree_db.cc::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::benchmarks/db_bench_tree_db.cc::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-006",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::util/logging.cc",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::util/logging.cc"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-007",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "cpp::module::db/repair.cc::leveldb::Repairer::Repairer::ScanTable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `util/testutil.cc`",
+    "query": {
+      "file_path": "util/testutil.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/testutil.cc",
+        "cpp::module::util/testutil.cc::leveldb::test::CompressibleString",
+        "cpp::module::util/testutil.cc::leveldb::test::RandomKey",
+        "cpp::module::util/testutil.cc::leveldb",
+        "cpp::module::util/testutil.cc::leveldb::test::RandomString"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `util/status.cc`",
+    "query": {
+      "file_path": "util/status.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/status.cc::leveldb",
+        "cpp::module::util/status.cc::leveldb::Status",
+        "cpp::module::util/status.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `util/arena.cc`",
+    "query": {
+      "file_path": "util/arena.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/arena.cc",
+        "cpp::module::util/arena.cc::leveldb::Arena",
+        "cpp::module::util/arena.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `util/bloom.cc`",
+    "query": {
+      "file_path": "util/bloom.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/bloom.cc::leveldb",
+        "cpp::module::util/bloom.cc::leveldb::BloomHash::BloomFilterPolicy::CreateFilter",
+        "cpp::module::util/bloom.cc::leveldb::BloomHash::BloomFilterPolicy",
+        "cpp::module::util/bloom.cc::leveldb::NewBloomFilterPolicy",
+        "cpp::module::util/bloom.cc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `util/env_windows_test.cc`",
+    "query": {
+      "file_path": "util/env_windows_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows_test.cc::leveldb::EnvWindowsTest::EnvWindowsTest",
+        "cpp::module::util/env_windows_test.cc::main",
+        "cpp::module::util/env_windows_test.cc::leveldb::TEST_F",
+        "cpp::module::util/env_windows_test.cc::leveldb::EnvWindowsTest::SetFileLimits",
+        "cpp::module::util/env_windows_test.cc::leveldb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-006",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `util/hash.cc`",
+    "query": {
+      "file_path": "util/hash.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/hash.cc",
+        "cpp::module::util/hash.cc::leveldb",
+        "cpp::module::util/hash.cc::leveldb::Hash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-007",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `util/crc32c_test.cc`",
+    "query": {
+      "file_path": "util/crc32c_test.cc",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/crc32c_test.cc::leveldb",
+        "cpp::module::util/crc32c_test.cc::leveldb::crc32c",
+        "cpp::module::util/crc32c_test.cc::main",
+        "cpp::module::util/crc32c_test.cc",
+        "cpp::module::util/crc32c_test.cc::leveldb::crc32c::TEST"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `ReomveFile` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ReomveFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `LokcOrUnlock` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "LokcOrUnlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `ScnaTable` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ScnaTable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `RadnomGenerator` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "RadnomGenerator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `leevldb_options_create` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "leevldb_options_create",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `Wrtier` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Wrtier",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-006",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `leevldb_options_set_block_restart_interval` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "leevldb_options_set_block_restart_interval",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-007",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `Apepnd` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Apepnd",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exception_raisers-000",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `MatchError` type",
+    "query": {
+      "bare_name": true,
+      "name": "MatchError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/log_test.cc::leveldb::log::LogTest::MatchError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-001",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `ForceError` type",
+    "query": {
+      "bare_name": true,
+      "name": "ForceError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/log_test.cc::leveldb::log::LogTest::ForceError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-002",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `PosixError` type",
+    "query": {
+      "bare_name": true,
+      "name": "PosixError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_posix.cc::leveldb::g_open_read_only_file_limit::PosixError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-003",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `WindowsError` type",
+    "query": {
+      "bare_name": true,
+      "name": "WindowsError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::util/env_windows.cc::leveldb::kWritableFileBufferSize::WindowsError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-004",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `CorruptionError` type",
+    "query": {
+      "bare_name": true,
+      "name": "CorruptionError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/block.cc::leveldb::Block::CorruptionError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-005",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `SaveError` type",
+    "query": {
+      "bare_name": true,
+      "name": "SaveError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::table/two_level_iterator.cc::leveldb::Iterator::TwoLevelIterator::SaveError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-006",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `SaveError` type",
+    "query": {
+      "bare_name": true,
+      "name": "SaveError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "cpp::module::db/c.cc::SaveError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]
