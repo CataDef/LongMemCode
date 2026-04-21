@@ -1,0 +1,2409 @@
+[
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `help_text` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::help_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multirow.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multirow.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collage.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collage.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collapsible-content.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collapsible-content.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/image-with-text.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/image-with-text.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multicolumn.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multicolumn.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `label_unavailable` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::label_unavailable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::label_unavailable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `product_settings` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-search.liquid::product_settings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-search.liquid::product_settings"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `input_dataset` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::input_dataset",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::input_dataset"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `text_value` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/facets.liquid::text_value",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/facets.liquid::text_value"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-thumbnail.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-thumbnail.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `input_id` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::input_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::input_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `thumbnail_id` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::thumbnail_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::thumbnail_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `label_class` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/facets.liquid::label_class",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/facets.liquid::label_class"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `media_index` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::media_index",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::media_index"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `widths` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/header.liquid::widths",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/header.liquid::widths"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/header.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/header.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/video.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/video.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `input_name` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::input_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::input_name"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `shopify` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-password-footer.liquid::shopify",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-password-footer.liquid::shopify"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `help_text` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::help_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `collapsible-content` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collapsible-content.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collapsible-content.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `multicolumn` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multicolumn.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multicolumn.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `sizes` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `main-login` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-login.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-login.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `main-cart-items` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-cart-items.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-cart-items.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `main-list-collections` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-list-collections.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-list-collections.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `sizes` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multirow.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multirow.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `header` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/header.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/header.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `password` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::layout/password.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::layout/password.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `progress-bar` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/progress-bar.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/progress-bar.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `video` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/video.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/video.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `product-media-gallery` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `product-thumbnail` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-thumbnail.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-thumbnail.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `header-dropdown-menu` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/header-dropdown-menu.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/header-dropdown-menu.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `main-collection-banner` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-collection-banner.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-collection-banner.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `price-facet` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/price-facet.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/price-facet.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `cart-notification-product` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/cart-notification-product.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/cart-notification-product.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `collection-list` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collection-list.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collection-list.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `quick-order-list-row` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/quick-order-list-row.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/quick-order-list-row.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `multirow` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multirow.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multirow.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `related-products` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/related-products.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/related-products.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `cart-notification-button` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/cart-notification-button.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/cart-notification-button.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/price-facet.liquid`",
+    "query": {
+      "file_path": "snippets/price-facet.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/price-facet.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/header-dropdown-menu.liquid`",
+    "query": {
+      "file_path": "snippets/header-dropdown-menu.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/header-dropdown-menu.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/cart-drawer.liquid`",
+    "query": {
+      "file_path": "snippets/cart-drawer.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/cart-drawer.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/progress-bar.liquid`",
+    "query": {
+      "file_path": "snippets/progress-bar.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/progress-bar.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/loading-spinner.liquid`",
+    "query": {
+      "file_path": "snippets/loading-spinner.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/loading-spinner.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/header-drawer.liquid`",
+    "query": {
+      "file_path": "snippets/header-drawer.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/header-drawer.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/cart-notification.liquid`",
+    "query": {
+      "file_path": "snippets/cart-notification.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/cart-notification.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/quantity-input.liquid`",
+    "query": {
+      "file_path": "snippets/quantity-input.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/quantity-input.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/product-thumbnail.liquid`",
+    "query": {
+      "file_path": "snippets/product-thumbnail.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-thumbnail.liquid",
+        "liquid::module::snippets/product-thumbnail.liquid::sizes"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/swatch.liquid`",
+    "query": {
+      "file_path": "snippets/swatch.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/swatch.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/icon-accordion.liquid`",
+    "query": {
+      "file_path": "snippets/icon-accordion.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/icon-accordion.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/product-media-gallery.liquid`",
+    "query": {
+      "file_path": "snippets/product-media-gallery.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-media-gallery.liquid::sizes",
+        "liquid::module::snippets/product-media-gallery.liquid",
+        "liquid::module::snippets/product-media-gallery.liquid::thumbnail_id",
+        "liquid::module::snippets/product-media-gallery.liquid::media_index"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/article-card.liquid`",
+    "query": {
+      "file_path": "snippets/article-card.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/article-card.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/card-product.liquid`",
+    "query": {
+      "file_path": "snippets/card-product.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/card-product.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/country-localization.liquid`",
+    "query": {
+      "file_path": "snippets/country-localization.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/country-localization.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/language-localization.liquid`",
+    "query": {
+      "file_path": "snippets/language-localization.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/language-localization.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/unit-price.liquid`",
+    "query": {
+      "file_path": "snippets/unit-price.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/unit-price.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/header-search.liquid`",
+    "query": {
+      "file_path": "snippets/header-search.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/header-search.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/swatch-input.liquid`",
+    "query": {
+      "file_path": "snippets/swatch-input.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/swatch-input.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/buy-buttons.liquid`",
+    "query": {
+      "file_path": "snippets/buy-buttons.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/buy-buttons.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/gift-card-recipient-form.liquid`",
+    "query": {
+      "file_path": "snippets/gift-card-recipient-form.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/gift-card-recipient-form.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `snippets/product-variant-options.liquid`",
+    "query": {
+      "file_path": "snippets/product-variant-options.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-variant-options.liquid::help_text",
+        "liquid::module::snippets/product-variant-options.liquid::label_unavailable",
+        "liquid::module::snippets/product-variant-options.liquid::input_dataset",
+        "liquid::module::snippets/product-variant-options.liquid::input_id",
+        "liquid::module::snippets/product-variant-options.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `help_text` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-variant-options.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-media-gallery.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/multirow.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/multirow.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/collage.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/collage.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/collapsible-content.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/collapsible-content.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/image-with-text.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/image-with-text.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/multicolumn.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/multicolumn.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `label_unavailable` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/product-variant-options.liquid::label_unavailable"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-variant-options.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `product_settings` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/main-search.liquid::product_settings"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/main-search.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `input_dataset` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/product-variant-options.liquid::input_dataset"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-variant-options.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `text_value` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/facets.liquid::text_value"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/facets.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/product-thumbnail.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-thumbnail.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `help_text` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-variant-options.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-media-gallery.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/multirow.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/multirow.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/collage.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/collage.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/collapsible-content.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/collapsible-content.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/image-with-text.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/image-with-text.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `sizes` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::sections/multicolumn.liquid::sizes"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::sections/multicolumn.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `label_unavailable` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "liquid::module::snippets/product-variant-options.liquid::label_unavailable"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/product-variant-options.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `help_text`",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::help_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `sizes`",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `sizes`",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multirow.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multirow.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `sizes`",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collage.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collage.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `sizes`",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collapsible-content.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collapsible-content.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `sizes`",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/image-with-text.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/image-with-text.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `sizes`",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multicolumn.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multicolumn.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `label_unavailable`",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::label_unavailable",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::label_unavailable"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::help_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collapsible-content.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collapsible-content.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multicolumn.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multicolumn.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-login.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-login.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-cart-items.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-cart-items.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `hepl_text` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "hepl_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `mutlicolumn` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "mutlicolumn",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `mani-login` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "mani-login",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `mani-cart-items` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "mani-cart-items",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `mani-list-collections` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "mani-list-collections",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `hedaer` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "hedaer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `help_text` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::help_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multirow.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multirow.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collage.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collage.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collapsible-content.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collapsible-content.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `sizes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/image-with-text.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/image-with-text.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::help_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collapsible-content.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collapsible-content.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multicolumn.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multicolumn.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-login.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-login.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-cart-items.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-cart-items.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-variant-options.liquid::help_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-variant-options.liquid::help_text"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/collapsible-content.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/collapsible-content.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/multicolumn.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/multicolumn.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::snippets/product-media-gallery.liquid::sizes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::snippets/product-media-gallery.liquid::sizes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-login.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-login.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "liquid::module::sections/main-cart-items.liquid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "liquid::module::sections/main-cart-items.liquid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `snippets/price-facet.liquid`",
+    "query": {
+      "file_path": "snippets/price-facet.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/price-facet.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `snippets/header-dropdown-menu.liquid`",
+    "query": {
+      "file_path": "snippets/header-dropdown-menu.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/header-dropdown-menu.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `snippets/cart-drawer.liquid`",
+    "query": {
+      "file_path": "snippets/cart-drawer.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/cart-drawer.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `snippets/progress-bar.liquid`",
+    "query": {
+      "file_path": "snippets/progress-bar.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/progress-bar.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `snippets/loading-spinner.liquid`",
+    "query": {
+      "file_path": "snippets/loading-spinner.liquid",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "liquid::module::snippets/loading-spinner.liquid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `hepl_text` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "hepl_text",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `mutlicolumn` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "mutlicolumn",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `mani-login` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "mani-login",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `mani-cart-items` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "mani-cart-items",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `mani-list-collections` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "mani-list-collections",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `hedaer` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "hedaer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  }
+]
