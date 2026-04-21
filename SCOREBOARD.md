@@ -1,6 +1,6 @@
 # LongMemCode Scoreboard
 
-Head-to-head benchmark of code-memory systems used by coding agents (Claude Code, Cursor, Aider, Copilot). Two adapters, **seventeen real open-source codebases**, 35 scenario sub-types, full audit trail per scenario.
+Head-to-head benchmark of code-memory systems used by coding agents (Claude Code, Cursor, Aider, Copilot). Two adapters, **nineteen real open-source codebases**, 35 scenario sub-types, full audit trail per scenario.
 
 **Submit your adapter** via PR — contract in [`results/README.md`](results/README.md). We publish **only scores we've actually run**; empty rows mean the system hasn't been benchmarked yet.
 
@@ -48,6 +48,10 @@ Head-to-head benchmark of code-memory systems used by coding agents (Claude Code
 |   |   |   | grep-baseline 0.1.0 | 7.3 % | 1.26 ms | 1.12 ms | $0.00 |
 | [Shopify/dawn](https://github.com/Shopify/dawn) main | Liquid | ~92 .liquid | **ArgosBrain 0.1.0** | **100.0 %** | **0.08 ms** | 0.03 ms | $0.00 |
 |   |   |   | grep-baseline 0.1.0 | 24.3 % | 2.27 ms | 1.01 ms | $0.00 |
+| [saltstack/salt](https://github.com/saltstack/salt) master | Jinja2 | ~41 .jinja | **ArgosBrain 0.1.0** | **100.0 %** | **0.02 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 40.6 % | 2.46 ms | 1.05 ms | $0.00 |
+| [rails/rails](https://github.com/rails/rails) guides/main | ERB | ~10 .erb | **ArgosBrain 0.1.0** | **100.0 %** | **2.04 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 15.5 % | 2.91 ms | 0.80 ms | $0.00 |
 
 **Worst ArgosBrain P99 across all sixteen corpora: 0.82 ms.** Still ~40 × faster than the **best** grep P95 (1.74 ms on commons-lang, ~17 ms on the others).
 

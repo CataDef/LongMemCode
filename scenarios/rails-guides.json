@@ -1,0 +1,1089 @@
+[
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_welcome` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/_welcome.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/_welcome.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ncx` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/toc.ncx.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/toc.ncx.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `welcome` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/welcome.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/welcome.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `toc` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/toc.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/toc.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `layout` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/layout.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/layout.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `layout` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/layout.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/layout.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `opf` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/rails_guides.opf.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/rails_guides.opf.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `copyright` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/copyright.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/copyright.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `index` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/index.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/index.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_license` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/_license.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/_license.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/index.html.erb`",
+    "query": {
+      "file_path": "source/index.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/index.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/layout.html.erb`",
+    "query": {
+      "file_path": "source/layout.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/layout.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/_welcome.html.erb`",
+    "query": {
+      "file_path": "source/_welcome.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/_welcome.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/_license.html.erb`",
+    "query": {
+      "file_path": "source/_license.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/_license.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/epub/toc.html.erb`",
+    "query": {
+      "file_path": "source/epub/toc.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/epub/toc.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/epub/copyright.html.erb`",
+    "query": {
+      "file_path": "source/epub/copyright.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/epub/copyright.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/epub/rails_guides.opf.erb`",
+    "query": {
+      "file_path": "source/epub/rails_guides.opf.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/epub/rails_guides.opf.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/epub/welcome.html.erb`",
+    "query": {
+      "file_path": "source/epub/welcome.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/epub/welcome.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/epub/layout.html.erb`",
+    "query": {
+      "file_path": "source/epub/layout.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/epub/layout.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `source/epub/toc.ncx.erb`",
+    "query": {
+      "file_path": "source/epub/toc.ncx.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/epub/toc.ncx.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/_welcome.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/_welcome.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/toc.ncx.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/toc.ncx.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/welcome.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/welcome.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/toc.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/toc.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/layout.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/layout.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/layout.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/layout.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `_wlecome` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "_wlecome",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `weclome` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "weclome",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `laoyut` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "laoyut",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `laoyut` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "laoyut",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `coypright` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "coypright",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `_lciense` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "_lciense",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/_welcome.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/_welcome.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/toc.ncx.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/toc.ncx.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/welcome.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/welcome.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/toc.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/toc.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/layout.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/layout.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/layout.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/layout.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/_welcome.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/_welcome.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/toc.ncx.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/toc.ncx.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/welcome.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/welcome.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/toc.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/toc.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/layout.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/layout.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "erb::module::source/epub/layout.html.erb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "erb::module::source/epub/layout.html.erb"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `source/index.html.erb`",
+    "query": {
+      "file_path": "source/index.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/index.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `source/layout.html.erb`",
+    "query": {
+      "file_path": "source/layout.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/layout.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `source/_welcome.html.erb`",
+    "query": {
+      "file_path": "source/_welcome.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/_welcome.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `source/_license.html.erb`",
+    "query": {
+      "file_path": "source/_license.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/_license.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `source/epub/toc.html.erb`",
+    "query": {
+      "file_path": "source/epub/toc.html.erb",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "erb::module::source/epub/toc.html.erb"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `_wlecome` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "_wlecome",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `weclome` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "weclome",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `laoyut` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "laoyut",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `laoyut` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "laoyut",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `coypright` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "coypright",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `_lciense` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "_lciense",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  }
+]

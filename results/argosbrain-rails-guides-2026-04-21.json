@@ -1,0 +1,64 @@
+{
+  "adapter": {
+    "name": "argosbrain",
+    "version": "0.0.0"
+  },
+  "corpus": {
+    "commit": "main",
+    "name": "rails-guides",
+    "scenarios_count": 67,
+    "scenarios_sha256": "fnv64:e18b96464da4a72f"
+  },
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "ram_gb": 48
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "ApiDiscovery": {
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_score": 1.0,
+      "n": 47,
+      "passed": 47
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 20,
+      "passed": 20
+    }
+  },
+  "per_gold_source": {
+    "adversarial": {
+      "avg_score": 1.0,
+      "n": 24,
+      "passed": 24
+    },
+    "scip_roundtrip": {
+      "avg_score": 1.0,
+      "n": 43,
+      "passed": 43
+    }
+  },
+  "product": {
+    "commit": "unknown",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.005,
+    "p95_latency_ms": 0.007,
+    "p99_latency_ms": 2.038,
+    "raw_accuracy": 1.0,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 427,
+    "weighted_accuracy": 1.0
+  }
+}
