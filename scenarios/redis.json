@@ -1,0 +1,6271 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `commandListFilterType` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "commandListFilterType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c::commandListFilter::commandListFilterType"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-001",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `redisObject` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "redisObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::redisObject"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-002",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RedisModuleCommandKeySpec` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RedisModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleCommandKeySpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-003",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `clusterState` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "clusterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cluster_legacy.h::clusterState"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-004",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `durationStats` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "durationStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::latency.h::durationStats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-005",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `quicklistIter` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "quicklistIter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::quicklist.h::quicklistIter::quicklistIter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-006",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RedisModuleStreamID` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RedisModuleStreamID",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleStreamID"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-007",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `tls_connection` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "tls_connection",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c::tls_connection::tls_connection"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-008",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `sdshdr5` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "sdshdr5",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::debug.c::debugCommand::sdshdr5"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-009",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `kvstoreDictMetadata` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "kvstoreDictMetadata",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::kvstore.c::kvstoreDictMetadata"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-010",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `_kvstoreIterator` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "_kvstoreIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::kvstore.c::_kvstoreIterator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-011",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `jsonObject` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "jsonObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::jsonObject::jsonObject"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-012",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `redis_stat` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "redis_stat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::replication.c::updateSlavesWaitingBgsave::redis_stat"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-013",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `redisMemOverhead` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "redisMemOverhead",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::object.c::memoryCommand::redisMemOverhead"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-014",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `defragPubSubCtx` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "defragPubSubCtx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::defrag.c::defragPubSubCtx::defragPubSubCtx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-015",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `hllhdr` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "hllhdr",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::hyperloglog.c::createHLLObject::hllhdr"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-016",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RedisModuleCommand` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RedisModuleCommand",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::RedisModuleCommand"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-017",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `redisCommand` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "redisCommand",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c::commandListWithFilter::redisCommand"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-018",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RedisModule` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RedisModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::RedisModule"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-019",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RedisModuleConfigGetEnumFunc` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RedisModuleConfigGetEnumFunc",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleConfigGetEnumFunc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-020",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `ReplyParserCallbacks` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "ReplyParserCallbacks",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::resp_parser.h::ReplyParserCallbacks"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-021",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `hashTypeIterator` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "hashTypeIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::hashTypeIterator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-022",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RedisModuleIO` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RedisModuleIO",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::moduleTypeRewriteFunc::RedisModuleIO"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-023",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `zrangeResultEmitCBufferFunction` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "zrangeResultEmitCBufferFunction",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::t_zset.c::zrangeResultEmitCBufferFunction"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-024",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `sds` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "sds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::user::sds"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-025",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `HashTypeSetEx` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "HashTypeSetEx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::t_hash.c::HashTypeSetEx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-026",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RedisModule` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RedisModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::RedisModuleInfoCtx::RedisModule"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-027",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `WantIOType` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "WantIOType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c::WantIOType"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-028",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `pollfd` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "pollfd",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::ae.c::aeWait::pollfd"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-029",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `timespec` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "timespec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::monotonic.c::monotonicInit_posix::timespec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-030",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `functionsLibCtx` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "functionsLibCtx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::functionsLibCtx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-031",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `ScanKeyCBData` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "ScanKeyCBData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::ScanKeyCBData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-000",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `valid` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "valid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c::commandListFilter::commandListFilterType::valid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-001",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `notes` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "notes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleCommandKeySpec::notes"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-002",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `durationStats` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "durationStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::latency.h::durationStats::durationStats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-003",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `RedisModuleStreamID` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "RedisModuleStreamID",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleStreamID::RedisModuleStreamID"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-004",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `listNode` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "listNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::kvstore.c::kvstoreDictMetadata::listNode"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-005",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `jsonObjectElement` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "jsonObjectElement",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::jsonObject::jsonObject::jsonObjectElement"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-006",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `RedisModuleCommand` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "RedisModuleCommand",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::RedisModuleCommand::RedisModuleCommand"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-007",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `RedisModule` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "RedisModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::RedisModuleCommand::RedisModule"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-008",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `redisCommand` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "redisCommand",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::RedisModuleCommand::redisCommand"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-009",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `moduleLoadQueueEntry` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "moduleLoadQueueEntry",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::RedisModule::moduleLoadQueueEntry"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-010",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `RedisModule` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "RedisModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::RedisModule::RedisModule"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-011",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `ReplyParserCallbacks` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "ReplyParserCallbacks",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::resp_parser.h::ReplyParserCallbacks::ReplyParserCallbacks"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-012",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `robj` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "robj",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::hashTypeIterator::robj"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-013",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `HashTypeSetEx` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "HashTypeSetEx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::t_hash.c::HashTypeSetEx::HashTypeSetEx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-014",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `WANT_READ` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "WANT_READ",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c::WantIOType::WANT_READ"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-015",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `functionsLibCtx` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "functionsLibCtx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::functionsLibCtx::functionsLibCtx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-016",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `RedisModuleKey` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "RedisModuleKey",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::ScanKeyCBData::RedisModuleKey"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-017",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `moduleClusterReceiver` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "moduleClusterReceiver",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::moduleClusterReceiver::moduleClusterReceiver::moduleClusterReceiver"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-018",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `RedisModule` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "RedisModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::moduleClusterReceiver::moduleClusterReceiver::RedisModule"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-019",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `flags` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "flags",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::t_zset.c::zsetopval::flags"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-020",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `type` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "type",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::bio.c::bio_job::bio_job::type"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-021",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `quicklistIter` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "quicklistIter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::quicklist.h::quicklistIter::quicklistIter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-022",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `redisCommand` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "redisCommand",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::redisGetKeysProc::redisCommand"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-023",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `monotonic_clock_type` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "monotonic_clock_type",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::monotonic.h::monotonic_clock_type::monotonic_clock_type"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-024",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `state` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "state",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::sha1.h::SHA1_CTX::state"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-025",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `redisConfig` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "redisConfig",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redis-benchmark.c::redisConfig::redisConfig"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-026",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `aeEventLoop` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "aeEventLoop",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::ae.h::aeBeforeSleepProc::aeEventLoop"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-027",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `numericType` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "numericType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::config.c::numericType::numericType"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-028",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `GetExpireTimeRes` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "GetExpireTimeRes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::t_hash.c::GetExpireTimeRes::GetExpireTimeRes"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-029",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `GeoHashBits` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "GeoHashBits",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::geohash.h::GeoHashNeighbors::GeoHashBits"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-030",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `RedisModule` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "RedisModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::RedisModuleAuthCtx::RedisModuleAuthCtx::RedisModule"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-031",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `enumConfigData` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "enumConfigData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::config.c::enumConfigData::enumConfigData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `authRequired` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::networking.c::authRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::networking.c::authRequired"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `listUnlinkNode` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::adlist.c::listUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `kvstoreDictRehashingCount` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `createQuicklistObject` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::createQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `interleave64` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::geohash.c::interleave64",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::geohash.c::interleave64"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `tlsHasPendingData` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::tls.c::tlsHasPendingData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::tls.c::tlsHasPendingData"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `markRewrittenIncrAofAsHistory` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::aof.c::markRewrittenIncrAofAsHistory",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::aof.c::markRewrittenIncrAofAsHistory"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `freeStreamObject` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::freeStreamObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::freeStreamObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `sentinelRedisInstanceTypeStr` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::sentinel.c::sentinelRedisInstanceTypeStr",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::sentinel.c::sentinelRedisInstanceTypeStr"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `RM_GetModuleOptionsAll` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RM_GetModuleOptionsAll",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RM_GetModuleOptionsAll"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `verify` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::ziplist.c::verify",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::ziplist.c::verify"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `zrealloc_with_flags` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::zmalloc.c::zrealloc_with_flags",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::zmalloc.c::zrealloc_with_flags"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `RM_ClusterCanonicalKeyNameInSlot` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RM_ClusterCanonicalKeyNameInSlot",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RM_ClusterCanonicalKeyNameInSlot"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `luaNewIndexAllowList` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::script_lua.c::luaNewIndexAllowList",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::script_lua.c::luaNewIndexAllowList"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `listpackExAddNew` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::t_hash.c::listpackExAddNew",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::t_hash.c::listpackExAddNew"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `RM_PoolAlloc` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RM_PoolAlloc",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RM_PoolAlloc"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `connIsLocal` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::connection.h::connIsLocal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::connection.h::connIsLocal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `lookupCommandByCString` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::lookupCommandByCString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::lookupCommandByCString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `luaRegisterRedisAPI` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::script_lua.c::luaRegisterRedisAPI",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::script_lua.c::luaRegisterRedisAPI"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `connIncrRefs` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::connhelpers.h::connIncrRefs",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::connhelpers.h::connIncrRefs"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `closeChildInfoPipe` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::childinfo.c::closeChildInfoPipe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::childinfo.c::closeChildInfoPipe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `raxRecursiveFreeWithCtx` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::rax.c::raxRecursiveFreeWithCtx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::rax.c::raxRecursiveFreeWithCtx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `RM_KillForkChild` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RM_KillForkChild",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RM_KillForkChild"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-023",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `openDirectLogFiledes` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::debug.c::openDirectLogFiledes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::debug.c::openDirectLogFiledes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-024",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `expireatCommand` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::expire.c::expireatCommand",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::expire.c::expireatCommand"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-025",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `rioConnFlush` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::rio.c::rioConnFlush",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::rio.c::rioConnFlush"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-026",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `luaReplyToRedisReply` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::script_lua.c::luaReplyToRedisReply",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::script_lua.c::luaReplyToRedisReply"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-027",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `updateReplBacklogSize` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::config.c::updateReplBacklogSize",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::config.c::updateReplBacklogSize"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-028",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `raxRecursiveFree` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::rax.c::raxRecursiveFree",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::rax.c::raxRecursiveFree"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-029",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `clusterManagerOnSetOwnerErr` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redis-cli.c::clusterManagerOnSetOwnerErr",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redis-cli.c::clusterManagerOnSetOwnerErr"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-030",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `addNodeDetailsToShardReply` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::cluster_legacy.c::addNodeDetailsToShardReply",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::cluster_legacy.c::addNodeDetailsToShardReply"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-031",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `lazyfreeGetFreedObjectsCount` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::lazyfree.c::lazyfreeGetFreedObjectsCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::lazyfree.c::lazyfreeGetFreedObjectsCount"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `authRequired` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::networking.c::authRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::networking.c::authRequired"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `commandListFilterType` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::commandListFilter::commandListFilterType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `redisObject` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.h::redisObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.h::redisObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `listUnlinkNode` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::adlist.c::listUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `kvstoreDictRehashingCount` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RedisModuleCommandKeySpec` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `clusterState` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::cluster_legacy.h::clusterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::cluster_legacy.h::clusterState"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `createQuicklistObject` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::createQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `redis-check-rdb` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redis-check-rdb.c",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redis-check-rdb.c"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `interleave64` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::geohash.c::interleave64",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::geohash.c::interleave64"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `durationStats` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::latency.h::durationStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::latency.h::durationStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `tlsHasPendingData` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::tls.c::tlsHasPendingData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::tls.c::tlsHasPendingData"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `markRewrittenIncrAofAsHistory` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::aof.c::markRewrittenIncrAofAsHistory",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::aof.c::markRewrittenIncrAofAsHistory"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `freeStreamObject` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::freeStreamObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::freeStreamObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `quicklistIter` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::quicklist.h::quicklistIter::quicklistIter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::quicklist.h::quicklistIter::quicklistIter"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `sentinelRedisInstanceTypeStr` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::sentinel.c::sentinelRedisInstanceTypeStr",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::sentinel.c::sentinelRedisInstanceTypeStr"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RedisModuleStreamID` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleStreamID",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleStreamID"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `tls_connection` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::tls.c::tls_connection::tls_connection",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::tls.c::tls_connection::tls_connection"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RM_GetModuleOptionsAll` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RM_GetModuleOptionsAll",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RM_GetModuleOptionsAll"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `verify` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::ziplist.c::verify",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::ziplist.c::verify"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `zrealloc_with_flags` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::zmalloc.c::zrealloc_with_flags",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::zmalloc.c::zrealloc_with_flags"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `sdshdr5` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::debug.c::debugCommand::sdshdr5",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::debug.c::debugCommand::sdshdr5"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `quicklist` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::quicklist.h",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::quicklist.h"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-023",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RM_ClusterCanonicalKeyNameInSlot` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RM_ClusterCanonicalKeyNameInSlot",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RM_ClusterCanonicalKeyNameInSlot"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-024",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `luaNewIndexAllowList` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::script_lua.c::luaNewIndexAllowList",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::script_lua.c::luaNewIndexAllowList"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-025",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `listpackExAddNew` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::t_hash.c::listpackExAddNew",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::t_hash.c::listpackExAddNew"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-026",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `kvstoreDictMetadata` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictMetadata",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictMetadata"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-027",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_kvstoreIterator` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::_kvstoreIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::_kvstoreIterator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-028",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RM_PoolAlloc` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RM_PoolAlloc",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RM_PoolAlloc"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-029",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `connIsLocal` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::connection.h::connIsLocal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::connection.h::connIsLocal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-030",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `lookupCommandByCString` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::lookupCommandByCString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::lookupCommandByCString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-031",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `luaRegisterRedisAPI` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::script_lua.c::luaRegisterRedisAPI",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::script_lua.c::luaRegisterRedisAPI"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `connection.h`",
+    "query": {
+      "file_path": "connection.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::connection.h::connIsLocal",
+        "c::module::connection.h::connCreate",
+        "c::module::connection.h::connWritev::iovec",
+        "c::module::connection.h::connGetPeerCert",
+        "c::module::connection.h::connSetReadHandler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `cluster.h`",
+    "query": {
+      "file_path": "cluster.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cluster.h",
+        "c::module::cluster.h::redisCommand",
+        "c::module::cluster.h::clusterNode::_clusterNode",
+        "c::module::cluster.h::clusterState",
+        "c::module::cluster.h::clusterNode"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `dict.c`",
+    "query": {
+      "file_path": "dict.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::dict.c::dictTest",
+        "c::module::dict.c::dictCreate",
+        "c::module::dict.c::dictAdd",
+        "c::module::dict.c::dictExpand",
+        "c::module::dict.c::dictAddRaw"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `geohash_helper.c`",
+    "query": {
+      "file_path": "geohash_helper.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::geohash_helper.c::geohashGetDistanceIfInRectangle",
+        "c::module::geohash_helper.c::geohashGetDistanceIfInRadiusWGS84",
+        "c::module::geohash_helper.c::geohashGetDistance",
+        "c::module::geohash_helper.c::geohashCalculateAreasByShapeWGS84",
+        "c::module::geohash_helper.c::geohashGetLatDistance"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `logreqres.c`",
+    "query": {
+      "file_path": "logreqres.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::logreqres.c::reqresReset",
+        "c::module::logreqres.c",
+        "c::module::logreqres.c::reqresAppendBuffer",
+        "c::module::logreqres.c::reqresAppendRequest",
+        "c::module::logreqres.c::reqresAppendResponse"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `sds.c`",
+    "query": {
+      "file_path": "sds.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::sds.c::sdscatlen",
+        "c::module::sds.c::sdsAllocPtr",
+        "c::module::sds.c::sdsclear",
+        "c::module::sds.c::sds_malloc",
+        "c::module::sds.c::sdsHdrSize::sdshdr32"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `crcspeed.c`",
+    "query": {
+      "file_path": "crcspeed.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::crcspeed.c::crcspeed64native",
+        "c::module::crcspeed.c::crcspeed16big",
+        "c::module::crcspeed.c::rev8",
+        "c::module::crcspeed.c::crcspeed64big_init",
+        "c::module::crcspeed.c::crcspeed16native_init"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `redismodule.h`",
+    "query": {
+      "file_path": "redismodule.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleCommandKeySpec",
+        "c::module::redismodule.h::RedisModuleStreamID",
+        "c::module::redismodule.h::RedisModuleConfigGetEnumFunc",
+        "c::module::redismodule.h::RedisModuleTypeAuxLoadFunc",
+        "c::module::redismodule.h::RedisModuleCmdFunc"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `hyperloglog.c`",
+    "query": {
+      "file_path": "hyperloglog.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::hyperloglog.c::createHLLObject::hllhdr",
+        "c::module::hyperloglog.c::hllSparseSet::hllhdr",
+        "c::module::hyperloglog.c::pfselftestCommand::hllhdr",
+        "c::module::hyperloglog.c::pfmergeCommand",
+        "c::module::hyperloglog.c::hllDenseSet"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `adlist.c`",
+    "query": {
+      "file_path": "adlist.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::adlist.c::listUnlinkNode",
+        "c::module::adlist.c::listSearchKey",
+        "c::module::adlist.c::listRewindTail",
+        "c::module::adlist.c::listNext",
+        "c::module::adlist.c::listLinkNodeHead"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `eval.c`",
+    "query": {
+      "file_path": "eval.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::eval.c::ldbReplParseCommand",
+        "c::module::eval.c::ldbRedisProtocolToHuman_Bulk",
+        "c::module::eval.c::sha1hex",
+        "c::module::eval.c::luaRedisDebugCommand",
+        "c::module::eval.c::evalGenericCommandWithDebugging"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lzf_d.c`",
+    "query": {
+      "file_path": "lzf_d.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::lzf_d.c",
+        "c::module::lzf_d.c::lzf_decompress"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `listpack_malloc.h`",
+    "query": {
+      "file_path": "listpack_malloc.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::listpack_malloc.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `rax_malloc.h`",
+    "query": {
+      "file_path": "rax_malloc.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::rax_malloc.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lzfP.h`",
+    "query": {
+      "file_path": "lzfP.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::lzfP.h::u16",
+        "c::module::lzfP.h::LZF_STATE",
+        "c::module::lzfP.h::u8",
+        "c::module::lzfP.h",
+        "c::module::lzfP.h::LZF_HSLOT"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `rio.h`",
+    "query": {
+      "file_path": "rio.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::rio.h::rioRead",
+        "c::module::rio.h::rioGetReadError",
+        "c::module::rio.h::_rio",
+        "c::module::rio.h::rio::_rio",
+        "c::module::rio.h::_rio::sds::FILE"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `geo.c`",
+    "query": {
+      "file_path": "geo.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::geo.c::geoGetPointsInRange",
+        "c::module::geo.c::membersOfAllNeighbors",
+        "c::module::geo.c::georadiusroCommand",
+        "c::module::geo.c::addReplyDoubleDistance",
+        "c::module::geo.c::scoresOfGeoHashBox"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `debugmacro.h`",
+    "query": {
+      "file_path": "debugmacro.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::debugmacro.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lolwut.c`",
+    "query": {
+      "file_path": "lolwut.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::lolwut.c::lolwutCommand",
+        "c::module::lolwut.c::lwDrawPixel",
+        "c::module::lolwut.c::lwFreeCanvas",
+        "c::module::lolwut.c",
+        "c::module::lolwut.c::lwDrawLine"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `cli_common.h`",
+    "query": {
+      "file_path": "cli_common.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cli_common.h::timeval",
+        "c::module::cli_common.h::cliConnInfo::cliConnInfo",
+        "c::module::cli_common.h::cliSSLconfig::cliSSLconfig",
+        "c::module::cli_common.h::cliConnInfo",
+        "c::module::cli_common.h::cliSSLconfig"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lazyfree.c`",
+    "query": {
+      "file_path": "lazyfree.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::lazyfree.c::lazyfreeGetFreedObjectsCount",
+        "c::module::lazyfree.c::freeObjAsync",
+        "c::module::lazyfree.c::lazyfreeGetFreeEffort",
+        "c::module::lazyfree.c::freeFunctionsAsync",
+        "c::module::lazyfree.c::lazyfreeFreeObject"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `version.h`",
+    "query": {
+      "file_path": "version.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::version.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-023",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `script.h`",
+    "query": {
+      "file_path": "script.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::script.h::scriptFlag::scriptFlag",
+        "c::module::script.h::scriptRunCtx::scriptRunCtx",
+        "c::module::script.h::scriptFlag",
+        "c::module::script.h::scriptRunCtx",
+        "c::module::script.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-024",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `rand.c`",
+    "query": {
+      "file_path": "rand.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::rand.c::next",
+        "c::module::rand.c",
+        "c::module::rand.c::redisSrand48",
+        "c::module::rand.c::redisLrand48"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-025",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `asciilogo.h`",
+    "query": {
+      "file_path": "asciilogo.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::asciilogo.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-026",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `cluster_legacy.h`",
+    "query": {
+      "file_path": "cluster_legacy.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cluster_legacy.h::clusterState",
+        "c::module::cluster_legacy.h::clusterMsgDataUpdate::configEpoch",
+        "c::module::cluster_legacy.h::clusterMsgPingtypes::CLUSTERMSG_EXT_TYPE_HOSTNAME",
+        "c::module::cluster_legacy.h::clusterMsgDataUpdate",
+        "c::module::cluster_legacy.h::clusterLink::clusterLink"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-027",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `object.c`",
+    "query": {
+      "file_path": "object.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::object.c::createQuicklistObject",
+        "c::module::object.c::freeStreamObject",
+        "c::module::object.c::memoryCommand::redisMemOverhead",
+        "c::module::object.c::decrRefCount",
+        "c::module::object.c::createStringObjectFromLongLongForValue"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-028",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `functions.c`",
+    "query": {
+      "file_path": "functions.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::functions.c::libraryLink",
+        "c::module::functions.c",
+        "c::module::functions.c::libraryJoin",
+        "c::module::functions.c::functionsNum",
+        "c::module::functions.c::engineFunctionDispose"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-029",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ziplist.h`",
+    "query": {
+      "file_path": "ziplist.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::ziplist.h::ziplistEntry::sval",
+        "c::module::ziplist.h::ziplistEntry",
+        "c::module::ziplist.h::ziplistValidateEntryCB",
+        "c::module::ziplist.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-030",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `lolwut6.c`",
+    "query": {
+      "file_path": "lolwut6.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::lolwut6.c::generateSkyline",
+        "c::module::lolwut6.c::skyscraper",
+        "c::module::lolwut6.c::generateSkyscraper",
+        "c::module::lolwut6.c::renderCanvas",
+        "c::module::lolwut6.c::generateSkyscraper::skyscraper"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-031",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `util.c`",
+    "query": {
+      "file_path": "util.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::util.c::ld2string",
+        "c::module::util.c::ll2string",
+        "c::module::util.c::dirRemove::stat",
+        "c::module::util.c::test_ld2string",
+        "c::module::util.c::fsyncFileDir"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `authRequired` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::networking.c::authRequired"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::networking.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `commandListFilterType` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c::commandListFilter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `redisObject` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::server.h::redisObject"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `listUnlinkNode` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::adlist.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `kvstoreDictRehashingCount` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::kvstore.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `RedisModuleCommandKeySpec` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `clusterState` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::cluster_legacy.h::clusterState"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cluster_legacy.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `createQuicklistObject` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::object.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `interleave64` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::geohash.c::interleave64"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::geohash.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `durationStats` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::latency.h::durationStats"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::latency.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `tlsHasPendingData` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::tls.c::tlsHasPendingData"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `markRewrittenIncrAofAsHistory` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::aof.c::markRewrittenIncrAofAsHistory"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::aof.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-012",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `freeStreamObject` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::object.c::freeStreamObject"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::object.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-013",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `quicklistIter` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::quicklist.h::quicklistIter::quicklistIter"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::quicklist.h::quicklistIter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-014",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `sentinelRedisInstanceTypeStr` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::sentinel.c::sentinelRedisInstanceTypeStr"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::sentinel.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-015",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `RedisModuleStreamID` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::redismodule.h::RedisModuleStreamID"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-016",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `tls_connection` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::tls.c::tls_connection::tls_connection"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c::tls_connection"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-017",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `RM_GetModuleOptionsAll` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_GetModuleOptionsAll"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-000",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `moduleRDBLoadError` type",
+    "query": {
+      "bare_name": true,
+      "name": "moduleRDBLoadError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::moduleRDBLoadError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-001",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `luaPushError` type",
+    "query": {
+      "bare_name": true,
+      "name": "luaPushError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::script_lua.c::luaPushError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-002",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `connSocketGetLastError` type",
+    "query": {
+      "bare_name": true,
+      "name": "connSocketGetLastError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::socket.c::connSocketGetLastError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-003",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `connTLSGetLastError` type",
+    "query": {
+      "bare_name": true,
+      "name": "connTLSGetLastError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c::connTLSGetLastError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-004",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `clusterManagerOnError` type",
+    "query": {
+      "bare_name": true,
+      "name": "clusterManagerOnError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redis-cli.c::clusterManagerOnError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-005",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `rioGetReadError` type",
+    "query": {
+      "bare_name": true,
+      "name": "rioGetReadError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::rio.h::rioGetReadError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-006",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `cliPrintContextError` type",
+    "query": {
+      "bare_name": true,
+      "name": "cliPrintContextError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redis-cli.c::cliPrintContextError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-007",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `ACLSetUserStringError` type",
+    "query": {
+      "bare_name": true,
+      "name": "ACLSetUserStringError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::acl.c::ACLSetUserStringError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-008",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `updateTLSError` type",
+    "query": {
+      "bare_name": true,
+      "name": "updateTLSError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c::updateTLSError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-009",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `callReplyCreateError` type",
+    "query": {
+      "bare_name": true,
+      "name": "callReplyCreateError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::call_reply.c::callReplyCreateError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-010",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `redisError` type",
+    "query": {
+      "bare_name": true,
+      "name": "redisError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::redisError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-011",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `RM_ReplyWithError` type",
+    "query": {
+      "bare_name": true,
+      "name": "RM_ReplyWithError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::RM_ReplyWithError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-012",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `callReplyError` type",
+    "query": {
+      "bare_name": true,
+      "name": "callReplyError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::call_reply.c::callReplyError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-013",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `redisError` type",
+    "query": {
+      "bare_name": true,
+      "name": "redisError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c::incrementErrorCount::redisError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-014",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `anetGetError` type",
+    "query": {
+      "bare_name": true,
+      "name": "anetGetError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::anet.c::anetGetError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-015",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `redisProtocolToLuaType_Error` type",
+    "query": {
+      "bare_name": true,
+      "name": "redisProtocolToLuaType_Error",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::script_lua.c::redisProtocolToLuaType_Error"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-016",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `clusterManagerPrintNotEmptyNodeError` type",
+    "query": {
+      "bare_name": true,
+      "name": "clusterManagerPrintNotEmptyNodeError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redis-cli.c::clusterManagerPrintNotEmptyNodeError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-017",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `sentinelGetMasterByNameOrReplyError` type",
+    "query": {
+      "bare_name": true,
+      "name": "sentinelGetMasterByNameOrReplyError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::sentinel.c::sentinelGetMasterByNameOrReplyError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-000",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `commandListFilterType` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c::commandListFilter::commandListFilterType::valid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-002",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `RedisModuleCommandKeySpec` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleCommandKeySpec::notes"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-004",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `durationStats` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::latency.h::durationStats"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::latency.h::durationStats::durationStats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-006",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `RedisModuleStreamID` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::redismodule.h::RedisModuleStreamID"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleStreamID::RedisModuleStreamID"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-009",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `kvstoreDictMetadata` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::kvstore.c::kvstoreDictMetadata"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::kvstore.c::kvstoreDictMetadata::listNode"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-011",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `jsonObject` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::server.h::jsonObject::jsonObject"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::jsonObject::jsonObject::jsonObjectElement"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-016",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `RedisModuleCommand` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::module.c::RedisModuleCommand"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::RedisModuleCommand::RedisModuleCommand",
+        "c::module::module.c::RedisModuleCommand::RedisModule",
+        "c::module::module.c::RedisModuleCommand::redisCommand"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-000",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `commandListFilterType` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c::commandListFilter::commandListFilterType::valid"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-002",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `RedisModuleCommandKeySpec` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleCommandKeySpec::notes"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-004",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `durationStats` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::latency.h::durationStats"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::latency.h::durationStats::durationStats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-006",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `RedisModuleStreamID` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::redismodule.h::RedisModuleStreamID"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h::RedisModuleStreamID::RedisModuleStreamID"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-009",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `kvstoreDictMetadata` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "c::module::kvstore.c::kvstoreDictMetadata"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::kvstore.c::kvstoreDictMetadata::listNode"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `authRequired` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::networking.c::authRequired"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::networking.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `commandListFilterType` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c::commandListFilter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `redisObject` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::server.h::redisObject"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `listUnlinkNode` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::adlist.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `kvstoreDictRehashingCount` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::kvstore.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `RedisModuleCommandKeySpec` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redismodule.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `clusterState` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::cluster_legacy.h::clusterState"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cluster_legacy.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `createQuicklistObject` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::object.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-008",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `interleave64` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::geohash.c::interleave64"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::geohash.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-009",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `durationStats` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::latency.h::durationStats"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::latency.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-010",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `tlsHasPendingData` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::tls.c::tlsHasPendingData"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `memtest.c`",
+    "query": {
+      "file_path": "memtest.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::memtest.c::memtest_compare_times",
+        "c::module::memtest.c::memtest_addressing",
+        "c::module::memtest.c::memtest_alloc_and_test",
+        "c::module::memtest.c::memtest_fill_random",
+        "c::module::memtest.c::memtest",
+        "c::module::memtest.c::memtest_test",
+        "c::module::memtest.c::memtest_preserving_test",
+        "c::module::memtest.c::memtest_compare"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `testhelp.h`",
+    "query": {
+      "file_path": "testhelp.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::testhelp.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-000",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_ld2string` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_ld2string",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::util.c::test_ld2string"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-001",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_and_start` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_and_start",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::threads_mngr.c::test_and_start"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-002",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_string2ll` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_string2ll",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::util.c::test_string2ll"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-003",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_is_selected` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_is_selected",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redis-benchmark.c::test_is_selected"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-004",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_string2l` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_string2l",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::util.c::test_string2l"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-005",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_fixedpoint_d2string` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_fixedpoint_d2string",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::util.c::test_fixedpoint_d2string"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-006",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_ll2string` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_ll2string",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::util.c::test_ll2string"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-007",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_reclaimFilePageCache` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_reclaimFilePageCache",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::util.c::test_reclaimFilePageCache"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-000",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `commandListFilterType`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::commandListFilter::commandListFilterType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-001",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `redisObject`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.h::redisObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.h::redisObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-002",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `RedisModuleCommandKeySpec`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-003",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `clusterState`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::cluster_legacy.h::clusterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::cluster_legacy.h::clusterState"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-004",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `durationStats`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::latency.h::durationStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::latency.h::durationStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-005",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `quicklistIter`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::quicklist.h::quicklistIter::quicklistIter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::quicklist.h::quicklistIter::quicklistIter"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-006",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `RedisModuleStreamID`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleStreamID",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleStreamID"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-007",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `tls_connection`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::tls.c::tls_connection::tls_connection",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::tls.c::tls_connection::tls_connection"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-008",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `sdshdr5`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::debug.c::debugCommand::sdshdr5",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::debug.c::debugCommand::sdshdr5"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-009",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `kvstoreDictMetadata`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictMetadata",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictMetadata"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-010",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `_kvstoreIterator`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::_kvstoreIterator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::_kvstoreIterator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-000",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterStringConfig`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterStringConfig"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-001",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterDefragFunc`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterDefragFunc"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-002",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterEnumConfig`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterEnumConfig"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-003",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterInfoFunc`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterInfoFunc"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-004",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `registerConfigValue`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::config.c::registerConfigValue"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::config.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-005",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterNumericConfig`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterNumericConfig"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-006",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `registerSSLEvent`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::tls.c::registerSSLEvent"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-007",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterClusterMessageReceiver`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterClusterMessageReceiver"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-008",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterCommandFilter`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterCommandFilter"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-009",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterBoolConfig`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterBoolConfig"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-010",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `RM_RegisterAuthCallback`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::RM_RegisterAuthCallback"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `authRequired`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::networking.c::authRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::networking.c::authRequired"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `commandListFilterType`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::commandListFilter::commandListFilterType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `redisObject`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.h::redisObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.h::redisObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `listUnlinkNode`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::adlist.c::listUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `kvstoreDictRehashingCount`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `RedisModuleCommandKeySpec`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `clusterState`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::cluster_legacy.h::clusterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::cluster_legacy.h::clusterState"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `createQuicklistObject`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::createQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-008",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `interleave64`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::geohash.c::interleave64",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::geohash.c::interleave64"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-009",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `durationStats`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::latency.h::durationStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::latency.h::durationStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-010",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `tlsHasPendingData`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::tls.c::tlsHasPendingData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::tls.c::tlsHasPendingData"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::networking.c::authRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::networking.c::authRequired"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::commandListFilter::commandListFilterType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.h::redisObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.h::redisObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::adlist.c::listUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-006",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::cluster_legacy.h::clusterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::cluster_legacy.h::clusterState"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-007",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::createQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-006",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-007",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-006",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-007",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `auhtRequired` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "auhtRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `reidsObject` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "reidsObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `litsUnlinkNode` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "litsUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `kvtsoreDictRehashingCount` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "kvtsoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `ReidsModuleCommandKeySpec` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ReidsModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `clsuterState` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "clsuterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-006",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `craeteQuicklistObject` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "craeteQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-007",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `reids-check-rdb` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "reids-check-rdb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `authRequired` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::networking.c::authRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::networking.c::authRequired"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `listUnlinkNode` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::adlist.c::listUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `kvstoreDictRehashingCount` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `createQuicklistObject` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::createQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `interleave64` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::geohash.c::interleave64",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::geohash.c::interleave64"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `tlsHasPendingData` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::tls.c::tlsHasPendingData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::tls.c::tlsHasPendingData"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-006",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `markRewrittenIncrAofAsHistory` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::aof.c::markRewrittenIncrAofAsHistory",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::aof.c::markRewrittenIncrAofAsHistory"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-007",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `freeStreamObject` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::freeStreamObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::freeStreamObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::networking.c::authRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::networking.c::authRequired"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::commandListFilter::commandListFilterType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.h::redisObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.h::redisObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::adlist.c::listUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-006",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::cluster_legacy.h::clusterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::cluster_legacy.h::clusterState"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-007",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::createQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `valid` on enclosing type `commandListFilterType`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::commandListFilter::commandListFilterType::valid",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::commandListFilter::commandListFilterType::valid"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `notes` on enclosing type `RedisModuleCommandKeySpec`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleCommandKeySpec::notes",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec::notes"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `durationStats` on enclosing type `durationStats`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::latency.h::durationStats::durationStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::latency.h::durationStats::durationStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `RedisModuleStreamID` on enclosing type `RedisModuleStreamID`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleStreamID::RedisModuleStreamID",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleStreamID::RedisModuleStreamID"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `listNode` on enclosing type `kvstoreDictMetadata`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictMetadata::listNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictMetadata::listNode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `jsonObjectElement` on enclosing type `jsonObject`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.h::jsonObject::jsonObject::jsonObjectElement",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.h::jsonObject::jsonObject::jsonObjectElement"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-006",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `RedisModuleCommand` on enclosing type `RedisModuleCommand`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RedisModuleCommand::RedisModuleCommand",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RedisModuleCommand::RedisModuleCommand"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-007",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `RedisModule` on enclosing type `RedisModuleCommand`",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::module.c::RedisModuleCommand::RedisModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::module.c::RedisModuleCommand::RedisModule"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::networking.c::authRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::networking.c::authRequired"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.c::commandListFilter::commandListFilterType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.c::commandListFilter::commandListFilterType"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::server.h::redisObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::server.h::redisObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::adlist.c::listUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::adlist.c::listUnlinkNode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::kvstore.c::kvstoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::kvstore.c::kvstoreDictRehashingCount"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::redismodule.h::RedisModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::redismodule.h::RedisModuleCommandKeySpec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-006",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::cluster_legacy.h::clusterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::cluster_legacy.h::clusterState"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-007",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "c::module::object.c::createQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "c::module::object.c::createQuicklistObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `connection.h`",
+    "query": {
+      "file_path": "connection.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::connection.h::connIsLocal",
+        "c::module::connection.h::connCreate",
+        "c::module::connection.h::connWritev::iovec",
+        "c::module::connection.h::connGetPeerCert",
+        "c::module::connection.h::connSetReadHandler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `cluster.h`",
+    "query": {
+      "file_path": "cluster.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cluster.h",
+        "c::module::cluster.h::redisCommand",
+        "c::module::cluster.h::clusterNode::_clusterNode",
+        "c::module::cluster.h::clusterState",
+        "c::module::cluster.h::clusterNode"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `dict.c`",
+    "query": {
+      "file_path": "dict.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::dict.c::dictTest",
+        "c::module::dict.c::dictCreate",
+        "c::module::dict.c::dictAdd",
+        "c::module::dict.c::dictExpand",
+        "c::module::dict.c::dictAddRaw"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `geohash_helper.c`",
+    "query": {
+      "file_path": "geohash_helper.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::geohash_helper.c::geohashGetDistanceIfInRectangle",
+        "c::module::geohash_helper.c::geohashGetDistanceIfInRadiusWGS84",
+        "c::module::geohash_helper.c::geohashGetDistance",
+        "c::module::geohash_helper.c::geohashCalculateAreasByShapeWGS84",
+        "c::module::geohash_helper.c::geohashGetLatDistance"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `logreqres.c`",
+    "query": {
+      "file_path": "logreqres.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::logreqres.c::reqresReset",
+        "c::module::logreqres.c",
+        "c::module::logreqres.c::reqresAppendBuffer",
+        "c::module::logreqres.c::reqresAppendRequest",
+        "c::module::logreqres.c::reqresAppendResponse"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-006",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `sds.c`",
+    "query": {
+      "file_path": "sds.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::sds.c::sdscatlen",
+        "c::module::sds.c::sdsAllocPtr",
+        "c::module::sds.c::sdsclear",
+        "c::module::sds.c::sds_malloc",
+        "c::module::sds.c::sdsHdrSize::sdshdr32"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-007",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `crcspeed.c`",
+    "query": {
+      "file_path": "crcspeed.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::crcspeed.c::crcspeed64native",
+        "c::module::crcspeed.c::crcspeed16big",
+        "c::module::crcspeed.c::rev8",
+        "c::module::crcspeed.c::crcspeed64big_init",
+        "c::module::crcspeed.c::crcspeed16native_init"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `auhtRequired` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "auhtRequired",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `reidsObject` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "reidsObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `litsUnlinkNode` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "litsUnlinkNode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `kvtsoreDictRehashingCount` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "kvtsoreDictRehashingCount",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `ReidsModuleCommandKeySpec` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ReidsModuleCommandKeySpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `clsuterState` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "clsuterState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-006",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `craeteQuicklistObject` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "craeteQuicklistObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-007",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `reids-check-rdb` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "reids-check-rdb",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exception_raisers-000",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `moduleRDBLoadError` type",
+    "query": {
+      "bare_name": true,
+      "name": "moduleRDBLoadError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c::moduleRDBLoadError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-001",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `luaPushError` type",
+    "query": {
+      "bare_name": true,
+      "name": "luaPushError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::script_lua.c::luaPushError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-002",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `connSocketGetLastError` type",
+    "query": {
+      "bare_name": true,
+      "name": "connSocketGetLastError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::socket.c::connSocketGetLastError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-003",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `connTLSGetLastError` type",
+    "query": {
+      "bare_name": true,
+      "name": "connTLSGetLastError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c::connTLSGetLastError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-004",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `clusterManagerOnError` type",
+    "query": {
+      "bare_name": true,
+      "name": "clusterManagerOnError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redis-cli.c::clusterManagerOnError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-005",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `rioGetReadError` type",
+    "query": {
+      "bare_name": true,
+      "name": "rioGetReadError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::rio.h::rioGetReadError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-006",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `cliPrintContextError` type",
+    "query": {
+      "bare_name": true,
+      "name": "cliPrintContextError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::redis-cli.c::cliPrintContextError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-007",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `ACLSetUserStringError` type",
+    "query": {
+      "bare_name": true,
+      "name": "ACLSetUserStringError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::acl.c::ACLSetUserStringError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-008",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `updateTLSError` type",
+    "query": {
+      "bare_name": true,
+      "name": "updateTLSError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::tls.c::updateTLSError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-009",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `callReplyCreateError` type",
+    "query": {
+      "bare_name": true,
+      "name": "callReplyCreateError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::call_reply.c::callReplyCreateError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-010",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `redisError` type",
+    "query": {
+      "bare_name": true,
+      "name": "redisError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.h::redisError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-000",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `config.h`",
+    "query": {
+      "file_path": "config.h",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::config.h"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-001",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `config.c`",
+    "query": {
+      "file_path": "config.c",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::config.c::updateReplBacklogSize",
+        "c::module::config.c::updateJemallocBgThread",
+        "c::module::config.c::numericParseString",
+        "c::module::config.c::stringConfigData::stringConfigData",
+        "c::module::config.c::numericType"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-000",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `zrealloc_with_flags`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::zmalloc.c::zrealloc_with_flags"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::zmalloc.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-001",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `redisNodeFlags`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::cluster_legacy.c::representClusterNodeFlags::redisNodeFlags"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cluster_legacy.c::representClusterNodeFlags"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-002",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `representClusterNodeFlags`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::cluster_legacy.c::representClusterNodeFlags"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::cluster_legacy.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-003",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `moduleConvertKeySpecsFlags`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::moduleConvertKeySpecsFlags"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-004",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `replyFlagNames`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::server.c::replyFlagNames"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-005",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `maskModuleConfigFlags`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::maskModuleConfigFlags"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-006",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `zmalloc_with_flags`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::zmalloc.c::zmalloc_with_flags"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::zmalloc.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-007",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `categoryFlagsFromString`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::module.c::categoryFlagsFromString"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::module.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-008",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `addReplyFlagsForCommand`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "c::module::server.c::addReplyFlagsForCommand"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "c::module::server.c"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]
