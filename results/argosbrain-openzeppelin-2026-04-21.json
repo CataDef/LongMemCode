@@ -1,0 +1,106 @@
+{
+  "adapter": {
+    "name": "argosbrain",
+    "version": "0.1.0"
+  },
+  "corpus": {
+    "commit": "v5.1.0",
+    "name": "openzeppelin",
+    "scenarios_count": 396,
+    "scenarios_sha256": "fnv64:8d090620eef2ed65"
+  },
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "ram_gb": 48
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "ApiDiscovery": {
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_score": 1.0,
+      "n": 80,
+      "passed": 80
+    },
+    "BugFix": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 69,
+      "passed": 69
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 159,
+      "passed": 159
+    },
+    "Config": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 1,
+      "passed": 1
+    },
+    "ControlFlow": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 7,
+      "passed": 7
+    },
+    "FeatureAdd": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 34,
+      "passed": 34
+    },
+    "Refactor": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 31,
+      "passed": 31
+    },
+    "TestGen": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 15,
+      "passed": 15
+    }
+  },
+  "per_gold_source": {
+    "adversarial": {
+      "avg_score": 1.0,
+      "n": 32,
+      "passed": 32
+    },
+    "scip_roundtrip": {
+      "avg_score": 1.0,
+      "n": 364,
+      "passed": 364
+    }
+  },
+  "product": {
+    "commit": "ad65b9528da07b6e90f78211f4026d5e8da3f47b",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.006,
+    "p95_latency_ms": 0.01,
+    "p99_latency_ms": 0.015,
+    "raw_accuracy": 1.0,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 19063,
+    "weighted_accuracy": 1.0
+  }
+}
