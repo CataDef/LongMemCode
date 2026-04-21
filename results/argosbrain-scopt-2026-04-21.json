@@ -1,0 +1,92 @@
+{
+  "adapter": {
+    "name": "argosbrain",
+    "version": "0.1.0"
+  },
+  "corpus": {
+    "commit": "v4.1.0",
+    "name": "scopt",
+    "scenarios_count": 393,
+    "scenarios_sha256": "fnv64:a85f7a8191e6a313"
+  },
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "ram_gb": 48
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "ApiDiscovery": {
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_score": 1.0,
+      "n": 80,
+      "passed": 80
+    },
+    "BugFix": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 87,
+      "passed": 87
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.9782608695652174,
+      "n": 138,
+      "passed": 135
+    },
+    "ControlFlow": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 11,
+      "passed": 11
+    },
+    "FeatureAdd": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 33,
+      "passed": 33
+    },
+    "Refactor": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 44,
+      "passed": 44
+    }
+  },
+  "per_gold_source": {
+    "adversarial": {
+      "avg_score": 1.0,
+      "n": 32,
+      "passed": 32
+    },
+    "scip_roundtrip": {
+      "avg_score": 0.9916897506925207,
+      "n": 361,
+      "passed": 358
+    }
+  },
+  "product": {
+    "commit": "ca4652c3be26838d1121f0ab1f054878614f096d",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.008,
+    "p95_latency_ms": 0.032,
+    "p99_latency_ms": 0.146,
+    "raw_accuracy": 0.9923664122137404,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 75193,
+    "weighted_accuracy": 0.9922705314009663
+  }
+}
