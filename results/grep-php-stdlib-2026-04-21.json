@@ -1,0 +1,106 @@
+{
+  "adapter": {
+    "name": "grep-baseline",
+    "version": "0.1.0"
+  },
+  "corpus": {
+    "commit": "phpstorm-stubs-v2025.3",
+    "name": "php-stdlib",
+    "scenarios_count": 473,
+    "scenarios_sha256": "fnv64:2d7189c6bf8fb952"
+  },
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "ram_gb": 48
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "ApiDiscovery": {
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_score": 0.34408602150537637,
+      "n": 93,
+      "passed": 32
+    },
+    "BugFix": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.014285714285714285,
+      "n": 84,
+      "passed": 0
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 160,
+      "passed": 0
+    },
+    "Config": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 16,
+      "passed": 0
+    },
+    "ControlFlow": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 11,
+      "passed": 0
+    },
+    "FeatureAdd": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.11363636363636363,
+      "n": 44,
+      "passed": 5
+    },
+    "Refactor": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 41,
+      "passed": 0
+    },
+    "TestGen": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 24,
+      "passed": 0
+    }
+  },
+  "per_gold_source": {
+    "adversarial": {
+      "avg_score": 1.0,
+      "n": 32,
+      "passed": 32
+    },
+    "scip_roundtrip": {
+      "avg_score": 0.014058956916099773,
+      "n": 441,
+      "passed": 5
+    }
+  },
+  "product": {
+    "commit": "4444000783e2205a4c1c893d071b9ebbb1e8eb37",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.737,
+    "p95_latency_ms": 4.238,
+    "p99_latency_ms": 4.56,
+    "raw_accuracy": 0.08076109936575053,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 81316,
+    "weighted_accuracy": 0.06267853651724621
+  }
+}
