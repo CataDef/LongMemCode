@@ -1,6 +1,6 @@
 # LongMemCode Scoreboard
 
-Head-to-head benchmark of code-memory systems used by coding agents (Claude Code, Cursor, Aider, Copilot). Two adapters, **five real open-source codebases**, 35 scenario sub-types, full audit trail per scenario.
+Head-to-head benchmark of code-memory systems used by coding agents (Claude Code, Cursor, Aider, Copilot). Two adapters, **six real open-source codebases**, 35 scenario sub-types, full audit trail per scenario.
 
 **Submit your adapter** via PR — contract in [`results/README.md`](results/README.md). We publish **only scores we've actually run**; empty rows mean the system hasn't been benchmarked yet.
 
@@ -24,8 +24,10 @@ Head-to-head benchmark of code-memory systems used by coding agents (Claude Code
 |   |   |   | grep-baseline 0.1.0 | 50.9 % | 22.30 ms | 21.39 ms | $0.00 |
 | [fastify](https://github.com/fastify/fastify) v5.6.1 | JavaScript | ~5 k LoC | **ArgosBrain 0.1.0** | **100.0 %** | **0.11 ms** | 0.08 ms | $0.00 |
 |   |   |   | grep-baseline 0.1.0 | 52.8 % | 18.68 ms | 17.98 ms | $0.00 |
+| [commons-lang](https://github.com/apache/commons-lang) 3.14.0 | Java | ~60 k LoC | **ArgosBrain 0.1.0** | **99.2 %** | **0.09 ms** | 0.06 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 7.4 % | 2.05 ms | 1.74 ms | $0.00 |
 
-**Worst ArgosBrain P99 across all five corpora: 0.45 ms.** Still ~40 × faster than the **best** grep P95 (16.88 ms).
+**Worst ArgosBrain P99 across all six corpora: 0.45 ms.** Still ~40 × faster than the **best** grep P95 (1.74 ms on commons-lang, ~17 ms on the others).
 
 Why P99 over P95: P95 only tells you how 95 % of queries behave. P99 covers "1-in-100 worst case" — the latency a user feels during the worst moments of an inner-loop coding session. Both are reported so you can pick; we lead with P99 because that's the honest ceiling for interactive UX.
 
