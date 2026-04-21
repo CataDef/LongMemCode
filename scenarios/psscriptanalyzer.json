@@ -1,0 +1,2725 @@
+[
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Get-Foo2` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Verb-Noun` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `MyFunction4` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `MyFunction3` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `RunProjectBuild` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Get-TypeNameAstFromScript` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `MyFunction3` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction3",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction3"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Get-TargetResource` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1::Get-TargetResource",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1::Get-TargetResource"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Show-PSPesterError` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Show-PSPesterError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Show-PSPesterError"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Invoke-PSPackageProjectBuild` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Invoke-PSPackageProjectBuild",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Invoke-PSPackageProjectBuild"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Verb-Noun` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Publish-AzDevOpsTestResult` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Publish-AzDevOpsTestResult",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Publish-AzDevOpsTestResult"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Verb-Noun` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameter.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameter.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Add-RuleSource` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Utils/RuleMaker.psm1::Add-RuleSource",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Utils/RuleMaker.psm1::Add-RuleSource"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Get-RuleProjectRoot` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Utils/RuleMaker.psm1::Get-RuleProjectRoot",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Utils/RuleMaker.psm1::Get-RuleProjectRoot"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `GoodFuncCmdletBinding` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidNullOrEmptyHelpMessageAttributeNoViolations.ps1::GoodFuncCmdletBinding",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidNullOrEmptyHelpMessageAttributeNoViolations.ps1::GoodFuncCmdletBinding"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Stop-MyObject` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1::Stop-MyObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1::Stop-MyObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Get-AnalyzerVersion` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::build.psm1::Get-AnalyzerVersion",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::build.psm1::Get-AnalyzerVersion"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `TestFunction1` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::TestFunction1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::TestFunction1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Export-PSPackageProjectHelp` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Export-PSPackageProjectHelp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Export-PSPackageProjectHelp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `New-MyObject` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctionsNoViolations.ps1::New-MyObject",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctionsNoViolations.ps1::New-MyObject"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Initialize-CIYml` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Initialize-CIYml",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Initialize-CIYml"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Test-Throw` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidGlobalOrUnitializedVarsNoViolations.ps1::Test-Throw",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidGlobalOrUnitializedVarsNoViolations.ps1::Test-Throw"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Get-Foo2` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Verb-Noun` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ExplicitSettings` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `MyFunction4` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `AvoidInvokingEmptyMembersNonViolations` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidInvokingEmptyMembersNonViolations.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidInvokingEmptyMembersNonViolations.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `UseShouldProcessForStateChangingFunctions` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `AvoidDefaultTrueValueSwitchParameter` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameter.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameter.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `MyFunction3` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RunProjectBuild` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `IncompatibleScript` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/CompatibilityRuleAssets/IncompatibleScript.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/CompatibilityRuleAssets/IncompatibleScript.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Get-TypeNameAstFromScript` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `MyFunction3` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction3",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction3"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Get-TargetResource` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1::Get-TargetResource",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1::Get-TargetResource"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Show-PSPesterError` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Show-PSPesterError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Show-PSPesterError"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `tests` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/TextEdit.tests.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/TextEdit.tests.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `tests` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidTrailingWhitespace.tests.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidTrailingWhitespace.tests.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Tests` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/UseSingleValueFromPipelineParameter.Tests.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/UseSingleValueFromPipelineParameter.Tests.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `AvoidGlobalFunctionsNoViolations` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidGlobalFunctionsNoViolations.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidGlobalFunctionsNoViolations.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Invoke-PSPackageProjectBuild` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Invoke-PSPackageProjectBuild",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Invoke-PSPackageProjectBuild"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `tests` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidShouldContinueWithoutForce.tests.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidShouldContinueWithoutForce.tests.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Verb-Noun` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ManifestBadAll` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/TestManifest/ManifestBadAll.psd1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadAll.psd1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Publish-AzDevOpsTestResult` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Publish-AzDevOpsTestResult",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Publish-AzDevOpsTestResult"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tools/updateVersion.ps1`",
+    "query": {
+      "file_path": "tools/updateVersion.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::tools/updateVersion.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tools/installPSResources.ps1`",
+    "query": {
+      "file_path": "tools/installPSResources.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::tools/installPSResources.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `New-StronglyTypedCsFileForResx.ps1`",
+    "query": {
+      "file_path": "New-StronglyTypedCsFileForResx.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::New-StronglyTypedCsFileForResx.ps1",
+        "powershell::module::New-StronglyTypedCsFileForResx.ps1::Get-StronglyTypeCsFileForResx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Documentation/RuleDocumentation.tests.ps1`",
+    "query": {
+      "file_path": "Tests/Documentation/RuleDocumentation.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Documentation/RuleDocumentation.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/PSScriptAnalyzerTestHelper.psm1`",
+    "query": {
+      "file_path": "Tests/PSScriptAnalyzerTestHelper.psm1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Test-CorrectionExtentFromContent",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Get-Count",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Get-ExtentTextFromContent",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Test-CorrectionExtent"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingUninitializedVariable.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingUninitializedVariable.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingUninitializedVariable.ps1",
+        "powershell::module::Tests/DisabledRules/AvoidUsingUninitializedVariable.ps1::Test-MyPreference"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingFilePath.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingFilePath.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingFilePath.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingClearHost.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingClearHost.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingClearHost.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/UseTypeAtVariableAssignment.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/UseTypeAtVariableAssignment.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/UseTypeAtVariableAssignment.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingClearHost.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingClearHost.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingClearHost.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidOneChar.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidOneChar.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidOneChar.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/TypeNotFound.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/TypeNotFound.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/TypeNotFound.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/TypeNotFound.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/TypeNotFound.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/TypeNotFound.ps1::Get-File",
+        "powershell::module::Tests/DisabledRules/TypeNotFound.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingInternalURLs.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingInternalURLs.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingInternalURLs.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/UseTypeAtVariableAssignment.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/UseTypeAtVariableAssignment.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/UseTypeAtVariableAssignment.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingInternalURLs.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingInternalURLs.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingInternalURLs.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingFilePathNoViolations.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingFilePathNoViolations.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingFilePathNoViolations.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidTrapStatements.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidTrapStatements.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidTrapStatements.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingClearHostNoViolations.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingClearHostNoViolations.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingClearHostNoViolations.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUnloadableModule.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUnloadableModule.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUnloadableModule.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidTrapStatements.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidTrapStatements.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidTrapStatements.ps1::TrapTest",
+        "powershell::module::Tests/DisabledRules/AvoidTrapStatements.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/DisabledRules/AvoidUsingFilePath.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingFilePath.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingFilePath.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Get-Foo2` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Verb-Noun` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `MyFunction4` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `MyFunction3` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `RunProjectBuild` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Get-TypeNameAstFromScript` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `MyFunction3` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction3"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Get-TargetResource` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1::Get-TargetResource"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Show-PSPesterError` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Show-PSPesterError"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Invoke-PSPackageProjectBuild` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Invoke-PSPackageProjectBuild"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Verb-Noun` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::Verb-Noun"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Publish-AzDevOpsTestResult` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Publish-AzDevOpsTestResult"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-000",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `Show-PSPesterError` type",
+    "query": {
+      "bare_name": true,
+      "name": "Show-PSPesterError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Show-PSPesterError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Get-Foo2` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Verb-Noun` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `MyFunction4` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `MyFunction3` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `RunProjectBuild` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Get-TypeNameAstFromScript` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `MyFunction3` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction3"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Get-TargetResource` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1::Get-TargetResource"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Documentation/RuleDocumentation.tests.ps1`",
+    "query": {
+      "file_path": "Tests/Documentation/RuleDocumentation.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Documentation/RuleDocumentation.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/PSScriptAnalyzerTestHelper.psm1`",
+    "query": {
+      "file_path": "Tests/PSScriptAnalyzerTestHelper.psm1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Test-CorrectionExtentFromContent",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Get-Count",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Get-ExtentTextFromContent",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Test-CorrectionExtent"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-002",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/DisabledRules/AvoidUsingUninitializedVariable.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingUninitializedVariable.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingUninitializedVariable.ps1",
+        "powershell::module::Tests/DisabledRules/AvoidUsingUninitializedVariable.ps1::Test-MyPreference"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-003",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/DisabledRules/AvoidUsingFilePath.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingFilePath.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingFilePath.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-004",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/DisabledRules/AvoidUsingClearHost.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingClearHost.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingClearHost.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-005",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/DisabledRules/UseTypeAtVariableAssignment.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/UseTypeAtVariableAssignment.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/UseTypeAtVariableAssignment.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-006",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/DisabledRules/AvoidUsingClearHost.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidUsingClearHost.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidUsingClearHost.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-007",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/DisabledRules/AvoidOneChar.tests.ps1`",
+    "query": {
+      "file_path": "Tests/DisabledRules/AvoidOneChar.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/DisabledRules/AvoidOneChar.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Get-Foo2`",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Verb-Noun`",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `MyFunction4`",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `MyFunction3`",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `RunProjectBuild`",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Get-TypeNameAstFromScript`",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `MyFunction3`",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction3",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction3"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Get-TargetResource`",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1::Get-TargetResource",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/DSCResourceModule/DSCResources/MSFT_WaitForAnyNoIdenticalMandatoryParameter/MSFT_WaitForAnyNoIdenticalMandatoryParameter.psm1::Get-TargetResource"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidInvokingEmptyMembersNonViolations.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidInvokingEmptyMembersNonViolations.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `Ge-tFoo2` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Ge-tFoo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `Vebr-Noun` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Vebr-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `ExlpicitSettings` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ExlpicitSettings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `MyuFnction4` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "MyuFnction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `AviodInvokingEmptyMembersNonViolations` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "AviodInvokingEmptyMembersNonViolations",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `UsSehouldProcessForStateChangingFunctions` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "UsSehouldProcessForStateChangingFunctions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `Get-Foo2` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `Verb-Noun` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `MyFunction4` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `MyFunction3` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParams.ps1::MyFunction3"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `RunProjectBuild` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::RunProjectBuild"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `Get-TypeNameAstFromScript` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::PSCompatibilityCollector/Tests/UtilityApi.Tests.ps1::Get-TypeNameAstFromScript"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidInvokingEmptyMembersNonViolations.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidInvokingEmptyMembersNonViolations.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/TestManifest/ManifestBadFunctionsNull.psm1::Get-Foo2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidDefaultTrueValueSwitchParameterNoViolations.ps1::Verb-Noun"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidUserNameAndPasswordParamsNoViolations.ps1::MyFunction4"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/AvoidInvokingEmptyMembersNonViolations.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/AvoidInvokingEmptyMembersNonViolations.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "powershell::module::Tests/Rules/UseShouldProcessForStateChangingFunctions.ps1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `tools/updateVersion.ps1`",
+    "query": {
+      "file_path": "tools/updateVersion.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::tools/updateVersion.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `tools/installPSResources.ps1`",
+    "query": {
+      "file_path": "tools/installPSResources.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::tools/installPSResources.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `New-StronglyTypedCsFileForResx.ps1`",
+    "query": {
+      "file_path": "New-StronglyTypedCsFileForResx.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::New-StronglyTypedCsFileForResx.ps1",
+        "powershell::module::New-StronglyTypedCsFileForResx.ps1::Get-StronglyTypeCsFileForResx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `Tests/Documentation/RuleDocumentation.tests.ps1`",
+    "query": {
+      "file_path": "Tests/Documentation/RuleDocumentation.tests.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Documentation/RuleDocumentation.tests.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `Tests/PSScriptAnalyzerTestHelper.psm1`",
+    "query": {
+      "file_path": "Tests/PSScriptAnalyzerTestHelper.psm1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Test-CorrectionExtentFromContent",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Get-Count",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Get-ExtentTextFromContent",
+        "powershell::module::Tests/PSScriptAnalyzerTestHelper.psm1::Test-CorrectionExtent"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `Ge-tFoo2` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Ge-tFoo2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `Vebr-Noun` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Vebr-Noun",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `ExlpicitSettings` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ExlpicitSettings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `MyuFnction4` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "MyuFnction4",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `AviodInvokingEmptyMembersNonViolations` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "AviodInvokingEmptyMembersNonViolations",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `UsSehouldProcessForStateChangingFunctions` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "UsSehouldProcessForStateChangingFunctions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exception_raisers-000",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `Show-PSPesterError` type",
+    "query": {
+      "bare_name": true,
+      "name": "Show-PSPesterError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/DeadlockTestAssets/complex.psm1::Show-PSPesterError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-000",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `Tests/Rules/serviceconfigdisabled.ps1`",
+    "query": {
+      "file_path": "Tests/Rules/serviceconfigdisabled.ps1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/serviceconfigdisabled.ps1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-001",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `Tests/Rules/UseCompatibleCmdlets/PSScriptAnalyzerSettings.psd1`",
+    "query": {
+      "file_path": "Tests/Rules/UseCompatibleCmdlets/PSScriptAnalyzerSettings.psd1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/UseCompatibleCmdlets/PSScriptAnalyzerSettings.psd1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-002",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `Tests/Rules/TestSettings/AvoidAliasSettings.psd1`",
+    "query": {
+      "file_path": "Tests/Rules/TestSettings/AvoidAliasSettings.psd1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Rules/TestSettings/AvoidAliasSettings.psd1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-003",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `Tests/Engine/SettingsTest/Project1/CustomRulePathSettings.psd1`",
+    "query": {
+      "file_path": "Tests/Engine/SettingsTest/Project1/CustomRulePathSettings.psd1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/SettingsTest/Project1/CustomRulePathSettings.psd1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-004",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `Tests/Engine/SettingsTest/Project1/PSScriptAnalyzerSettings.psd1`",
+    "query": {
+      "file_path": "Tests/Engine/SettingsTest/Project1/PSScriptAnalyzerSettings.psd1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/SettingsTest/Project1/PSScriptAnalyzerSettings.psd1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-005",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1`",
+    "query": {
+      "file_path": "Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "powershell::module::Tests/Engine/SettingsTest/Project1/ExplicitSettings.psd1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "adapter": {
+    "name": "grep",
+    "version": "0.0.0"
+  },
+  "corpus": {
+    "commit": "main",
+    "name": "pagila",
+    "scenarios_count": 145,
+    "scenarios_sha256": "fnv64:dee1c3fdcf64c502"
+  },
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "ram_gb": 48
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "ApiDiscovery": {
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_score": 0.48,
+      "n": 50,
+      "passed": 24
+    },
+    "BugFix": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 12,
+      "passed": 0
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 57,
+      "passed": 0
+    },
+    "FeatureAdd": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 18,
+      "passed": 0
+    },
+    "Refactor": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 8,
+      "passed": 0
+    }
+  },
+  "per_gold_source": {
+    "adversarial": {
+      "avg_score": 1.0,
+      "n": 24,
+      "passed": 24
+    },
+    "scip_roundtrip": {
+      "avg_score": 0.0,
+      "n": 121,
+      "passed": 0
+    }
+  },
+  "product": {
+    "commit": "unknown",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.741,
+    "p95_latency_ms": 1.159,
+    "p99_latency_ms": 1.613,
+    "raw_accuracy": 0.16551724137931034,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 17680,
+    "weighted_accuracy": 0.07466666666666669
+  }
+}

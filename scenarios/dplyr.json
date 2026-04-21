@@ -1,0 +1,2646 @@
+[
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `binding_join_by_greater_than_or_equal` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `check_bounds` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::check_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `from_testthat` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::from_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `last_dplyr_warnings` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::last_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `reframe` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/reframe.R::reframe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `ungroup` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/group-by.R::ungroup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `f` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/import-standalone-purrr.R::reduce::f",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/import-standalone-purrr.R::reduce::f"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `binding_join_by_equality` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_equality",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_equality"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `map2` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/import-standalone-purrr.R::map2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/import-standalone-purrr.R::map2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `check_compatible` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/sets.R::check_compatible",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/sets.R::check_compatible"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `rows_append` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/rows.R::rows_append",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/rows.R::rows_append"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `src_tbls` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/src.R::src_tbls",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/src.R::src_tbls"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `expand_pick_quo` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/pick.R::expand_pick_quo",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/pick.R::expand_pick_quo"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `expect_no_error` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::tests/testthat/helper-dplyr.R::expect_no_error",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::tests/testthat/helper-dplyr.R::expect_no_error"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `rule` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/utils-format.R::rule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/utils-format.R::rule"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `character` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/recode.R::recode.character",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/recode.R::recode.character"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `apply_unpack_spec` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/across.R::apply_unpack_spec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/across.R::apply_unpack_spec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `replace_with` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/recode.R::replace_with",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/recode.R::replace_with"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `standardise_join_incomplete` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::standardise_join_incomplete",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::standardise_join_incomplete"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `default` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::as_join_by.default",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::as_join_by.default"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `poke_error_context` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::poke_error_context",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::poke_error_context"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `add_tally` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/count-tally.R::add_tally",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/count-tally.R::add_tally"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `coalesce` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/coalesce.R::coalesce",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/coalesce.R::coalesce"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `binding_join_by_greater_than_or_equal` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `check_bounds` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::check_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `from_testthat` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::from_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `last_dplyr_warnings` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::last_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `reframe` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/reframe.R::reframe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ungroup` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/group-by.R::ungroup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `f` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/import-standalone-purrr.R::reduce::f",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/import-standalone-purrr.R::reduce::f"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `binding_join_by_equality` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_equality",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_equality"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `map2` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/import-standalone-purrr.R::map2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/import-standalone-purrr.R::map2"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `recode` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/recode.R",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/recode.R"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `check_compatible` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/sets.R::check_compatible",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/sets.R::check_compatible"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `rows_append` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/rows.R::rows_append",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/rows.R::rows_append"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `src_tbls` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/src.R::src_tbls",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/src.R::src_tbls"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `expand_pick_quo` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/pick.R::expand_pick_quo",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/pick.R::expand_pick_quo"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `expect_no_error` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::tests/testthat/helper-dplyr.R::expect_no_error",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::tests/testthat/helper-dplyr.R::expect_no_error"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `rule` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/utils-format.R::rule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/utils-format.R::rule"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `character` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/recode.R::recode.character",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/recode.R::recode.character"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `apply_unpack_spec` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/across.R::apply_unpack_spec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/across.R::apply_unpack_spec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `replace_with` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/recode.R::replace_with",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/recode.R::replace_with"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `standardise_join_incomplete` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::standardise_join_incomplete",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::standardise_join_incomplete"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `default` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::as_join_by.default",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::as_join_by.default"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `poke_error_context` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::poke_error_context",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::poke_error_context"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `add_tally` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/count-tally.R::add_tally",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/count-tally.R::add_tally"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-reframe.R`",
+    "query": {
+      "file_path": "tests/testthat/test-reframe.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-reframe.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-defunct-each.R`",
+    "query": {
+      "file_path": "tests/testthat/test-defunct-each.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-defunct-each.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-deprec-do.R`",
+    "query": {
+      "file_path": "tests/testthat/test-deprec-do.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-deprec-do.R::f",
+        "r::module::tests/testthat/test-deprec-do.R",
+        "r::module::tests/testthat/test-deprec-do.R::blankdf"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-join-cols.R`",
+    "query": {
+      "file_path": "tests/testthat/test-join-cols.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-join-cols.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-lead-lag.R`",
+    "query": {
+      "file_path": "tests/testthat/test-lead-lag.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-lead-lag.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-nest-by.R`",
+    "query": {
+      "file_path": "tests/testthat/test-nest-by.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-nest-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-count-tally.R`",
+    "query": {
+      "file_path": "tests/testthat/test-count-tally.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-count-tally.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-slice.R`",
+    "query": {
+      "file_path": "tests/testthat/test-slice.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-slice.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-by.R`",
+    "query": {
+      "file_path": "tests/testthat/test-by.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-select-helpers.R`",
+    "query": {
+      "file_path": "tests/testthat/test-select-helpers.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-select-helpers.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/helper-dplyr.R`",
+    "query": {
+      "file_path": "tests/testthat/helper-dplyr.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/helper-dplyr.R::expect_no_error",
+        "r::module::tests/testthat/helper-dplyr.R",
+        "r::module::tests/testthat/helper-dplyr.R::expect_no_warning"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-join-by.R`",
+    "query": {
+      "file_path": "tests/testthat/test-join-by.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-join-by.R::fn2",
+        "r::module::tests/testthat/test-join-by.R::fn",
+        "r::module::tests/testthat/test-join-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-rowwise.R`",
+    "query": {
+      "file_path": "tests/testthat/test-rowwise.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-rowwise.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-colwise-filter.R`",
+    "query": {
+      "file_path": "tests/testthat/test-colwise-filter.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-colwise-filter.R",
+        "r::module::tests/testthat/test-colwise-filter.R::out",
+        "r::module::tests/testthat/test-colwise-filter.R::out::mtcars"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-bind-rows.R`",
+    "query": {
+      "file_path": "tests/testthat/test-bind-rows.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-bind-rows.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-na-if.R`",
+    "query": {
+      "file_path": "tests/testthat/test-na-if.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-na-if.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-generics.R`",
+    "query": {
+      "file_path": "tests/testthat/test-generics.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-generics.R",
+        "r::module::tests/testthat/test-generics.R::dplyr_attributes",
+        "r::module::tests/testthat/test-generics.R::dplyr_set_attributes",
+        "r::module::tests/testthat/test-generics.R::attributes"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-deprec-funs.R`",
+    "query": {
+      "file_path": "tests/testthat/test-deprec-funs.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-deprec-funs.R",
+        "r::module::tests/testthat/test-deprec-funs.R::f",
+        "r::module::tests/testthat/test-deprec-funs.R::enfun"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-defunct-lazyeval.R`",
+    "query": {
+      "file_path": "tests/testthat/test-defunct-lazyeval.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-defunct-lazyeval.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-colwise-group-by.R`",
+    "query": {
+      "file_path": "tests/testthat/test-colwise-group-by.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-colwise-group-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-join-cross.R`",
+    "query": {
+      "file_path": "tests/testthat/test-join-cross.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-join-cross.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `tests/testthat/test-mutate.R`",
+    "query": {
+      "file_path": "tests/testthat/test-mutate.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-mutate.R::foobar",
+        "r::module::tests/testthat/test-mutate.R",
+        "r::module::tests/testthat/test-mutate.R::make_call",
+        "r::module::tests/testthat/test-mutate.R::lazy",
+        "r::module::tests/testthat/test-mutate.R::fn"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `binding_join_by_greater_than_or_equal` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `check_bounds` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `from_testthat` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-rows.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `last_dplyr_warnings` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/conditions.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `reframe` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/reframe.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `ungroup` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/group-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `f` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/import-standalone-purrr.R::reduce::f"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/import-standalone-purrr.R::reduce"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `binding_join_by_equality` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/join-by.R::binding_join_by_equality"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `map2` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/import-standalone-purrr.R::map2"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/import-standalone-purrr.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `check_compatible` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/sets.R::check_compatible"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/sets.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `rows_append` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/rows.R::rows_append"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/rows.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `src_tbls` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/src.R::src_tbls"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/src.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `binding_join_by_greater_than_or_equal` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `check_bounds` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `from_testthat` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-rows.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `last_dplyr_warnings` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/conditions.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `reframe` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/reframe.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `ungroup` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/group-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `f` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/import-standalone-purrr.R::reduce::f"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/import-standalone-purrr.R::reduce"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `binding_join_by_equality` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "r::module::R/join-by.R::binding_join_by_equality"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `tests/testthat/test-reframe.R`",
+    "query": {
+      "file_path": "tests/testthat/test-reframe.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-reframe.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `tests/testthat/test-defunct-each.R`",
+    "query": {
+      "file_path": "tests/testthat/test-defunct-each.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-defunct-each.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-002",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `tests/testthat/test-deprec-do.R`",
+    "query": {
+      "file_path": "tests/testthat/test-deprec-do.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-deprec-do.R::f",
+        "r::module::tests/testthat/test-deprec-do.R",
+        "r::module::tests/testthat/test-deprec-do.R::blankdf"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-003",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `tests/testthat/test-join-cols.R`",
+    "query": {
+      "file_path": "tests/testthat/test-join-cols.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-join-cols.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-004",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `tests/testthat/test-lead-lag.R`",
+    "query": {
+      "file_path": "tests/testthat/test-lead-lag.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-lead-lag.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-005",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `tests/testthat/test-nest-by.R`",
+    "query": {
+      "file_path": "tests/testthat/test-nest-by.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-nest-by.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-006",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `tests/testthat/test-count-tally.R`",
+    "query": {
+      "file_path": "tests/testthat/test-count-tally.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-count-tally.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-007",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `tests/testthat/test-slice.R`",
+    "query": {
+      "file_path": "tests/testthat/test-slice.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-slice.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `binding_join_by_greater_than_or_equal`",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `check_bounds`",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::check_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `from_testthat`",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::from_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `last_dplyr_warnings`",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::last_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `reframe`",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/reframe.R::reframe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `ungroup`",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/group-by.R::ungroup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `f`",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/import-standalone-purrr.R::reduce::f",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/import-standalone-purrr.R::reduce::f"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `binding_join_by_equality`",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_equality",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_equality"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::check_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::from_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::last_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/reframe.R::reframe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/group-by.R::ungroup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `bidning_join_by_greater_than_or_equal` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "bidning_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `chcek_bounds` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "chcek_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `frmo_testthat` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "frmo_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `lats_dplyr_warnings` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "lats_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `rerfame` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "rerfame",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `unrgoup` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "unrgoup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `binding_join_by_greater_than_or_equal` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `check_bounds` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::check_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `from_testthat` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::from_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `last_dplyr_warnings` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::last_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `reframe` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/reframe.R::reframe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `ungroup` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/group-by.R::ungroup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::check_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::from_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::last_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/reframe.R::reframe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/group-by.R::ungroup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_kind-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_kind",
+    "intent": "`default` filtered to function kind",
+    "query": {
+      "bare_name": true,
+      "kind": "function",
+      "name": "default",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-by.R::as_join_by.default",
+        "r::module::R/sets.R::union_all.default",
+        "r::module::R/group-by.R::group_by_drop_default.default",
+        "r::module::R/sets.R::symdiff.default",
+        "r::module::R/recode.R::recode_default.default",
+        "r::module::R/count-tally.R::add_count.default",
+        "r::module::R/sample.R::sample_frac.default",
+        "r::module::R/colwise.R::tbl_ptype.default",
+        "r::module::R/join-common-by.R::common_by.default",
+        "r::module::R/sample.R::sample_n.default"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_kind-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_kind",
+    "intent": "`default` filtered to function kind",
+    "query": {
+      "bare_name": true,
+      "kind": "function",
+      "name": "default",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::R/join-by.R::as_join_by.default",
+        "r::module::R/sets.R::union_all.default",
+        "r::module::R/group-by.R::group_by_drop_default.default",
+        "r::module::R/sets.R::symdiff.default",
+        "r::module::R/recode.R::recode_default.default",
+        "r::module::R/count-tally.R::add_count.default",
+        "r::module::R/sample.R::sample_frac.default",
+        "r::module::R/colwise.R::tbl_ptype.default",
+        "r::module::R/join-common-by.R::common_by.default",
+        "r::module::R/sample.R::sample_n.default"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::binding_join_by_greater_than_or_equal"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-by.R::check_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-by.R::check_bounds"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/join-rows.R::from_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/join-rows.R::from_testthat"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/conditions.R::last_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/conditions.R::last_dplyr_warnings"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/reframe.R::reframe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/reframe.R::reframe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "r::module::R/group-by.R::ungroup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "r::module::R/group-by.R::ungroup"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `tests/testthat/test-reframe.R`",
+    "query": {
+      "file_path": "tests/testthat/test-reframe.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-reframe.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `tests/testthat/test-defunct-each.R`",
+    "query": {
+      "file_path": "tests/testthat/test-defunct-each.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-defunct-each.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `tests/testthat/test-deprec-do.R`",
+    "query": {
+      "file_path": "tests/testthat/test-deprec-do.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-deprec-do.R::f",
+        "r::module::tests/testthat/test-deprec-do.R",
+        "r::module::tests/testthat/test-deprec-do.R::blankdf"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `tests/testthat/test-join-cols.R`",
+    "query": {
+      "file_path": "tests/testthat/test-join-cols.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-join-cols.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `tests/testthat/test-lead-lag.R`",
+    "query": {
+      "file_path": "tests/testthat/test-lead-lag.R",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "r::module::tests/testthat/test-lead-lag.R"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `bidning_join_by_greater_than_or_equal` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "bidning_join_by_greater_than_or_equal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `chcek_bounds` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "chcek_bounds",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `frmo_testthat` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "frmo_testthat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `lats_dplyr_warnings` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "lats_dplyr_warnings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `rerfame` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "rerfame",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `unrgoup` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "unrgoup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  }
+]

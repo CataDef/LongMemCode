@@ -1,0 +1,92 @@
+{
+  "adapter": {
+    "name": "grep",
+    "version": "0.0.0"
+  },
+  "corpus": {
+    "commit": "main",
+    "name": "bats-core",
+    "scenarios_count": 172,
+    "scenarios_sha256": "fnv64:150291da217ecdb0"
+  },
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "ram_gb": 48
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "ApiDiscovery": {
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_score": 0.4528301886792453,
+      "n": 53,
+      "passed": 24
+    },
+    "BugFix": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.16666666666666666,
+      "n": 12,
+      "passed": 2
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 68,
+      "passed": 0
+    },
+    "FeatureAdd": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 8,
+      "passed": 0
+    },
+    "Refactor": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.25,
+      "n": 8,
+      "passed": 2
+    },
+    "TestGen": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.0,
+      "n": 23,
+      "passed": 0
+    }
+  },
+  "per_gold_source": {
+    "adversarial": {
+      "avg_score": 1.0,
+      "n": 24,
+      "passed": 24
+    },
+    "scip_roundtrip": {
+      "avg_score": 0.02702702702702703,
+      "n": 148,
+      "passed": 4
+    }
+  },
+  "product": {
+    "commit": "unknown",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.665,
+    "p95_latency_ms": 0.788,
+    "p99_latency_ms": 0.963,
+    "raw_accuracy": 0.16279069767441862,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 15940,
+    "weighted_accuracy": 0.13006289308176103
+  }
+}
