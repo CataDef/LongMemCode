@@ -1,0 +1,4388 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFMultipartBodyStream` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFMultipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-001",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFMultipartFormDataTest` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFMultipartFormDataTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-002",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFUIRefreshControlTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFUIRefreshControlTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-003",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `WKWebView` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "WKWebView",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-004",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFPropertyListRequestSerializer` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFPropertyListRequestSerializer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-005",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFNetworkReachabilityManagerTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFNetworkReachabilityManagerTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-006",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFHTTPResponseSerializer` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFHTTPResponseSerializer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-007",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `InterfaceController` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "InterfaceController",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-008",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFHTTPResponseSerializationTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFHTTPResponseSerializationTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-009",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFCompoundResponseSerializerTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFCompoundResponseSerializerTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFCompoundResponseSerializerTests.m::AFCompoundResponseSerializerTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-010",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFHTTPBodyPart` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFHTTPBodyPart",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-011",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFXMLDocumentResponseSerializer` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFXMLDocumentResponseSerializer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFXMLDocumentResponseSerializer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-012",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFHTTPBodyPart` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFHTTPBodyPart",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPBodyPart"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-013",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AppDelegate` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AppDelegate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/iOS Example/AppDelegate.m::AppDelegate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-014",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFUIImageViewTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFUIImageViewTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIImageViewTests.m::AFUIImageViewTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-015",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFHTTPSessionManagerTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFHTTPSessionManagerTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-016",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFHTTPSessionManager` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFHTTPSessionManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-017",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFWKWebViewTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFWKWebViewTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-018",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFNetworkReachabilityManager` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFNetworkReachabilityManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFNetworkReachabilityManager.m::AFNetworkReachabilityManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-019",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `sockaddr` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "sockaddr",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFNetworkReachabilityManager.m::AFNetworkReachabilityManager::instancetype::sockaddr"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-020",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `sockaddr_in` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "sockaddr_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFNetworkReachabilityManager.m::AFNetworkReachabilityManager::instancetype::sockaddr_in"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-021",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFStreamingMultipartFormData` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFStreamingMultipartFormData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-022",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AFURLSessionManager` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AFURLSessionManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFURLSessionManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-000",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `instancetype` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "instancetype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-001",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `testTaskDidSuspendNotificationDoesNotCauseCrashForUIRCWithTask` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "testTaskDidSuspendNotificationDoesNotCauseCrashForUIRCWithTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidSuspendNotificationDoesNotCauseCrashForUIRCWithTask"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-002",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `testTaskDidCompleteNotificationDoesNotCauseCrashForUIRCWithTask` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "testTaskDidCompleteNotificationDoesNotCauseCrashForUIRCWithTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidCompleteNotificationDoesNotCauseCrashForUIRCWithTask"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-003",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `testTaskDidResumeNotificationDoesNotCauseCrashForUIRCWithTask` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "testTaskDidResumeNotificationDoesNotCauseCrashForUIRCWithTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidResumeNotificationDoesNotCauseCrashForUIRCWithTask"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-004",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `setUp` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "setUp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::setUp"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-005",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `tearDown` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "tearDown",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::tearDown"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-006",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `setSessionManager` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "setSessionManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::setSessionManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-007",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `NSURLSessionDataTask` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "NSURLSessionDataTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::NSURLSessionDataTask"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-008",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `AFHTTPSessionManager` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "AFHTTPSessionManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::AFHTTPSessionManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-009",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `loadRequest` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "loadRequest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::loadRequest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-010",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `AFHTTPResponseSerializer` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "AFHTTPResponseSerializer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::AFHTTPResponseSerializer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-011",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `af_setURLSessionTask` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "af_setURLSessionTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::af_setURLSessionTask"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-012",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `setResponseSerializer` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "setResponseSerializer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::setResponseSerializer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-013",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `NSURLRequest` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "NSURLRequest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::NSURLRequest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-014",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `instancetype` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "instancetype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::instancetype"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-015",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `encodeWithCoder` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "encodeWithCoder",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::encodeWithCoder"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-016",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `testObjectPostingReachabilityManagerNotification` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "testObjectPostingReachabilityManagerNotification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-017",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `tearDown` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "tearDown",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::tearDown"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-018",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `testInitializerThrowsExceptionWhenCalled` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "testInitializerThrowsExceptionWhenCalled",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testInitializerThrowsExceptionWhenCalled"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-019",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `testAddressReachabilityBlock` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "testAddressReachabilityBlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testAddressReachabilityBlock"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-020",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `setUp` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "setUp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::setUp"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-021",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `testAddressReachabilityStartsInUnknownState` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "testAddressReachabilityStartsInUnknownState",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testAddressReachabilityStartsInUnknownState"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-022",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `verifyReachabilityNotificationGetsPostedWithManager` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "verifyReachabilityNotificationGetsPostedWithManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::verifyReachabilityNotificationGetsPostedWithManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `NSString` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `testThatForegroundImageCanBeCancelledAndDownloadedImmediately` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `NSInputStream` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `af_suspend` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `NSStringFromSelector` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `NSMutableURLRequest` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData::NSMutableURLRequest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData::NSMutableURLRequest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `testInvalidPublicKeyPinningSecurityPolicy` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testInvalidPublicKeyPinningSecurityPolicy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testInvalidPublicKeyPinningSecurityPolicy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `testObjectPostingReachabilityManagerNotification` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `uploadTask` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::uploadTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::uploadTask"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `testValidInsecureNoPinningSecurityPolicy` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidInsecureNoPinningSecurityPolicy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidInsecureNoPinningSecurityPolicy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `_testSwizzlingForTaskClass` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFURLSessionManagerTests.m::AFURLSessionManagerTests::_testSwizzlingForTaskClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFURLSessionManagerTests.m::AFURLSessionManagerTests::_testSwizzlingForTaskClass"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `addDelegateForDownloadTask` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::addDelegateForDownloadTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::addDelegateForDownloadTask"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `tearDown` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::tearDown",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::tearDown"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `setDataTaskDidBecomeDownloadTaskBlock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::setDataTaskDidBecomeDownloadTaskBlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::setDataTaskDidBecomeDownloadTaskBlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `testValidCertificatePinningSecurityPolicy` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidCertificatePinningSecurityPolicy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidCertificatePinningSecurityPolicy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `testRequestWithCustomHeaders` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests::testRequestWithCustomHeaders",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests::testRequestWithCustomHeaders"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `responseObjectForResponse` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFImageResponseSerializer::responseObjectForResponse",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFImageResponseSerializer::responseObjectForResponse"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `instancetype` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `delegate` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::delegate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::delegate"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `testPolicyWithCertificatePinningAllowsHTTPBinOrgServerTrustWithHTTPBinOrgIntermediateCertificatePinned` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFSecurityPolicyTests.m::AFSecurityPolicyTests::testPolicyWithCertificatePinningAllowsHTTPBinOrgServerTrustWithHTTPBinOrgIntermediateCertificatePinned",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFSecurityPolicyTests.m::AFSecurityPolicyTests::testPolicyWithCertificatePinningAllowsHTTPBinOrgServerTrustWithHTTPBinOrgIntermediateCertificatePinned"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `NSString` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFQueryStringPair::NSString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFQueryStringPair::NSString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `AFQueryStringFromParameters` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFQueryStringFromParameters",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFQueryStringFromParameters"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `NSString` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `testThatForegroundImageCanBeCancelledAndDownloadedImmediately` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `AFMultipartBodyStream` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `NSInputStream` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `af_suspend` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `NSStringFromSelector` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `AppDelegate` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Example/macOS Example/AppDelegate.m",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Example/macOS Example/AppDelegate.m"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `NSMutableURLRequest` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData::NSMutableURLRequest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData::NSMutableURLRequest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `AppDelegate` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Example/iOS Example/AppDelegate.m",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Example/iOS Example/AppDelegate.m"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `testInvalidPublicKeyPinningSecurityPolicy` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testInvalidPublicKeyPinningSecurityPolicy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testInvalidPublicKeyPinningSecurityPolicy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `testObjectPostingReachabilityManagerNotification` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `uploadTask` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::uploadTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::uploadTask"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `testValidInsecureNoPinningSecurityPolicy` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidInsecureNoPinningSecurityPolicy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidInsecureNoPinningSecurityPolicy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_testSwizzlingForTaskClass` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFURLSessionManagerTests.m::AFURLSessionManagerTests::_testSwizzlingForTaskClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFURLSessionManagerTests.m::AFURLSessionManagerTests::_testSwizzlingForTaskClass"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `addDelegateForDownloadTask` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::addDelegateForDownloadTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::addDelegateForDownloadTask"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `tearDown` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::tearDown",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::tearDown"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `setDataTaskDidBecomeDownloadTaskBlock` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::setDataTaskDidBecomeDownloadTaskBlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::setDataTaskDidBecomeDownloadTaskBlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Post` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Example/Classes/Models/Post.m",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Example/Classes/Models/Post.m"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `testValidCertificatePinningSecurityPolicy` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidCertificatePinningSecurityPolicy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidCertificatePinningSecurityPolicy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `testRequestWithCustomHeaders` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests::testRequestWithCustomHeaders",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests::testRequestWithCustomHeaders"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `responseObjectForResponse` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFImageResponseSerializer::responseObjectForResponse",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFImageResponseSerializer::responseObjectForResponse"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `instancetype` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/Today Extension Example/TodayViewController.m`",
+    "query": {
+      "file_path": "Example/Today Extension Example/TodayViewController.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Today Extension Example/TodayViewController.m",
+        "objc::module::Example/Today Extension Example/TodayViewController.m::TodayViewController::setPost",
+        "objc::module::Example/Today Extension Example/TodayViewController.m::TodayViewController::widgetPerformUpdateWithCompletionHandler",
+        "objc::module::Example/Today Extension Example/TodayViewController.m::TodayViewController::Post",
+        "objc::module::Example/Today Extension Example/TodayViewController.m::TodayViewController::viewDidLoad"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/macOS Example/main.m`",
+    "query": {
+      "file_path": "Example/macOS Example/main.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/macOS Example/main.m",
+        "objc::module::Example/macOS Example/main.m::main"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/macOS Example/AppDelegate.m`",
+    "query": {
+      "file_path": "Example/macOS Example/AppDelegate.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/macOS Example/AppDelegate.m",
+        "objc::module::Example/macOS Example/AppDelegate.m::AppDelegate::applicationDidFinishLaunching",
+        "objc::module::Example/macOS Example/AppDelegate.m::AppDelegate::applicationShouldHandleReopen",
+        "objc::module::Example/macOS Example/AppDelegate.m::AppDelegate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/Classes/Models/User.m`",
+    "query": {
+      "file_path": "Example/Classes/Models/User.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Classes/Models/User.m::User::supportsSecureCoding",
+        "objc::module::Example/Classes/Models/User.m::User::instancetype",
+        "objc::module::Example/Classes/Models/User.m::User::NSURL",
+        "objc::module::Example/Classes/Models/User.m::User",
+        "objc::module::Example/Classes/Models/User.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/Classes/Models/Post.m`",
+    "query": {
+      "file_path": "Example/Classes/Models/Post.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Classes/Models/Post.m",
+        "objc::module::Example/Classes/Models/Post.m::Post::encodeWithCoder",
+        "objc::module::Example/Classes/Models/Post.m::Post::supportsSecureCoding",
+        "objc::module::Example/Classes/Models/Post.m::Post::instancetype",
+        "objc::module::Example/Classes/Models/Post.m::Post"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/Classes/Networking Extensions/AFAppDotNetAPIClient.m`",
+    "query": {
+      "file_path": "Example/Classes/Networking Extensions/AFAppDotNetAPIClient.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Classes/Networking Extensions/AFAppDotNetAPIClient.m::AFAppDotNetAPIClient",
+        "objc::module::Example/Classes/Networking Extensions/AFAppDotNetAPIClient.m",
+        "objc::module::Example/Classes/Networking Extensions/AFAppDotNetAPIClient.m::AFAppDotNetAPIClient::instancetype"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/iOS Example/AppDelegate.m`",
+    "query": {
+      "file_path": "Example/iOS Example/AppDelegate.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/iOS Example/AppDelegate.m",
+        "objc::module::Example/iOS Example/AppDelegate.m::AppDelegate",
+        "objc::module::Example/iOS Example/AppDelegate.m::AppDelegate::application"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/iOS Example/Controllers/GlobalTimelineViewController.m`",
+    "query": {
+      "file_path": "Example/iOS Example/Controllers/GlobalTimelineViewController.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/iOS Example/Controllers/GlobalTimelineViewController.m::GlobalTimelineViewController::CGFloat",
+        "objc::module::Example/iOS Example/Controllers/GlobalTimelineViewController.m::GlobalTimelineViewController::viewDidLoad",
+        "objc::module::Example/iOS Example/Controllers/GlobalTimelineViewController.m",
+        "objc::module::Example/iOS Example/Controllers/GlobalTimelineViewController.m::GlobalTimelineViewController::tableView",
+        "objc::module::Example/iOS Example/Controllers/GlobalTimelineViewController.m::GlobalTimelineViewController::reload"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/iOS Example/Views/PostTableViewCell.m`",
+    "query": {
+      "file_path": "Example/iOS Example/Views/PostTableViewCell.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/iOS Example/Views/PostTableViewCell.m::PostTableViewCell::CGFloat",
+        "objc::module::Example/iOS Example/Views/PostTableViewCell.m::PostTableViewCell::layoutSubviews",
+        "objc::module::Example/iOS Example/Views/PostTableViewCell.m::PostTableViewCell::setPost",
+        "objc::module::Example/iOS Example/Views/PostTableViewCell.m::PostTableViewCell",
+        "objc::module::Example/iOS Example/Views/PostTableViewCell.m::PostTableViewCell::instancetype"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/main.m`",
+    "query": {
+      "file_path": "Example/main.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/main.m::main",
+        "objc::module::Example/main.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/watchOS Example Extension/ExtensionDelegate.m`",
+    "query": {
+      "file_path": "Example/watchOS Example Extension/ExtensionDelegate.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/watchOS Example Extension/ExtensionDelegate.m::ExtensionDelegate::applicationDidFinishLaunching",
+        "objc::module::Example/watchOS Example Extension/ExtensionDelegate.m::ExtensionDelegate::applicationWillResignActive",
+        "objc::module::Example/watchOS Example Extension/ExtensionDelegate.m::ExtensionDelegate",
+        "objc::module::Example/watchOS Example Extension/ExtensionDelegate.m",
+        "objc::module::Example/watchOS Example Extension/ExtensionDelegate.m::ExtensionDelegate::applicationDidBecomeActive"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Example/watchOS Example Extension/InterfaceController.m`",
+    "query": {
+      "file_path": "Example/watchOS Example Extension/InterfaceController.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController",
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::willActivate",
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m",
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::didDeactivate",
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::awakeWithContext"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFImageResponseSerializerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFImageResponseSerializerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests::testImageSerializerCanBeCopied",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests::testImageSerializerCanBeArchivedAndUnarchived",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests::testImageSerializerSupportsSecureCoding"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFHTTPRequestSerializationTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFHTTPRequestSerializationTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testQueryStringSerializationCanFailWithError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFPropertyListRequestSerializerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFPropertyListRequestSerializerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m::AFPropertyListRequestSerializerTests::setUp",
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m::AFPropertyListRequestSerializerTests",
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m",
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m::AFPropertyListRequestSerializerTests::testThatPropertyListRequestSerializerHandlesInvalidPlist",
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m::AFPropertyListRequestSerializerTests::testThatPropertyListRequestSerializerAcceptsPlist"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFUIButtonTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFUIButtonTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatBackgroundImageChanges",
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::tearDown",
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::setUp",
+        "objc::module::Tests/Tests/AFUIButtonTests.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFHTTPResponseSerializationTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFHTTPResponseSerializationTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testThatAFHTTPResponseSerializationSucceedsWith205WithNoResponseContentTypeAndNoResponseData",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testThatAFHTTPResponseSerializationFailsWith205WithNoResponseContentTypeAndResponseData",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testSupportsSecureCoding"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFNetworkActivityManagerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFNetworkActivityManagerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::testThatIndicatorBlockIsOnlyCalledOnceEachForStartAndEndForMultipleRequests",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::setUp",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::tearDown",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::testThatVisibilityDelaysAreApplied",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFNetworkReachabilityManagerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFNetworkReachabilityManagerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::tearDown",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testInitializerThrowsExceptionWhenCalled",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testAddressReachabilityBlock"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFImageDownloaderTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFImageDownloaderTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::tearDown",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatImageCacheIsPromptedShouldCache",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatImageCacheIsPromptedShouldCacheNot",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::MockAFAutoPurgingImageCache::addImage",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatImageDownloaderCanBeInitializedAndDeinitializedWithActiveDownloads"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFWKWebViewTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFWKWebViewTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests::testRequestWithCustomHeaders",
+        "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests",
+        "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests::webView",
+        "objc::module::Tests/Tests/AFWKWebViewTests.m::AFWKWebViewTests::setUp",
+        "objc::module::Tests/Tests/AFWKWebViewTests.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `Tests/Tests/AFXMLDocumentResponseSerializerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFXMLDocumentResponseSerializerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFXMLDocumentResponseSerializerTests.m::AFXMLTestData",
+        "objc::module::Tests/Tests/AFXMLDocumentResponseSerializerTests.m::AFXMLDocumentResponseSerializerTests::testThatXMLDocumentResponseSerializerAcceptsApplicationXMLMimeType",
+        "objc::module::Tests/Tests/AFXMLDocumentResponseSerializerTests.m::AFXMLDocumentResponseSerializerTests::testThatXMLDocumentResponseSerializerDoesNotAcceptsNonStandardXMLMimeType",
+        "objc::module::Tests/Tests/AFXMLDocumentResponseSerializerTests.m::AFXMLDocumentResponseSerializerTests::testThatXMLDocumentResponseSerializerReturnsErrorForInvalidXML",
+        "objc::module::Tests/Tests/AFXMLDocumentResponseSerializerTests.m::AFXMLDocumentResponseSerializerTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `NSString` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `testThatForegroundImageCanBeCancelledAndDownloadedImmediately` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `AFMultipartBodyStream` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `NSInputStream` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `af_suspend` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLSessionManager.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `NSStringFromSelector` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLSessionManager.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `NSMutableURLRequest` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData::NSMutableURLRequest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `testInvalidPublicKeyPinningSecurityPolicy` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testInvalidPublicKeyPinningSecurityPolicy"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `testObjectPostingReachabilityManagerNotification` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `uploadTask` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::uploadTask"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLSessionManager.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `testValidInsecureNoPinningSecurityPolicy` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests::testValidInsecureNoPinningSecurityPolicy"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPSessionManagerTests.m::AFHTTPSessionManagerTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-000",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `testQueryStringSerializationCanFailWithError` type",
+    "query": {
+      "bare_name": true,
+      "name": "testQueryStringSerializationCanFailWithError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testQueryStringSerializationCanFailWithError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-001",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `AFErrorWithUnderlyingError` type",
+    "query": {
+      "bare_name": true,
+      "name": "AFErrorWithUnderlyingError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFErrorWithUnderlyingError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-002",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `testThatCancellingDownloadCallsCompletionWithCancellationError` type",
+    "query": {
+      "bare_name": true,
+      "name": "testThatCancellingDownloadCallsCompletionWithCancellationError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatCancellingDownloadCallsCompletionWithCancellationError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-001",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFMultipartFormDataTest` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-002",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFUIRefreshControlTests` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidSuspendNotificationDoesNotCauseCrashForUIRCWithTask",
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidCompleteNotificationDoesNotCauseCrashForUIRCWithTask",
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidResumeNotificationDoesNotCauseCrashForUIRCWithTask",
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::setUp",
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::tearDown"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-003",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `WKWebView` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::setSessionManager",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::NSURLSessionDataTask",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::AFHTTPSessionManager",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::loadRequest",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::AFHTTPResponseSerializer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-004",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFPropertyListRequestSerializer` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::NSURLRequest",
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::instancetype",
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::encodeWithCoder"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-005",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFNetworkReachabilityManagerTests` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::tearDown",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testInitializerThrowsExceptionWhenCalled",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testAddressReachabilityBlock",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::setUp"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-006",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFHTTPResponseSerializer` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::supportsSecureCoding",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::encodeWithCoder",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::validateResponse",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::instancetype",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::responseObjectForResponse"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-007",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `InterfaceController` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::willActivate",
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::didDeactivate",
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::awakeWithContext"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-008",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFHTTPResponseSerializationTests` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testThatAFHTTPResponseSerializationSucceedsWith205WithNoResponseContentTypeAndNoResponseData",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testThatAFHTTPResponseSerializationFailsWith205WithNoResponseContentTypeAndResponseData",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testSupportsSecureCoding",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::setUp",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testCanBeCopied"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-009",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFCompoundResponseSerializerTests` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Tests/Tests/AFCompoundResponseSerializerTests.m::AFCompoundResponseSerializerTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFCompoundResponseSerializerTests.m::AFCompoundResponseSerializerTests::testCompoundSerializerCanBeCopied",
+        "objc::module::Tests/Tests/AFCompoundResponseSerializerTests.m::AFCompoundResponseSerializerTests::setUp",
+        "objc::module::Tests/Tests/AFCompoundResponseSerializerTests.m::AFCompoundResponseSerializerTests::testCompoundSerializerCanBeArchivedAndUnarchived",
+        "objc::module::Tests/Tests/AFCompoundResponseSerializerTests.m::AFCompoundResponseSerializerTests::tearDown",
+        "objc::module::Tests/Tests/AFCompoundResponseSerializerTests.m::AFCompoundResponseSerializerTests::testCompoundSerializerProperlySerializesResponse"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-010",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFHTTPBodyPart` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream",
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSString",
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::instancetype",
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInteger",
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::contentLength"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-011",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AFXMLDocumentResponseSerializer` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFXMLDocumentResponseSerializer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFXMLDocumentResponseSerializer::encodeWithCoder",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFXMLDocumentResponseSerializer::responseObjectForResponse",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFXMLDocumentResponseSerializer::instancetype"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-001",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `AFMultipartFormDataTest` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-002",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `AFUIRefreshControlTests` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidSuspendNotificationDoesNotCauseCrashForUIRCWithTask",
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidCompleteNotificationDoesNotCauseCrashForUIRCWithTask",
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidResumeNotificationDoesNotCauseCrashForUIRCWithTask",
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::setUp",
+        "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::tearDown"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-003",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `WKWebView` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::setSessionManager",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::NSURLSessionDataTask",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::AFHTTPSessionManager",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::loadRequest",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::AFHTTPResponseSerializer",
+        "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView::af_setURLSessionTask"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-004",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `AFPropertyListRequestSerializer` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::NSURLRequest",
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::instancetype",
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer::encodeWithCoder"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-005",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `AFNetworkReachabilityManagerTests` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::tearDown",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testInitializerThrowsExceptionWhenCalled",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testAddressReachabilityBlock",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::setUp",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testAddressReachabilityStartsInUnknownState"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-006",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `AFHTTPResponseSerializer` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::supportsSecureCoding",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::encodeWithCoder",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::validateResponse",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::instancetype",
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer::responseObjectForResponse"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-007",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `InterfaceController` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::willActivate",
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::didDeactivate",
+        "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController::awakeWithContext"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `NSString` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `testThatForegroundImageCanBeCancelledAndDownloadedImmediately` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `AFMultipartBodyStream` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `NSInputStream` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `af_suspend` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLSessionManager.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `NSStringFromSelector` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLSessionManager.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `NSMutableURLRequest` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData::NSMutableURLRequest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Tests/AFImageResponseSerializerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFImageResponseSerializerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests::testImageSerializerCanBeCopied",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests::testImageSerializerCanBeArchivedAndUnarchived",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests::testImageSerializerSupportsSecureCoding",
+        "objc::module::Tests/Tests/AFImageResponseSerializerTests.m::AFImageResponseSerializerTests::testImageSerializerCanBeArchivedAndUnarchivedWithNonDefaultPropertyValues"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Tests/AFHTTPRequestSerializationTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFHTTPRequestSerializationTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testQueryStringSerializationCanFailWithError",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPBodyPart",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPBodyPart::NSInteger",
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatValueForHTTPHeaderFieldReturnsNilForUnsetHeader"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-002",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Tests/AFPropertyListRequestSerializerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFPropertyListRequestSerializerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m::AFPropertyListRequestSerializerTests::setUp",
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m::AFPropertyListRequestSerializerTests",
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m",
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m::AFPropertyListRequestSerializerTests::testThatPropertyListRequestSerializerHandlesInvalidPlist",
+        "objc::module::Tests/Tests/AFPropertyListRequestSerializerTests.m::AFPropertyListRequestSerializerTests::testThatPropertyListRequestSerializerAcceptsPlist"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-003",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Tests/AFUIButtonTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFUIButtonTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatBackgroundImageChanges",
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::tearDown",
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::setUp",
+        "objc::module::Tests/Tests/AFUIButtonTests.m",
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests",
+        "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatBackgroundImageCanBeCancelledAndDownloadedImmediately"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-004",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Tests/AFHTTPResponseSerializationTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFHTTPResponseSerializationTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testThatAFHTTPResponseSerializationSucceedsWith205WithNoResponseContentTypeAndNoResponseData",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testThatAFHTTPResponseSerializationFailsWith205WithNoResponseContentTypeAndResponseData",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testSupportsSecureCoding",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::setUp",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testCanBeCopied",
+        "objc::module::Tests/Tests/AFHTTPResponseSerializationTests.m::AFHTTPResponseSerializationTests::testResponseIsValidated"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-005",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Tests/AFNetworkActivityManagerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFNetworkActivityManagerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::testThatIndicatorBlockIsOnlyCalledOnceEachForStartAndEndForMultipleRequests",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::setUp",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::tearDown",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::testThatVisibilityDelaysAreApplied",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::testThatNetworkActivityIndicatorTurnsOnAndOffIndicatorWhenRequestFails",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m",
+        "objc::module::Tests/Tests/AFNetworkActivityManagerTests.m::AFNetworkActivityManagerTests::testThatIndicatorKVOOnlyTriggerOnce"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-006",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Tests/AFNetworkReachabilityManagerTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFNetworkReachabilityManagerTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testObjectPostingReachabilityManagerNotification",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::tearDown",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testInitializerThrowsExceptionWhenCalled",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testAddressReachabilityBlock",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::setUp",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::testAddressReachabilityStartsInUnknownState",
+        "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests::verifyReachabilityNotificationGetsPostedWithManager"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-007",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `Tests/Tests/AFImageDownloaderTests.m`",
+    "query": {
+      "file_path": "Tests/Tests/AFImageDownloaderTests.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::tearDown",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatImageCacheIsPromptedShouldCache",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatImageCacheIsPromptedShouldCacheNot",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::MockAFAutoPurgingImageCache::addImage",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatImageDownloaderCanBeInitializedAndDeinitializedWithActiveDownloads",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatImageDownloaderCanDownloadImage",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatCancelImageDownloadItShouldCancelImmediately",
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatCancellingDownloadWithMultipleResponseHandlersCancelsFirstYetAllowsSecondToComplete"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "mock_pattern-000",
+    "category": "TestGen",
+    "sub_type": "mock_pattern",
+    "intent": "Mock pattern example: `MockAFAutoPurgingImageCache`",
+    "query": {
+      "bare_name": true,
+      "name": "MockAFAutoPurgingImageCache",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::MockAFAutoPurgingImageCache"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-000",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `AFMultipartBodyStream`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-001",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `AFMultipartFormDataTest`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-002",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `AFUIRefreshControlTests`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-003",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `WKWebView`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::UIKit+AFNetworking/WKWebView+AFNetworking.m::WKWebView"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-004",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `AFPropertyListRequestSerializer`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFPropertyListRequestSerializer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-005",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `AFNetworkReachabilityManagerTests`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFNetworkReachabilityManagerTests.m::AFNetworkReachabilityManagerTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-006",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `AFHTTPResponseSerializer`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLResponseSerialization.m::AFHTTPResponseSerializer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-007",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `InterfaceController`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Example/watchOS Example Extension/InterfaceController.m::InterfaceController"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "schema_partner_file-000",
+    "category": "FeatureAdd",
+    "sub_type": "schema_partner_file",
+    "intent": "Schema partner file: `Example/Classes/Models/User.m`",
+    "query": {
+      "file_path": "Example/Classes/Models/User.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Classes/Models/User.m::User::supportsSecureCoding",
+        "objc::module::Example/Classes/Models/User.m::User::instancetype",
+        "objc::module::Example/Classes/Models/User.m::User::NSURL",
+        "objc::module::Example/Classes/Models/User.m::User",
+        "objc::module::Example/Classes/Models/User.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "schema_partner_file-001",
+    "category": "FeatureAdd",
+    "sub_type": "schema_partner_file",
+    "intent": "Schema partner file: `Example/Classes/Models/Post.m`",
+    "query": {
+      "file_path": "Example/Classes/Models/Post.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Classes/Models/Post.m",
+        "objc::module::Example/Classes/Models/Post.m::Post::encodeWithCoder",
+        "objc::module::Example/Classes/Models/Post.m::Post::supportsSecureCoding",
+        "objc::module::Example/Classes/Models/Post.m::Post::instancetype",
+        "objc::module::Example/Classes/Models/Post.m::Post"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `NSString`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `testThatForegroundImageCanBeCancelledAndDownloadedImmediately`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `AFMultipartBodyStream`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `NSInputStream`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `af_suspend`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `NSStringFromSelector`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `NSMutableURLRequest`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData::NSMutableURLRequest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFStreamingMultipartFormData::NSMutableURLRequest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `NStSring` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "NStSring",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `tetsThatForegroundImageCanBeCancelledAndDownloadedImmediately` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "tetsThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `AFuMltipartBodyStream` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "AFuMltipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `NSnIputStream` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "NSnIputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `afs_uspend` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "afs_uspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `NStSringFromSelector` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "NStSringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "bare_name_collision-001",
+    "category": "ApiDiscovery",
+    "sub_type": "bare_name_collision",
+    "intent": "Ambiguity: `open` has 1 candidates — list them all",
+    "query": {
+      "bare_name": true,
+      "name": "open",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFMultipartBodyStream::open"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `NSString` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `testThatForegroundImageCanBeCancelledAndDownloadedImmediately` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `NSInputStream` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `af_suspend` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `NSStringFromSelector` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testThatHTTPHeaderValueCanBeSetToReferenceCountedStringFromMultipleThreadsWithoutCrashing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `instancetype` on enclosing type `AFMultipartFormDataTest`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartFormDataTest::instancetype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `testTaskDidSuspendNotificationDoesNotCauseCrashForUIRCWithTask` on enclosing type `AFUIRefreshControlTests`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidSuspendNotificationDoesNotCauseCrashForUIRCWithTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidSuspendNotificationDoesNotCauseCrashForUIRCWithTask"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `testTaskDidCompleteNotificationDoesNotCauseCrashForUIRCWithTask` on enclosing type `AFUIRefreshControlTests`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidCompleteNotificationDoesNotCauseCrashForUIRCWithTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidCompleteNotificationDoesNotCauseCrashForUIRCWithTask"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `testTaskDidResumeNotificationDoesNotCauseCrashForUIRCWithTask` on enclosing type `AFUIRefreshControlTests`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidResumeNotificationDoesNotCauseCrashForUIRCWithTask",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::testTaskDidResumeNotificationDoesNotCauseCrashForUIRCWithTask"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `setUp` on enclosing type `AFUIRefreshControlTests`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::setUp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::setUp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `tearDown` on enclosing type `AFUIRefreshControlTests`",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::tearDown",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIRefreshControlTests.m::AFUIRefreshControlTests::tearDown"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_kind-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_kind",
+    "intent": "`open` filtered to function kind",
+    "query": {
+      "bare_name": true,
+      "kind": "function",
+      "name": "open",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFMultipartBodyStream::open"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFHTTPSessionManager.m::AFHTTPSessionManager::NSString"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFUIButtonTests.m::AFUIButtonTests::testThatForegroundImageCanBeCancelledAndDownloadedImmediately"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFMultipartBodyStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFHTTPBodyPart::NSInputStream"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::af_suspend"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "objc::module::AFNetworking/AFURLSessionManager.m::NSStringFromSelector"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `Example/Today Extension Example/TodayViewController.m`",
+    "query": {
+      "file_path": "Example/Today Extension Example/TodayViewController.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Today Extension Example/TodayViewController.m",
+        "objc::module::Example/Today Extension Example/TodayViewController.m::TodayViewController::setPost",
+        "objc::module::Example/Today Extension Example/TodayViewController.m::TodayViewController::widgetPerformUpdateWithCompletionHandler",
+        "objc::module::Example/Today Extension Example/TodayViewController.m::TodayViewController::Post",
+        "objc::module::Example/Today Extension Example/TodayViewController.m::TodayViewController::viewDidLoad"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `Example/macOS Example/main.m`",
+    "query": {
+      "file_path": "Example/macOS Example/main.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/macOS Example/main.m",
+        "objc::module::Example/macOS Example/main.m::main"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `Example/macOS Example/AppDelegate.m`",
+    "query": {
+      "file_path": "Example/macOS Example/AppDelegate.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/macOS Example/AppDelegate.m",
+        "objc::module::Example/macOS Example/AppDelegate.m::AppDelegate::applicationDidFinishLaunching",
+        "objc::module::Example/macOS Example/AppDelegate.m::AppDelegate::applicationShouldHandleReopen",
+        "objc::module::Example/macOS Example/AppDelegate.m::AppDelegate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `Example/Classes/Models/User.m`",
+    "query": {
+      "file_path": "Example/Classes/Models/User.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Classes/Models/User.m::User::supportsSecureCoding",
+        "objc::module::Example/Classes/Models/User.m::User::instancetype",
+        "objc::module::Example/Classes/Models/User.m::User::NSURL",
+        "objc::module::Example/Classes/Models/User.m::User",
+        "objc::module::Example/Classes/Models/User.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `Example/Classes/Models/Post.m`",
+    "query": {
+      "file_path": "Example/Classes/Models/Post.m",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Example/Classes/Models/Post.m",
+        "objc::module::Example/Classes/Models/Post.m::Post::encodeWithCoder",
+        "objc::module::Example/Classes/Models/Post.m::Post::supportsSecureCoding",
+        "objc::module::Example/Classes/Models/Post.m::Post::instancetype",
+        "objc::module::Example/Classes/Models/Post.m::Post"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `NStSring` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "NStSring",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `tetsThatForegroundImageCanBeCancelledAndDownloadedImmediately` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "tetsThatForegroundImageCanBeCancelledAndDownloadedImmediately",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `AFuMltipartBodyStream` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "AFuMltipartBodyStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `NSnIputStream` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "NSnIputStream",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `afs_uspend` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "afs_uspend",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `NStSringFromSelector` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "NStSringFromSelector",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exception_raisers-000",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `testQueryStringSerializationCanFailWithError` type",
+    "query": {
+      "bare_name": true,
+      "name": "testQueryStringSerializationCanFailWithError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFHTTPRequestSerializationTests.m::AFHTTPRequestSerializationTests::testQueryStringSerializationCanFailWithError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-001",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `AFErrorWithUnderlyingError` type",
+    "query": {
+      "bare_name": true,
+      "name": "AFErrorWithUnderlyingError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLResponseSerialization.m::AFErrorWithUnderlyingError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-002",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `testThatCancellingDownloadCallsCompletionWithCancellationError` type",
+    "query": {
+      "bare_name": true,
+      "name": "testThatCancellingDownloadCallsCompletionWithCancellationError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::Tests/Tests/AFImageDownloaderTests.m::AFImageDownloaderTests::testThatCancellingDownloadCallsCompletionWithCancellationError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-000",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `AFNetworkReachabilityStatusForFlags`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFNetworkReachabilityManager.m::AFNetworkReachabilityStatusForFlags"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFNetworkReachabilityManager.m"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "feature_flag_enum_usage-001",
+    "category": "Config",
+    "sub_type": "feature_flag_enum_usage",
+    "intent": "Feature-flag usage: `_setCFClientFlags`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "objc::module::AFNetworking/AFURLRequestSerialization.m::AFMultipartBodyStream::_setCFClientFlags"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "objc::module::AFNetworking/AFURLRequestSerialization.m::AFMultipartBodyStream"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]

@@ -1,0 +1,2435 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `staff` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "staff",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-001",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `idx_last_name` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "idx_last_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-002",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `store` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "store",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-003",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `category_category_id_seq` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "category_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-004",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `payment_p2022_03_customer_id_idx` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "payment_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-005",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `idx_fk_payment_p2022_02_customer_id` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "idx_fk_payment_p2022_02_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-006",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `idx_fk_language_id` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "idx_fk_language_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-007",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `payment_p2022_06_customer_id_idx` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "payment_p2022_06_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@38935::payment_p2022_06_customer_id_idx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-008",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `b` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "b",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateDomainStmt@678::b"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-009",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `payment_p2022_06` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "payment_p2022_06",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@22997::payment_p2022_06"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-010",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `address_address_id_seq` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "address_address_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateSeqStmt@14109::address_address_id_seq"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-011",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `actor` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "actor",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateTrigStmt@39571::actor"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-012",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `mpaa_rating` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "mpaa_rating",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::DefineStmt@847::mpaa_rating"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-013",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `payment_p2022_02` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "payment_p2022_02",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@21185::payment_p2022_02"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-014",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `payment_p2022_05_customer_id_idx` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "payment_p2022_05_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@38738::payment_p2022_05_customer_id_idx"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-015",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `film_actor` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "film_actor",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@12578::film_actor"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-016",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `language` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "language",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateTrigStmt@41584::language"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-017",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `idx_fk_payment_p2022_04_customer_id` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "idx_fk_payment_p2022_04_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@35715::idx_fk_payment_p2022_04_customer_id"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-018",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `language` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "language",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@18567::language"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-019",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `idx_fk_payment_p2022_06_staff_id` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "idx_fk_payment_p2022_06_staff_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@36709::idx_fk_payment_p2022_06_staff_id"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-020",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `rental` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "rental",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@24166::rental"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-021",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `customer_list` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "customer_list",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::ViewStmt@16056::customer_list"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-022",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `idx_fk_payment_p2022_03_customer_id` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "idx_fk_payment_p2022_03_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::IndexStmt@35318::idx_fk_payment_p2022_03_customer_id"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `inventory_held_by_customer` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `inventory_in_stock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@5263::inventory_in_stock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@5263::inventory_in_stock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `film_not_in_stock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@2189::film_not_in_stock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@2189::film_not_in_stock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `rewards_report` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@8041::rewards_report",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@8041::rewards_report"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `get_customer_balance` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@2732::get_customer_balance",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@2732::get_customer_balance"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `last_updated` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@6810::last_updated",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@6810::last_updated"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `last_day` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@6181::last_day",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@6181::last_day"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `film_in_stock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@1673::film_in_stock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@1673::film_in_stock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `_group_concat` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@1309::_group_concat",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@1309::_group_concat"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `staff` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `idx_last_name` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `store` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `category_category_id_seq` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `inventory_held_by_customer` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `payment_p2022_03_customer_id_idx` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `idx_fk_payment_p2022_02_customer_id` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `idx_fk_language_id` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `inventory_in_stock` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@5263::inventory_in_stock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@5263::inventory_in_stock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `payment_p2022_06_customer_id_idx` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38935::payment_p2022_06_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38935::payment_p2022_06_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `film_not_in_stock` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@2189::film_not_in_stock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@2189::film_not_in_stock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `b` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateDomainStmt@678::b",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateDomainStmt@678::b"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `payment_p2022_06` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@22997::payment_p2022_06",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@22997::payment_p2022_06"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `address_address_id_seq` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateSeqStmt@14109::address_address_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@14109::address_address_id_seq"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `actor` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateTrigStmt@39571::actor",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateTrigStmt@39571::actor"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `mpaa_rating` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::DefineStmt@847::mpaa_rating",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::DefineStmt@847::mpaa_rating"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `pagila-schema-jsonb` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema-jsonb.sql",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema-jsonb.sql"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `payment_p2022_02` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@21185::payment_p2022_02",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@21185::payment_p2022_02"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `rewards_report` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@8041::rewards_report",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@8041::rewards_report"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `payment_p2022_05_customer_id_idx` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38738::payment_p2022_05_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38738::payment_p2022_05_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `film_actor` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@12578::film_actor",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@12578::film_actor"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `language` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateTrigStmt@41584::language",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateTrigStmt@41584::language"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `idx_fk_payment_p2022_04_customer_id` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@35715::idx_fk_payment_p2022_04_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@35715::idx_fk_payment_p2022_04_customer_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `pagila-schema-jsonb.sql`",
+    "query": {
+      "file_path": "pagila-schema-jsonb.sql",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema-jsonb.sql",
+        "sql::module::pagila-schema-jsonb.sql::CreateStmt@1234::packages_yum_postgresql_org",
+        "sql::module::pagila-schema-jsonb.sql::CreateStmt@610::packages_apt_postgresql_org"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `pagila-schema.sql`",
+    "query": {
+      "file_path": "pagila-schema.sql",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+        "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+        "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+        "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+        "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `staff` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `idx_last_name` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `store` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `category_category_id_seq` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `inventory_held_by_customer` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `payment_p2022_03_customer_id_idx` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `idx_fk_payment_p2022_02_customer_id` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `idx_fk_language_id` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `inventory_in_stock` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@5263::inventory_in_stock"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `payment_p2022_06_customer_id_idx` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@38935::payment_p2022_06_customer_id_idx"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `film_not_in_stock` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@2189::film_not_in_stock"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `b` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateDomainStmt@678::b"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `staff` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `idx_last_name` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `store` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `category_category_id_seq` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `inventory_held_by_customer` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `payment_p2022_03_customer_id_idx` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `idx_fk_payment_p2022_02_customer_id` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `idx_fk_language_id` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-000",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `staff`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-001",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `idx_last_name`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-002",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `store`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-003",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `category_category_id_seq`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-004",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `payment_p2022_03_customer_id_idx`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-005",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `idx_fk_payment_p2022_02_customer_id`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-006",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `idx_fk_language_id`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-007",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `payment_p2022_06_customer_id_idx`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38935::payment_p2022_06_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38935::payment_p2022_06_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "schema_partner_file-000",
+    "category": "FeatureAdd",
+    "sub_type": "schema_partner_file",
+    "intent": "Schema partner file: `pagila-schema-jsonb.sql`",
+    "query": {
+      "file_path": "pagila-schema-jsonb.sql",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema-jsonb.sql",
+        "sql::module::pagila-schema-jsonb.sql::CreateStmt@1234::packages_yum_postgresql_org",
+        "sql::module::pagila-schema-jsonb.sql::CreateStmt@610::packages_apt_postgresql_org"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "schema_partner_file-001",
+    "category": "FeatureAdd",
+    "sub_type": "schema_partner_file",
+    "intent": "Schema partner file: `pagila-schema.sql`",
+    "query": {
+      "file_path": "pagila-schema.sql",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+        "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+        "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+        "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+        "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `staff`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `idx_last_name`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `store`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `category_category_id_seq`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `inventory_held_by_customer`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `payment_p2022_03_customer_id_idx`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `idx_fk_payment_p2022_02_customer_id`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@34921::idx_fk_payment_p2022_02_customer_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `idx_fk_language_id`",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@34166::idx_fk_language_id"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `id_xlast_name` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "id_xlast_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `caetgory_category_id_seq` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "caetgory_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `inevntory_held_by_customer` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "inevntory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `pamyent_p2022_03_customer_id_idx` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "pamyent_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `id_xfk_payment_p2022_02_customer_id` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "id_xfk_payment_p2022_02_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `id_xfk_language_id` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "id_xfk_language_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `inventory_held_by_customer` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `inventory_in_stock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@5263::inventory_in_stock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@5263::inventory_in_stock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `film_not_in_stock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@2189::film_not_in_stock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@2189::film_not_in_stock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `rewards_report` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@8041::rewards_report",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@8041::rewards_report"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `get_customer_balance` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@2732::get_customer_balance",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@2732::get_customer_balance"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `last_updated` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@6810::last_updated",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@6810::last_updated"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@26256::staff"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateStmt@27066::store"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "sql::module::pagila-schema.sql::IndexStmt@38344::payment_p2022_03_customer_id_idx"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `pagila-schema-jsonb.sql`",
+    "query": {
+      "file_path": "pagila-schema-jsonb.sql",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema-jsonb.sql",
+        "sql::module::pagila-schema-jsonb.sql::CreateStmt@1234::packages_yum_postgresql_org",
+        "sql::module::pagila-schema-jsonb.sql::CreateStmt@610::packages_apt_postgresql_org"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `pagila-schema.sql`",
+    "query": {
+      "file_path": "pagila-schema.sql",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "sql::module::pagila-schema.sql::CreateStmt@26256::staff",
+        "sql::module::pagila-schema.sql::IndexStmt@37036::idx_last_name",
+        "sql::module::pagila-schema.sql::CreateStmt@27066::store",
+        "sql::module::pagila-schema.sql::CreateSeqStmt@10972::category_category_id_seq",
+        "sql::module::pagila-schema.sql::CreateFunctionStmt@4760::inventory_held_by_customer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `id_xlast_name` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "id_xlast_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `caetgory_category_id_seq` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "caetgory_category_id_seq",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `inevntory_held_by_customer` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "inevntory_held_by_customer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `pamyent_p2022_03_customer_id_idx` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "pamyent_p2022_03_customer_id_idx",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `id_xfk_payment_p2022_02_customer_id` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "id_xfk_payment_p2022_02_customer_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `id_xfk_language_id` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "id_xfk_language_id",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  }
+]

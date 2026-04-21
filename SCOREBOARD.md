@@ -1,6 +1,6 @@
 # LongMemCode Scoreboard
 
-Head-to-head benchmark of code-memory systems used by coding agents (Claude Code, Cursor, Aider, Copilot). Two adapters, **nineteen real open-source codebases**, 35 scenario sub-types, full audit trail per scenario.
+Head-to-head benchmark of code-memory systems used by coding agents (Claude Code, Cursor, Aider, Copilot). Two adapters, **thirty-one real open-source codebases**, 35 scenario sub-types, full audit trail per scenario.
 
 **Submit your adapter** via PR — contract in [`results/README.md`](results/README.md). We publish **only scores we've actually run**; empty rows mean the system hasn't been benchmarked yet.
 
@@ -52,6 +52,30 @@ Head-to-head benchmark of code-memory systems used by coding agents (Claude Code
 |   |   |   | grep-baseline 0.1.0 | 40.6 % | 2.46 ms | 1.05 ms | $0.00 |
 | [rails/rails](https://github.com/rails/rails) guides/main | ERB | ~10 .erb | **ArgosBrain 0.1.0** | **100.0 %** | **2.04 ms** | 0.01 ms | $0.00 |
 |   |   |   | grep-baseline 0.1.0 | 15.5 % | 2.91 ms | 0.80 ms | $0.00 |
+| [okhttp](https://github.com/square/okhttp) master | Kotlin | ~525 .kt | **ArgosBrain 0.1.0** | **99.7 %** | **0.33 ms** | 0.06 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 6.0 % | 3.29 ms | 3.09 ms | $0.00 |
+| [alamofire](https://github.com/Alamofire/Alamofire) master | Swift | ~97 .swift | **ArgosBrain 0.1.0** | **99.7 %** | **0.05 ms** | 0.03 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 5.7 % | 1.43 ms | 1.23 ms | $0.00 |
+| [pagila](https://github.com/devrimgunduz/pagila) master | SQL | ~2 .sql schemas | **ArgosBrain 0.1.0** | **100.0 %** | **0.04 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 7.5 % | 1.61 ms | 1.16 ms | $0.00 |
+| [AFNetworking](https://github.com/AFNetworking/AFNetworking) master | Obj-C | ~80 .m/.h | **ArgosBrain 0.1.0** | **99.7 %** | **0.02 ms** | 0.02 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 6.8 % | 1.23 ms | 0.95 ms | $0.00 |
+| [luasocket](https://github.com/lunarmodules/luasocket) v3.1.0 | Lua | ~58 .lua | **ArgosBrain 0.1.0** | **100.0 %** | **0.02 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 12.7 % | 1.21 ms | 0.87 ms | $0.00 |
+| [ratpack](https://github.com/ratpack/ratpack) master | Groovy | ~398 .groovy | **ArgosBrain 0.1.0** | **100.0 %** | **0.03 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 13.3 % | 2.28 ms | 1.31 ms | $0.00 |
+| [bats-core](https://github.com/bats-core/bats-core) v1.12.0 | Bash | ~54 .sh/.bash | **ArgosBrain 0.1.0** | **100.0 %** | **0.02 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 13.0 % | 0.96 ms | 0.79 ms | $0.00 |
+| [dplyr](https://github.com/tidyverse/dplyr) main | R | ~195 .R | **ArgosBrain 0.1.0** | **100.0 %** | **0.02 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 11.3 % | 1.46 ms | 0.97 ms | $0.00 |
+| [plug](https://github.com/elixir-plug/plug) v1.16.1 | Elixir | ~78 .ex/.exs | **ArgosBrain 0.1.0** | **99.5 %** | **0.01 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 12.7 % | 0.98 ms | 0.87 ms | $0.00 |
+| [Distributions.jl](https://github.com/JuliaStats/Distributions.jl) master | Julia | ~255 .jl | **ArgosBrain 0.1.0** | **100.0 %** | **0.02 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 5.8 % | 1.06 ms | 0.93 ms | $0.00 |
+| [terraform-aws-vpc](https://github.com/terraform-aws-modules/terraform-aws-vpc) master | HCL | ~77 .tf | **ArgosBrain 0.1.0** | **100.0 %** | **0.08 ms** | 0.03 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 7.0 % | 1.24 ms | 1.08 ms | $0.00 |
+| [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) main | PowerShell | ~222 .ps1 | **ArgosBrain 0.1.0** | **100.0 %** | **0.01 ms** | 0.01 ms | $0.00 |
+|   |   |   | grep-baseline 0.1.0 | 6.3 % | 1.05 ms | 0.84 ms | $0.00 |
 
 **Worst ArgosBrain P99 across all sixteen corpora: 0.82 ms.** Still ~40 × faster than the **best** grep P95 (1.74 ms on commons-lang, ~17 ms on the others).
 

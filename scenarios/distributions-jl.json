@@ -1,0 +1,3925 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `GammaStats` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "GammaStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-001",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `NormalKnownMu` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "NormalKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-002",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `NamedTupleVariate` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "NamedTupleVariate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/common.jl::NamedTupleVariate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-003",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `LogLogistic` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "LogLogistic",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/loglogistic.jl::LogLogistic"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-004",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `SkewedExponentialPower` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "SkewedExponentialPower",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/skewedexponentialpower.jl::SkewedExponentialPower"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-005",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `FiniteSupport` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "FiniteSupport",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariates.jl::FiniteSupport"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-006",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Erlang` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Erlang",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/erlang.jl::Erlang"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-007",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RealInterval` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RealInterval",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariates.jl::RealInterval"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-008",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Levy` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Levy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/levy.jl::Levy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-009",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `PoissBinAliasSampler` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "PoissBinAliasSampler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/samplers/poissonbinomial.jl::PoissBinAliasSampler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-010",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Semicircle` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Semicircle",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/semicircle.jl::Semicircle"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-011",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `NoncentralBeta` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "NoncentralBeta",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/noncentralbeta.jl::NoncentralBeta"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-012",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Bernoulli` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Bernoulli",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/discrete/bernoulli.jl::Bernoulli"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-013",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `GeneralizedPareto` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "GeneralizedPareto",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/generalizedpareto.jl::GeneralizedPareto"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-014",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `LKJ` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "LKJ",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/matrix/lkj.jl::LKJ"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-015",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Epanechnikov` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Epanechnikov",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/epanechnikov.jl::Epanechnikov"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-016",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Chernoff` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Chernoff",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/chernoff.jl::Chernoff"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-017",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AbstractMvNormal` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AbstractMvNormal",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/multivariate/mvnormal.jl::AbstractMvNormal"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-018",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `SufficientStats` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "SufficientStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/common.jl::SufficientStats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-019",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `InverseWishart` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "InverseWishart",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/matrix/inversewishart.jl::InverseWishart"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-020",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Dirichlet` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Dirichlet",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/multivariate/dirichlet.jl::Dirichlet"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-021",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `JohnsonSU` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "JohnsonSU",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/johnsonsu.jl::JohnsonSU"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-022",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `MatrixFDist` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "MatrixFDist",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/matrix/matrixfdist.jl::MatrixFDist"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-000",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Dirichlet` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Dirichlet",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/multivariate/dirichlet.jl::Dirichlet::Dirichlet"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-001",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `AffineDistribution` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "AffineDistribution",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/locationscale.jl::AffineDistribution::AffineDistribution"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-002",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `ReshapedDistribution` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "ReshapedDistribution",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/reshaped.jl::ReshapedDistribution::ReshapedDistribution"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-003",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `VonMisesSampler` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "VonMisesSampler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/samplers/vonmises.jl::VonMisesSampler::VonMisesSampler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-004",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `OrderStatistic` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "OrderStatistic",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/orderstatistic.jl::OrderStatistic::OrderStatistic"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-005",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `GenericMvTDist` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "GenericMvTDist",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/multivariate/mvtdist.jl::GenericMvTDist::GenericMvTDist"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-006",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `WalleniusNoncentralHypergeometric` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "WalleniusNoncentralHypergeometric",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/discrete/noncentralhypergeometric.jl::WalleniusNoncentralHypergeometric::WalleniusNoncentralHypergeometric"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-007",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `CategoricalDirectSampler` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "CategoricalDirectSampler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/samplers/categorical.jl::CategoricalDirectSampler::CategoricalDirectSampler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-008",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `DirichletMultinomial` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "DirichletMultinomial",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/multivariate/dirichletmultinomial.jl::DirichletMultinomial::DirichletMultinomial"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-009",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `PoissonBinomial` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "PoissonBinomial",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/discrete/poissonbinomial.jl::PoissonBinomial::PoissonBinomial"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-010",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `UnivariateGMM` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "UnivariateGMM",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/mixtures/unigmm.jl::UnivariateGMM::UnivariateGMM"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-011",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Truncated` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Truncated",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/truncate.jl::Truncated::Truncated"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-012",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `EdgeworthZ` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "EdgeworthZ",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/edgeworth.jl::EdgeworthZ::EdgeworthZ"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-013",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `HypergeometricSampler` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "HypergeometricSampler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/samplers/hypergeometric.jl::HypergeometricSampler::HypergeometricSampler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-014",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `EdgeworthSum` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "EdgeworthSum",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/edgeworth.jl::EdgeworthSum::EdgeworthSum"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-015",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Soliton` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Soliton",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/discrete/soliton.jl::Soliton::Soliton"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-016",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `DiscreteNonParametricSampler` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "DiscreteNonParametricSampler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/samplers/discretenonparametric.jl::DiscreteNonParametricSampler::DiscreteNonParametricSampler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-017",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `DiscreteUniform` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "DiscreteUniform",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/discrete/discreteuniform.jl::DiscreteUniform::DiscreteUniform"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-018",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `VonMisesFisher` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "VonMisesFisher",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/multivariate/vonmisesfisher.jl::VonMisesFisher::VonMisesFisher"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-019",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `ProductDistribution` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "ProductDistribution",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/product.jl::ProductDistribution::ProductDistribution"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-020",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Censored` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Censored",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/censored.jl::Censored::Censored"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-021",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `NormalCanon` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "NormalCanon",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/normalcanon.jl::NormalCanon::NormalCanon"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-022",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Product` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Product",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/multivariate/product.jl::Product::Product"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `logpdf` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `_rand!` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `_gentype` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `convert` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/arcsine.jl::convert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Random` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::Random",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::Random"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `NegativeBinomial` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `_reshape_check_dims` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/reshaped.jl::_reshape_check_dims",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/reshaped.jl::_reshape_check_dims"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `Base` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/multivariate/product.jl::Base",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/multivariate/product.jl::Base"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `logpdf` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `mean` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/generalizedextremevalue.jl::mean",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/generalizedextremevalue.jl::mean"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `_minimize_gss` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/rician.jl::_minimize_gss",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/rician.jl::_minimize_gss"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `cdf_int` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::cdf_int",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::cdf_int"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `logccdf` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logccdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logccdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `_rand!` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/matrix/matrixbeta.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/matrix/matrixbeta.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `EdgeworthSum` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/edgeworth.jl::EdgeworthSum::EdgeworthSum",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/edgeworth.jl::EdgeworthSum::EdgeworthSum"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `forloop` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::perf/mixtures.jl::forloop",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::perf/mixtures.jl::forloop"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `_rand!` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/multivariate/mvnormal.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/multivariate/mvnormal.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `mgf` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/triweight.jl::mgf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/triweight.jl::mgf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `mgf` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/discrete/poissonbinomial.jl::mgf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/discrete/poissonbinomial.jl::mgf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `cf` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/biweight.jl::cf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/biweight.jl::cf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `entropy` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/lognormal.jl::entropy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/lognormal.jl::entropy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `test_kl` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::test/functionals.jl::test_kl",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::test/functionals.jl::test_kl"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `entropy` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/multivariate/dirichlet.jl::entropy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/multivariate/dirichlet.jl::entropy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `logpdf` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `GammaStats` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/gamma.jl::GammaStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_rand!` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `NormalKnownMu` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_gentype` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `convert` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/arcsine.jl::convert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Random` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::Random",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::Random"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `conversion` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/conversion.jl",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/conversion.jl"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `NamedTupleVariate` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/common.jl::NamedTupleVariate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/common.jl::NamedTupleVariate"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `NegativeBinomial` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_reshape_check_dims` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/reshaped.jl::_reshape_check_dims",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/reshaped.jl::_reshape_check_dims"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `exponential` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::test/univariate/continuous/exponential.jl",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::test/univariate/continuous/exponential.jl"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `rayleigh` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/rayleigh.jl",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/rayleigh.jl"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Base` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/multivariate/product.jl::Base",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/multivariate/product.jl::Base"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `logpdf` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `mean` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/generalizedextremevalue.jl::mean",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/generalizedextremevalue.jl::mean"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_minimize_gss` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/rician.jl::_minimize_gss",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/rician.jl::_minimize_gss"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `cdf_int` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::cdf_int",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::cdf_int"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `logccdf` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logccdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logccdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `_rand!` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/matrix/matrixbeta.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/matrix/matrixbeta.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `EdgeworthSum` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/edgeworth.jl::EdgeworthSum::EdgeworthSum",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/edgeworth.jl::EdgeworthSum::EdgeworthSum"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `vonmises` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/vonmises.jl",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/vonmises.jl"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `noncentralhypergeometric` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/discrete/noncentralhypergeometric.jl",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/discrete/noncentralhypergeometric.jl"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate_stats.jl`",
+    "query": {
+      "file_path": "test/multivariate_stats.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate_stats.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/censored.jl`",
+    "query": {
+      "file_path": "test/censored.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/censored.jl",
+        "julia::module::test/censored.jl::TestCensored",
+        "julia::module::test/censored.jl::TestCensored::_as_mixture"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/reshaped.jl`",
+    "query": {
+      "file_path": "test/reshaped.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/reshaped.jl",
+        "julia::module::test/reshaped.jl::test_reshaped"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/runtests.jl`",
+    "query": {
+      "file_path": "test/runtests.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/runtests.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/vonmises.jl`",
+    "query": {
+      "file_path": "test/vonmises.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/vonmises.jl::test_vonmises",
+        "julia::module::test/vonmises.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/gradlogpdf.jl`",
+    "query": {
+      "file_path": "test/gradlogpdf.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/gradlogpdf.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/samplers.jl`",
+    "query": {
+      "file_path": "test/samplers.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/samplers.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/jointorderstatistics.jl`",
+    "query": {
+      "file_path": "test/multivariate/jointorderstatistics.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/jointorderstatistics.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/mvtdist.jl`",
+    "query": {
+      "file_path": "test/multivariate/mvtdist.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/mvtdist.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/mvnormal.jl`",
+    "query": {
+      "file_path": "test/multivariate/mvnormal.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/mvnormal.jl::_gauss_mle",
+        "julia::module::test/multivariate/mvnormal.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/mvlogitnormal.jl`",
+    "query": {
+      "file_path": "test/multivariate/mvlogitnormal.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/mvlogitnormal.jl::test_mvlogitnormal",
+        "julia::module::test/multivariate/mvlogitnormal.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/mvlognormal.jl`",
+    "query": {
+      "file_path": "test/multivariate/mvlognormal.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/mvlognormal.jl",
+        "julia::module::test/multivariate/mvlognormal.jl::test_mvlognormal"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/product.jl`",
+    "query": {
+      "file_path": "test/multivariate/product.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/product.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/vonmisesfisher.jl`",
+    "query": {
+      "file_path": "test/multivariate/vonmisesfisher.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/vonmisesfisher.jl::test_angle3",
+        "julia::module::test/multivariate/vonmisesfisher.jl::test_vonmisesfisher",
+        "julia::module::test/multivariate/vonmisesfisher.jl",
+        "julia::module::test/multivariate/vonmisesfisher.jl::gen_vmf_tdata"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/multinomial.jl`",
+    "query": {
+      "file_path": "test/multivariate/multinomial.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/multinomial.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/dirichlet.jl`",
+    "query": {
+      "file_path": "test/multivariate/dirichlet.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/dirichlet.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/multivariate/dirichletmultinomial.jl`",
+    "query": {
+      "file_path": "test/multivariate/dirichletmultinomial.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/dirichletmultinomial.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/quantile_newton.jl`",
+    "query": {
+      "file_path": "test/quantile_newton.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/quantile_newton.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/univariate_bounds.jl`",
+    "query": {
+      "file_path": "test/univariate_bounds.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/univariate_bounds.jl::_subtypes_in",
+        "julia::module::test/univariate_bounds.jl::_subtypes",
+        "julia::module::test/univariate_bounds.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/utils.jl`",
+    "query": {
+      "file_path": "test/utils.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/utils.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/truncated/uniform.jl`",
+    "query": {
+      "file_path": "test/truncated/uniform.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/truncated/uniform.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/truncated/normal.jl`",
+    "query": {
+      "file_path": "test/truncated/normal.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/truncated/normal.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `logpdf` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/cholesky/lkjcholesky.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `GammaStats` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/gamma.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `_rand!` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariates.jl::_rand!"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariates.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `NormalKnownMu` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/normal.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `_gentype` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/namedtuple/productnamedtuple.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `convert` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/arcsine.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Random` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/cholesky/lkjcholesky.jl::Random"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/cholesky/lkjcholesky.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `NamedTupleVariate` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/common.jl::NamedTupleVariate"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/common.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `NegativeBinomial` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `_reshape_check_dims` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/reshaped.jl::_reshape_check_dims"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/reshaped.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Base` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/multivariate/product.jl::Base"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/multivariate/product.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `logpdf` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl::logpdf"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/pgeneralizedgaussian.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `logpdf` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/cholesky/lkjcholesky.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `GammaStats` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/gamma.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `_rand!` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariates.jl::_rand!"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariates.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `NormalKnownMu` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/normal.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `_gentype` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/namedtuple/productnamedtuple.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `convert` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/univariate/continuous/arcsine.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Random` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/cholesky/lkjcholesky.jl::Random"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/cholesky/lkjcholesky.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `NamedTupleVariate` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "julia::module::src/common.jl::NamedTupleVariate"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/common.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/multivariate_stats.jl`",
+    "query": {
+      "file_path": "test/multivariate_stats.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate_stats.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/censored.jl`",
+    "query": {
+      "file_path": "test/censored.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/censored.jl",
+        "julia::module::test/censored.jl::TestCensored",
+        "julia::module::test/censored.jl::TestCensored::_as_mixture"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-002",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/reshaped.jl`",
+    "query": {
+      "file_path": "test/reshaped.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/reshaped.jl",
+        "julia::module::test/reshaped.jl::test_reshaped"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-003",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/runtests.jl`",
+    "query": {
+      "file_path": "test/runtests.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/runtests.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-004",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/vonmises.jl`",
+    "query": {
+      "file_path": "test/vonmises.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/vonmises.jl::test_vonmises",
+        "julia::module::test/vonmises.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-005",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/gradlogpdf.jl`",
+    "query": {
+      "file_path": "test/gradlogpdf.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/gradlogpdf.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-006",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/samplers.jl`",
+    "query": {
+      "file_path": "test/samplers.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/samplers.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-007",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/multivariate/jointorderstatistics.jl`",
+    "query": {
+      "file_path": "test/multivariate/jointorderstatistics.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate/jointorderstatistics.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-000",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_kl` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_kl",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/functionals.jl::test_kl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-001",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_params` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_params",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/mixture.jl::test_params"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-002",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_cov` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_cov",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/matrixvariates.jl::test_cov"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-003",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_cgf` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_cgf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/testutils.jl::test_cgf"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-004",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_against_univariate` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_against_univariate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/matrixvariates.jl::test_against_univariate"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-005",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_draws` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_draws",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/cholesky/lkjcholesky.jl::test_draws"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-006",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_stats` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_stats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/testutils.jl::test_stats"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-007",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_affine_transformations` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_affine_transformations",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/testutils.jl::test_affine_transformations"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-000",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `GammaStats`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/gamma.jl::GammaStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-001",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `NormalKnownMu`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-002",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `NamedTupleVariate`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/common.jl::NamedTupleVariate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/common.jl::NamedTupleVariate"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-003",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `LogLogistic`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/loglogistic.jl::LogLogistic",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/loglogistic.jl::LogLogistic"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-004",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `SkewedExponentialPower`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/skewedexponentialpower.jl::SkewedExponentialPower",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/skewedexponentialpower.jl::SkewedExponentialPower"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-005",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `FiniteSupport`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::FiniteSupport",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::FiniteSupport"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-006",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `Erlang`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/erlang.jl::Erlang",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/erlang.jl::Erlang"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-007",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `RealInterval`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::RealInterval",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::RealInterval"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "schema_partner_file-000",
+    "category": "FeatureAdd",
+    "sub_type": "schema_partner_file",
+    "intent": "Schema partner file: `src/mixtures/mixturemodel.jl`",
+    "query": {
+      "file_path": "src/mixtures/mixturemodel.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/mixtures/mixturemodel.jl::var",
+        "julia::module::src/mixtures/mixturemodel.jl::cov",
+        "julia::module::src/mixtures/mixturemodel.jl::MixtureSampler",
+        "julia::module::src/mixtures/mixturemodel.jl::_mixlogpdf1",
+        "julia::module::src/mixtures/mixturemodel.jl::_cwise_logpdf1!"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `logpdf`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `GammaStats`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/gamma.jl::GammaStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `NormalKnownMu`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `convert`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/arcsine.jl::convert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Random`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::Random",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::Random"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `NamedTupleVariate`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/common.jl::NamedTupleVariate",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/common.jl::NamedTupleVariate"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `NegativeBinomial`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `Base`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/multivariate/product.jl::Base",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/multivariate/product.jl::Base"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/gamma.jl::GammaStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/arcsine.jl::convert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `lopgdf` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "lopgdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `_rnad!` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "_rnad!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `NomralKnownMu` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "NomralKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `_gnetype` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "_gnetype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `covnert` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "covnert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `Radnom` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Radnom",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `logpdf` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `_rand!` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `_gentype` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `convert` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/arcsine.jl::convert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `Random` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::Random",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::Random"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `NegativeBinomial` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/discrete/negativebinomial.jl::NegativeBinomial::NegativeBinomial"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/gamma.jl::GammaStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/arcsine.jl::convert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `Dirichlet` on enclosing type `Dirichlet`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/multivariate/dirichlet.jl::Dirichlet::Dirichlet",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/multivariate/dirichlet.jl::Dirichlet::Dirichlet"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `AffineDistribution` on enclosing type `AffineDistribution`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/locationscale.jl::AffineDistribution::AffineDistribution",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/locationscale.jl::AffineDistribution::AffineDistribution"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `ReshapedDistribution` on enclosing type `ReshapedDistribution`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/reshaped.jl::ReshapedDistribution::ReshapedDistribution",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/reshaped.jl::ReshapedDistribution::ReshapedDistribution"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `VonMisesSampler` on enclosing type `VonMisesSampler`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/samplers/vonmises.jl::VonMisesSampler::VonMisesSampler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/samplers/vonmises.jl::VonMisesSampler::VonMisesSampler"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `OrderStatistic` on enclosing type `OrderStatistic`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/orderstatistic.jl::OrderStatistic::OrderStatistic",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/orderstatistic.jl::OrderStatistic::OrderStatistic"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `GenericMvTDist` on enclosing type `GenericMvTDist`",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/multivariate/mvtdist.jl::GenericMvTDist::GenericMvTDist",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/multivariate/mvtdist.jl::GenericMvTDist::GenericMvTDist"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/cholesky/lkjcholesky.jl::logpdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/cholesky/lkjcholesky.jl::logpdf"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/gamma.jl::GammaStats",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/gamma.jl::GammaStats"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariates.jl::_rand!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariates.jl::_rand!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/normal.jl::NormalKnownMu"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/namedtuple/productnamedtuple.jl::_gentype"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "julia::module::src/univariate/continuous/arcsine.jl::convert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "julia::module::src/univariate/continuous/arcsine.jl::convert"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/multivariate_stats.jl`",
+    "query": {
+      "file_path": "test/multivariate_stats.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/multivariate_stats.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/censored.jl`",
+    "query": {
+      "file_path": "test/censored.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/censored.jl",
+        "julia::module::test/censored.jl::TestCensored",
+        "julia::module::test/censored.jl::TestCensored::_as_mixture"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/reshaped.jl`",
+    "query": {
+      "file_path": "test/reshaped.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/reshaped.jl",
+        "julia::module::test/reshaped.jl::test_reshaped"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/runtests.jl`",
+    "query": {
+      "file_path": "test/runtests.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/runtests.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/vonmises.jl`",
+    "query": {
+      "file_path": "test/vonmises.jl",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::test/vonmises.jl::test_vonmises",
+        "julia::module::test/vonmises.jl"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `lopgdf` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "lopgdf",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `_rnad!` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "_rnad!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `NomralKnownMu` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "NomralKnownMu",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `_gnetype` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "_gnetype",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `covnert` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "covnert",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `Radnom` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Radnom",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "env_var_call_sites-000",
+    "category": "Config",
+    "sub_type": "env_var_call_sites",
+    "intent": "Env-var access point: `var`",
+    "query": {
+      "bare_name": true,
+      "name": "var",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/matrix/wishart.jl::var",
+        "julia::module::src/multivariate/dirichlet.jl::var",
+        "julia::module::src/mixtures/mixturemodel.jl::var",
+        "julia::module::src/multivariate/dirichletmultinomial.jl::var",
+        "julia::module::src/matrix/inversewishart.jl::var",
+        "julia::module::src/univariate/continuous/pareto.jl::var",
+        "julia::module::src/univariate/continuous/tdist.jl::var",
+        "julia::module::src/univariate/continuous/fdist.jl::var",
+        "julia::module::src/matrix/matrixbeta.jl::var",
+        "julia::module::src/univariate/continuous/kumaraswamy.jl::var",
+        "julia::module::src/multivariate/multinomial.jl::var",
+        "julia::module::src/univariate/continuous/johnsonsu.jl::var",
+        "julia::module::src/matrix/lkj.jl::var",
+        "julia::module::src/truncated/normal.jl::var",
+        "julia::module::src/univariate/continuous/generalizedextremevalue.jl::var",
+        "julia::module::src/univariate/continuous/betaprime.jl::var",
+        "julia::module::src/univariate/continuous/frechet.jl::var",
+        "julia::module::src/univariate/continuous/lognormal.jl::var",
+        "julia::module::src/univariate/continuous/loguniform.jl::var",
+        "julia::module::src/univariate/discrete/noncentralhypergeometric.jl::var",
+        "julia::module::src/univariate/continuous/loglogistic.jl::var",
+        "julia::module::src/matrix/matrixfdist.jl::var",
+        "julia::module::src/univariate/continuous/generalizedpareto.jl::var",
+        "julia::module::src/univariate/continuous/triangular.jl::var",
+        "julia::module::src/univariate/continuous/noncentralt.jl::var",
+        "julia::module::src/univariate/discrete/hypergeometric.jl::var",
+        "julia::module::src/univariate/discrete/betabinomial.jl::var",
+        "julia::module::src/univariate/continuous/inversegamma.jl::var",
+        "julia::module::src/censored.jl::var",
+        "julia::module::src/univariate/discrete/discretenonparametric.jl::var",
+        "julia::module::src/univariate/continuous/beta.jl::var"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "env_var_call_sites-003",
+    "category": "Config",
+    "sub_type": "env_var_call_sites",
+    "intent": "Env-var access point: `var`",
+    "query": {
+      "bare_name": true,
+      "name": "var",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "julia::module::src/matrix/wishart.jl::var",
+        "julia::module::src/multivariate/dirichlet.jl::var",
+        "julia::module::src/mixtures/mixturemodel.jl::var",
+        "julia::module::src/multivariate/dirichletmultinomial.jl::var",
+        "julia::module::src/matrix/inversewishart.jl::var",
+        "julia::module::src/univariate/continuous/pareto.jl::var",
+        "julia::module::src/univariate/continuous/tdist.jl::var",
+        "julia::module::src/univariate/continuous/fdist.jl::var",
+        "julia::module::src/matrix/matrixbeta.jl::var",
+        "julia::module::src/univariate/continuous/kumaraswamy.jl::var",
+        "julia::module::src/multivariate/multinomial.jl::var",
+        "julia::module::src/univariate/continuous/johnsonsu.jl::var",
+        "julia::module::src/matrix/lkj.jl::var",
+        "julia::module::src/truncated/normal.jl::var",
+        "julia::module::src/univariate/continuous/generalizedextremevalue.jl::var",
+        "julia::module::src/univariate/continuous/betaprime.jl::var",
+        "julia::module::src/univariate/continuous/frechet.jl::var",
+        "julia::module::src/univariate/continuous/lognormal.jl::var",
+        "julia::module::src/univariate/continuous/loguniform.jl::var",
+        "julia::module::src/univariate/discrete/noncentralhypergeometric.jl::var",
+        "julia::module::src/univariate/continuous/loglogistic.jl::var",
+        "julia::module::src/matrix/matrixfdist.jl::var",
+        "julia::module::src/univariate/continuous/generalizedpareto.jl::var",
+        "julia::module::src/univariate/continuous/triangular.jl::var",
+        "julia::module::src/univariate/continuous/noncentralt.jl::var",
+        "julia::module::src/univariate/discrete/hypergeometric.jl::var",
+        "julia::module::src/univariate/discrete/betabinomial.jl::var",
+        "julia::module::src/univariate/continuous/inversegamma.jl::var",
+        "julia::module::src/censored.jl::var",
+        "julia::module::src/univariate/discrete/discretenonparametric.jl::var",
+        "julia::module::src/univariate/continuous/beta.jl::var"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]

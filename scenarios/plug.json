@@ -1,0 +1,3344 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Exception` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Exception",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/exceptions.ex::Plug.Exception"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-000",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `actions` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "actions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/exceptions.ex::Plug.Exception::actions"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-001",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `status` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "status",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/exceptions.ex::Plug.Exception::status"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `ensure_tmp` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `trim_trailing` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `uri_decode` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `verify_cookie!` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `passthrough` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `put_hsts_header` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `encode` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/session/cookie_test.exs::Plug.Session.CookieTest::CustomSerializer::encode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/session/cookie_test.exs::Plug.Session.CookieTest::CustomSerializer::encode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `finalize_map` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/query.ex::Plug.Conn.Query::finalize_map",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/query.ex::Plug.Conn.Query::finalize_map"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `capture_log_lines` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::capture_log_lines",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::capture_log_lines"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `configure` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/ssl.ex::Plug.SSL::configure",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/ssl.ex::Plug.SSL::configure"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `path_owner?` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::path_owner?",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::path_owner?"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `init` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug::init",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug::init"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `valid_csrf_token?` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/csrf_protection.ex::Plug.CSRFProtection::valid_csrf_token?",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/csrf_protection.ex::Plug.CSRFProtection::valid_csrf_token?"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `iodata_escape` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/html_test.exs::Plug.HTMlTest::iodata_escape",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/html_test.exs::Plug.HTMlTest::iodata_escape"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `reduce` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/parsers.ex::Plug.Parsers::reduce",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/parsers.ex::Plug.Parsers::reduce"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `valid_request_id?` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/request_id.ex::Plug.RequestId::valid_request_id?",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/request_id.ex::Plug.RequestId::valid_request_id?"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `put_cookie` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/session.ex::Plug.Session::put_cookie",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/session.ex::Plug.Session::put_cookie"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `__using__` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/error_handler.ex::Plug.ErrorHandler::__using__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/error_handler.ex::Plug.ErrorHandler::__using__"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `boom` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Overridable::boom",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Overridable::boom"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `otp_app` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/ssl.ex::Plug.SSL::otp_app",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/ssl.ex::Plug.SSL::otp_app"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `match` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/router.ex::Plug.Router::match",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/router.ex::Plug.Router::match"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `maybe_add_encoding` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/static.ex::Plug.Static::maybe_add_encoding",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::maybe_add_encoding"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `json_conn` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::json_conn",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::json_conn"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ensure_tmp` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Reforward` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `trim_trailing` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `WrapperError` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `uri_decode` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `verify_cookie!` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Cowboy` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `passthrough` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `utils` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/utils.ex",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/utils.ex"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ProcessStore` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/test_helper.exs::Plug.ProcessStore",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/test_helper.exs::Plug.ProcessStore"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `StatusTest` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/conn/status_test.exs::Plug.Conn.StatusTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/conn/status_test.exs::Plug.Conn.StatusTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `method_override` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/method_override.ex",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/method_override.ex"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `put_hsts_header` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `encode` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/session/cookie_test.exs::Plug.Session.CookieTest::CustomSerializer::encode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/session/cookie_test.exs::Plug.Session.CookieTest::CustomSerializer::encode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `finalize_map` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/query.ex::Plug.Conn.Query::finalize_map",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/query.ex::Plug.Conn.Query::finalize_map"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `capture_log_lines` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::capture_log_lines",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::capture_log_lines"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RouterTest` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/router_test.exs::Plug.RouterTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/router_test.exs::Plug.RouterTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `csrf_protection_test` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/csrf_protection_test.exs",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/csrf_protection_test.exs"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `configure` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/ssl.ex::Plug.SSL::configure",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/ssl.ex::Plug.SSL::configure"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `exceptions` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/exceptions.ex",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/exceptions.ex"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `path_owner?` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::path_owner?",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::path_owner?"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `NotPlug` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug_test.exs::PlugTest::NotPlug",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug_test.exs::PlugTest::NotPlug"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `init` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug::init",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug::init"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `mix.exs`",
+    "query": {
+      "file_path": "mix.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::mix.exs::Plug.MixProject::deps",
+        "elixir::module::mix.exs::Plug.MixProject::plug_crypto_version",
+        "elixir::module::mix.exs::Plug.MixProject::application",
+        "elixir::module::mix.exs::Plug.MixProject::extra_applications",
+        "elixir::module::mix.exs::Plug.MixProject"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug_test.exs`",
+    "query": {
+      "file_path": "test/plug_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug_test.exs::PlugTest::NotPlug",
+        "elixir::module::test/plug_test.exs::PlugTest::Forward::call",
+        "elixir::module::test/plug_test.exs",
+        "elixir::module::test/plug_test.exs::PlugTest::Response",
+        "elixir::module::test/plug_test.exs::PlugTest::Halter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/test_helper.exs`",
+    "query": {
+      "file_path": "test/test_helper.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::get",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::init",
+        "elixir::module::test/test_helper.exs",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::put"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/plug_cowboy.exs`",
+    "query": {
+      "file_path": "test/fixtures/plug_cowboy.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::http",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::shutdown",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::https",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::child_spec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/builder_test.exs`",
+    "query": {
+      "file_path": "test/plug/builder_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::RuntimeInit",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Overridable::boom",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::BadPlug::Bad::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Overridable"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/telemetry_test.exs`",
+    "query": {
+      "file_path": "test/plug/telemetry_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyNoSendPlug",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyCrashingPlug::raise_error",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyCrashingPlug::send_resp",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyPlug::send_resp"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/parsers/json_test.exs`",
+    "query": {
+      "file_path": "test/plug/parsers/json_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::json_conn",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::BodyReader",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::parse",
+        "elixir::module::test/plug/parsers/json_test.exs",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/html_test.exs`",
+    "query": {
+      "file_path": "test/plug/html_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/html_test.exs::Plug.HTMlTest::iodata_escape",
+        "elixir::module::test/plug/html_test.exs",
+        "elixir::module::test/plug/html_test.exs::Plug.HTMlTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/ssl_test.exs`",
+    "query": {
+      "file_path": "test/plug/ssl_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/ssl_test.exs::Plug.SSLTest::excluded_host?",
+        "elixir::module::test/plug/ssl_test.exs::Plug.SSLTest::call",
+        "elixir::module::test/plug/ssl_test.exs",
+        "elixir::module::test/plug/ssl_test.exs::Plug.SSLTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/session_test.exs`",
+    "query": {
+      "file_path": "test/plug/session_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/session_test.exs::Plug.SessionTest",
+        "elixir::module::test/plug/session_test.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/router_test.exs`",
+    "query": {
+      "file_path": "test/plug/router_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward",
+        "elixir::module::test/plug/router_test.exs::Plug.RouterTest",
+        "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Sample::verify_router_options",
+        "elixir::module::test/plug/router_test.exs::Plug.RouterTest::SamplePlug",
+        "elixir::module::test/plug/router_test.exs::Plug.RouterTest::SamplePlug::init"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/error_handler_test.exs`",
+    "query": {
+      "file_path": "test/plug/error_handler_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/error_handler_test.exs::Plug.ErrorHandlerTest::ForbiddenError",
+        "elixir::module::test/plug/error_handler_test.exs::Plug.ErrorHandlerTest::Router::call",
+        "elixir::module::test/plug/error_handler_test.exs::Plug.ErrorHandlerTest::NotFoundError",
+        "elixir::module::test/plug/error_handler_test.exs::Plug.ErrorHandlerTest::Router",
+        "elixir::module::test/plug/error_handler_test.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/logger_test.exs`",
+    "query": {
+      "file_path": "test/plug/logger_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::capture_log_lines",
+        "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::MyChunkedPlug::passthrough",
+        "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::MyPlug",
+        "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::MyChunkedPlug",
+        "elixir::module::test/plug/logger_test.exs::Plug.LoggerTest::call"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/adapters/test/conn_test.exs`",
+    "query": {
+      "file_path": "test/plug/adapters/test/conn_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/adapters/test/conn_test.exs",
+        "elixir::module::test/plug/adapters/test/conn_test.exs::Plug.Adapters.Test.ConnTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/rewrite_on_test.exs`",
+    "query": {
+      "file_path": "test/plug/rewrite_on_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/rewrite_on_test.exs",
+        "elixir::module::test/plug/rewrite_on_test.exs::Plug.RewriteOnTest::call",
+        "elixir::module::test/plug/rewrite_on_test.exs::Plug.RewriteOnTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/csrf_protection_test.exs`",
+    "query": {
+      "file_path": "test/plug/csrf_protection_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/csrf_protection_test.exs",
+        "elixir::module::test/plug/csrf_protection_test.exs::Plug.CSRFProtectionTest::handle_token",
+        "elixir::module::test/plug/csrf_protection_test.exs::Plug.CSRFProtectionTest::call_with_invalid_token",
+        "elixir::module::test/plug/csrf_protection_test.exs::Plug.CSRFProtectionTest::call_with_old_conn",
+        "elixir::module::test/plug/csrf_protection_test.exs::Plug.CSRFProtectionTest::call"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/request_id_test.exs`",
+    "query": {
+      "file_path": "test/plug/request_id_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/request_id_test.exs::Plug.RequestIdTest::generated_request_id?",
+        "elixir::module::test/plug/request_id_test.exs",
+        "elixir::module::test/plug/request_id_test.exs::Plug.RequestIdTest::call",
+        "elixir::module::test/plug/request_id_test.exs::Plug.RequestIdTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/method_override_test.exs`",
+    "query": {
+      "file_path": "test/plug/method_override_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/method_override_test.exs::Plug.MethodOverrideTest::call",
+        "elixir::module::test/plug/method_override_test.exs::Plug.MethodOverrideTest",
+        "elixir::module::test/plug/method_override_test.exs::Plug.MethodOverrideTest::urlencoded_conn",
+        "elixir::module::test/plug/method_override_test.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/static_test.exs`",
+    "query": {
+      "file_path": "test/plug/static_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough",
+        "elixir::module::test/plug/static_test.exs::Plug.StaticTest::call",
+        "elixir::module::test/plug/static_test.exs::Plug.StaticTest::HeaderGenerator",
+        "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug",
+        "elixir::module::test/plug/static_test.exs::Plug.StaticTest::EtagGenerator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/head_test.exs`",
+    "query": {
+      "file_path": "test/plug/head_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/head_test.exs::Plug.HeadTest",
+        "elixir::module::test/plug/head_test.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/debugger_test.exs`",
+    "query": {
+      "file_path": "test/plug/debugger_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/debugger_test.exs::Plug.DebuggerTest",
+        "elixir::module::test/plug/debugger_test.exs::Plug.DebuggerTest::Plug.Exception",
+        "elixir::module::test/plug/debugger_test.exs",
+        "elixir::module::test/plug/debugger_test.exs::Plug.DebuggerTest::render",
+        "elixir::module::test/plug/debugger_test.exs::Plug.DebuggerTest::Plug.Exception::actions"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/plug/parsers_test.exs`",
+    "query": {
+      "file_path": "test/plug/parsers_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/parsers_test.exs::Plug.ParsersTest",
+        "elixir::module::test/plug/parsers_test.exs",
+        "elixir::module::test/plug/parsers_test.exs::Plug.ParsersTest::multipart_to_params",
+        "elixir::module::test/plug/parsers_test.exs::Plug.ParsersTest::BodyReader::read_body",
+        "elixir::module::test/plug/parsers_test.exs::Plug.ParsersTest::parse"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `ensure_tmp` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/upload.ex::Plug.Upload"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Reforward` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/router_test.exs::Plug.RouterTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `trim_trailing` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `WrapperError` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn/wrapper_error.ex"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `uri_decode` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/static.ex::Plug.Static"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `verify_cookie!` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn.ex::Plug.Conn"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `Cowboy` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/fixtures/plug_cowboy.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `passthrough` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `ProcessStore` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/test_helper.exs::Plug.ProcessStore"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/test_helper.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `StatusTest` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/plug/conn/status_test.exs::Plug.Conn.StatusTest"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/conn/status_test.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `put_hsts_header` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/ssl.ex::Plug.SSL"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `encode` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/plug/session/cookie_test.exs::Plug.Session.CookieTest::CustomSerializer::encode"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/session/cookie_test.exs::Plug.Session.CookieTest::CustomSerializer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-000",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `WrapperError` type",
+    "query": {
+      "bare_name": true,
+      "name": "WrapperError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-001",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `Exception` type",
+    "query": {
+      "bare_name": true,
+      "name": "Exception",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/debugger_test.exs::Plug.DebuggerTest::Plug.Exception"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-002",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `BadRequestError` type",
+    "query": {
+      "bare_name": true,
+      "name": "BadRequestError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/exceptions.ex::Plug.BadRequestError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-003",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `RequestTooLargeError` type",
+    "query": {
+      "bare_name": true,
+      "name": "RequestTooLargeError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/parsers.ex::Plug.Parsers::RequestTooLargeError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-004",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `BadEncodingError` type",
+    "query": {
+      "bare_name": true,
+      "name": "BadEncodingError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/parsers.ex::Plug.Parsers::BadEncodingError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-005",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `InvalidHeaderError` type",
+    "query": {
+      "bare_name": true,
+      "name": "InvalidHeaderError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn.ex::Plug.Conn::InvalidHeaderError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-006",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `ActionableError` type",
+    "query": {
+      "bare_name": true,
+      "name": "ActionableError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/debugger_test.exs::Plug.DebuggerTest::ActionableError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-007",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `ForbiddenError` type",
+    "query": {
+      "bare_name": true,
+      "name": "ForbiddenError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/error_handler_test.exs::Plug.ErrorHandlerTest::ForbiddenError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-008",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `Exception` type",
+    "query": {
+      "bare_name": true,
+      "name": "Exception",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/exceptions.ex::Plug.Exception"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-009",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `NotFoundError` type",
+    "query": {
+      "bare_name": true,
+      "name": "NotFoundError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/error_handler_test.exs::Plug.ErrorHandlerTest::NotFoundError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-010",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `UnsupportedMediaTypeError` type",
+    "query": {
+      "bare_name": true,
+      "name": "UnsupportedMediaTypeError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/parsers.ex::Plug.Parsers::UnsupportedMediaTypeError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-011",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `MalformedURIError` type",
+    "query": {
+      "bare_name": true,
+      "name": "MalformedURIError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/router/utils.ex::Plug.Router.MalformedURIError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-000",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `Exception` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "elixir::module::lib/plug/exceptions.ex::Plug.Exception"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/exceptions.ex::Plug.Exception::actions",
+        "elixir::module::lib/plug/exceptions.ex::Plug.Exception::status"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-000",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `Exception` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "elixir::module::lib/plug/exceptions.ex::Plug.Exception"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/exceptions.ex::Plug.Exception::actions",
+        "elixir::module::lib/plug/exceptions.ex::Plug.Exception::status"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `ensure_tmp` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/upload.ex::Plug.Upload"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Reforward` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/router_test.exs::Plug.RouterTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `trim_trailing` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `WrapperError` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn/wrapper_error.ex"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `uri_decode` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/static.ex::Plug.Static"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `verify_cookie!` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn.ex::Plug.Conn"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `Cowboy` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/fixtures/plug_cowboy.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `passthrough` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/plug_test.exs`",
+    "query": {
+      "file_path": "test/plug_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug_test.exs::PlugTest::NotPlug",
+        "elixir::module::test/plug_test.exs::PlugTest::Forward::call",
+        "elixir::module::test/plug_test.exs",
+        "elixir::module::test/plug_test.exs::PlugTest::Response",
+        "elixir::module::test/plug_test.exs::PlugTest::Halter",
+        "elixir::module::test/plug_test.exs::PlugTest::Forward",
+        "elixir::module::test/plug_test.exs::PlugTest",
+        "elixir::module::test/plug_test.exs::PlugTest::Forward::init"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/test_helper.exs`",
+    "query": {
+      "file_path": "test/test_helper.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::get",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::init",
+        "elixir::module::test/test_helper.exs",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::put",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::delete"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-002",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/fixtures/plug_cowboy.exs`",
+    "query": {
+      "file_path": "test/fixtures/plug_cowboy.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::http",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::shutdown",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::https",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::child_spec",
+        "elixir::module::test/fixtures/plug_cowboy.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-003",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/plug/builder_test.exs`",
+    "query": {
+      "file_path": "test/plug/builder_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::RuntimeInit",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Overridable::boom",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::BadPlug::Bad::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Overridable",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyFunctionPlug",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-004",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/plug/telemetry_test.exs`",
+    "query": {
+      "file_path": "test/plug/telemetry_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyNoSendPlug",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyCrashingPlug::raise_error",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyCrashingPlug::send_resp",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyPlug::send_resp",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::MyCrashingPlug",
+        "elixir::module::test/plug/telemetry_test.exs",
+        "elixir::module::test/plug/telemetry_test.exs::Plug.TelemetryTest::attach"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-005",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/plug/parsers/json_test.exs`",
+    "query": {
+      "file_path": "test/plug/parsers/json_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::json_conn",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::BodyReader",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::parse",
+        "elixir::module::test/plug/parsers/json_test.exs",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::InvalidJSONDecoder",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::JSON",
+        "elixir::module::test/plug/parsers/json_test.exs::Plug.Parsers.JSONTest::BodyReader::read_body"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-006",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/plug/html_test.exs`",
+    "query": {
+      "file_path": "test/plug/html_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/html_test.exs::Plug.HTMlTest::iodata_escape",
+        "elixir::module::test/plug/html_test.exs",
+        "elixir::module::test/plug/html_test.exs::Plug.HTMlTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-007",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/plug/ssl_test.exs`",
+    "query": {
+      "file_path": "test/plug/ssl_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/ssl_test.exs::Plug.SSLTest::excluded_host?",
+        "elixir::module::test/plug/ssl_test.exs::Plug.SSLTest::call",
+        "elixir::module::test/plug/ssl_test.exs",
+        "elixir::module::test/plug/ssl_test.exs::Plug.SSLTest"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-000",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/plug_cowboy.exs`",
+    "query": {
+      "file_path": "test/fixtures/plug_cowboy.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::http",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::shutdown",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::https",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::child_spec",
+        "elixir::module::test/fixtures/plug_cowboy.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-000",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_helper` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_helper",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/test_helper.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-000",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `Exception`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/exceptions.ex::Plug.Exception",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/exceptions.ex::Plug.Exception"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-000",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `register_before_send`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::register_before_send"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn.ex::Plug.Conn"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `ensure_tmp`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `trim_trailing`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `uri_decode`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `verify_cookie!`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `passthrough`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `put_hsts_header`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `encode`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/session/cookie_test.exs::Plug.Session.CookieTest::CustomSerializer::encode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/session/cookie_test.exs::Plug.Session.CookieTest::CustomSerializer::encode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `finalize_map`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/query.ex::Plug.Conn.Query::finalize_map",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/query.ex::Plug.Conn.Query::finalize_map"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `enusre_tmp` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "enusre_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `Reofrward` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Reofrward",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `trmi_trailing` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "trmi_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `WrpaperError` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "WrpaperError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `ur_idecode` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ur_idecode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `veirfy_cookie!` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "veirfy_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "bare_name_collision-002",
+    "category": "ApiDiscovery",
+    "sub_type": "bare_name_collision",
+    "intent": "Ambiguity: `get` has 6 candidates — list them all",
+    "query": {
+      "bare_name": true,
+      "name": "get",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::get",
+        "elixir::module::lib/plug/session/store.ex::Plug.Session.Store::get",
+        "elixir::module::lib/plug/session/cookie.ex::Plug.Session.COOKIE::get",
+        "elixir::module::lib/plug/router.ex::Plug.Router::get",
+        "elixir::module::lib/plug/session/ets.ex::Plug.Session.ETS::get",
+        "elixir::module::lib/plug/conn/unfetched.ex::Plug.Conn.Unfetched::get"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "bare_name_collision-003",
+    "category": "ApiDiscovery",
+    "sub_type": "bare_name_collision",
+    "intent": "Ambiguity: `init` has 27 candidates — list them all",
+    "query": {
+      "bare_name": true,
+      "name": "init",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug::init",
+        "elixir::module::lib/plug/session/ets.ex::Plug.Session.ETS::init",
+        "elixir::module::lib/plug/method_override.ex::Plug.MethodOverride::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::BadPlug::Bad::init",
+        "elixir::module::lib/plug/static.ex::Plug.Static::init",
+        "elixir::module::lib/plug/head.ex::Plug.Head::init",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::init",
+        "elixir::module::lib/plug/session.ex::Plug.Session::init",
+        "elixir::module::test/plug/router_test.exs::Plug.RouterTest::SamplePlug::init",
+        "elixir::module::lib/plug/logger.ex::Plug.Logger::init",
+        "elixir::module::lib/plug/csrf_protection.ex::Plug.CSRFProtection::init",
+        "elixir::module::lib/plug/builder.ex::Plug.Builder::__using__::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Assigner::init",
+        "elixir::module::lib/plug/parsers/urlencoded.ex::Plug.Parsers.URLENCODED::init",
+        "elixir::module::lib/plug/ssl.ex::Plug.SSL::init",
+        "elixir::module::lib/plug/request_id.ex::Plug.RequestId::init",
+        "elixir::module::lib/plug/parsers/json.ex::Plug.Parsers.JSON::init",
+        "elixir::module::lib/plug/rewrite_on.ex::Plug.RewriteOn::init",
+        "elixir::module::lib/plug/session/cookie.ex::Plug.Session.COOKIE::init",
+        "elixir::module::lib/plug/parsers/multipart.ex::Plug.Parsers.MULTIPART::init",
+        "elixir::module::test/plug_test.exs::PlugTest::Forward::init",
+        "elixir::module::lib/plug/parsers.ex::Plug.Parsers::init",
+        "elixir::module::lib/plug/telemetry.ex::Plug.Telemetry::init",
+        "elixir::module::test/plug_test.exs::PlugTest::NotPlug::init",
+        "elixir::module::lib/plug/upload.ex::Plug.Upload::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Module::init",
+        "elixir::module::test/plug_test.exs::PlugTest::Halter::init"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `ensure_tmp` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `trim_trailing` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `uri_decode` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `verify_cookie!` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `passthrough` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/static_test.exs::Plug.StaticTest::FilterPlug::passthrough"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `put_hsts_header` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/ssl.ex::Plug.SSL::put_hsts_header"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `actions` on enclosing type `Exception`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/exceptions.ex::Plug.Exception::actions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/exceptions.ex::Plug.Exception::actions"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `status` on enclosing type `Exception`",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/exceptions.ex::Plug.Exception::status",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/exceptions.ex::Plug.Exception::status"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/upload.ex::Plug.Upload::ensure_tmp"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::test/plug/router_test.exs::Plug.RouterTest::Reforward"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/utils.ex::Plug.Conn.Utils::trim_trailing"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/static.ex::Plug.Static::uri_decode"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "elixir::module::lib/plug/conn.ex::Plug.Conn::verify_cookie!"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `mix.exs`",
+    "query": {
+      "file_path": "mix.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::mix.exs::Plug.MixProject::deps",
+        "elixir::module::mix.exs::Plug.MixProject::plug_crypto_version",
+        "elixir::module::mix.exs::Plug.MixProject::application",
+        "elixir::module::mix.exs::Plug.MixProject::extra_applications",
+        "elixir::module::mix.exs::Plug.MixProject"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/plug_test.exs`",
+    "query": {
+      "file_path": "test/plug_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug_test.exs::PlugTest::NotPlug",
+        "elixir::module::test/plug_test.exs::PlugTest::Forward::call",
+        "elixir::module::test/plug_test.exs",
+        "elixir::module::test/plug_test.exs::PlugTest::Response",
+        "elixir::module::test/plug_test.exs::PlugTest::Halter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/test_helper.exs`",
+    "query": {
+      "file_path": "test/test_helper.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::get",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::init",
+        "elixir::module::test/test_helper.exs",
+        "elixir::module::test/test_helper.exs::Plug.ProcessStore::put"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/fixtures/plug_cowboy.exs`",
+    "query": {
+      "file_path": "test/fixtures/plug_cowboy.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::http",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::shutdown",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::https",
+        "elixir::module::test/fixtures/plug_cowboy.exs::Plug.Cowboy::child_spec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/plug/builder_test.exs`",
+    "query": {
+      "file_path": "test/plug/builder_test.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::FaultyModulePlug::FaultyPlug::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::RuntimeInit",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Overridable::boom",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::BadPlug::Bad::init",
+        "elixir::module::test/plug/builder_test.exs::Plug.BuilderTest::Overridable"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `enusre_tmp` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "enusre_tmp",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `Reofrward` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Reofrward",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `trmi_trailing` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "trmi_trailing",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `WrpaperError` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "WrpaperError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `ur_idecode` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "ur_idecode",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `veirfy_cookie!` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "veirfy_cookie!",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exception_raisers-000",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `WrapperError` type",
+    "query": {
+      "bare_name": true,
+      "name": "WrapperError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn/wrapper_error.ex::Plug.Conn.WrapperError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-001",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `Exception` type",
+    "query": {
+      "bare_name": true,
+      "name": "Exception",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/debugger_test.exs::Plug.DebuggerTest::Plug.Exception"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-002",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `BadRequestError` type",
+    "query": {
+      "bare_name": true,
+      "name": "BadRequestError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/exceptions.ex::Plug.BadRequestError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-003",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `RequestTooLargeError` type",
+    "query": {
+      "bare_name": true,
+      "name": "RequestTooLargeError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/parsers.ex::Plug.Parsers::RequestTooLargeError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-004",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `BadEncodingError` type",
+    "query": {
+      "bare_name": true,
+      "name": "BadEncodingError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/parsers.ex::Plug.Parsers::BadEncodingError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-005",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `InvalidHeaderError` type",
+    "query": {
+      "bare_name": true,
+      "name": "InvalidHeaderError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::lib/plug/conn.ex::Plug.Conn::InvalidHeaderError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-006",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `ActionableError` type",
+    "query": {
+      "bare_name": true,
+      "name": "ActionableError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/debugger_test.exs::Plug.DebuggerTest::ActionableError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-007",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `ForbiddenError` type",
+    "query": {
+      "bare_name": true,
+      "name": "ForbiddenError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::test/plug/error_handler_test.exs::Plug.ErrorHandlerTest::ForbiddenError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-000",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `config/config.exs`",
+    "query": {
+      "file_path": "config/config.exs",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "elixir::module::config/config.exs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]

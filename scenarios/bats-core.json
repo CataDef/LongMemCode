@@ -1,0 +1,2913 @@
+[
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `teardown_suite` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `teardown_suite` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_all_in` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `main` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `write_changelog` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::write_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_load_library` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_load_library",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_load_library"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_redirect_stderr_into_file` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_redirect_stderr_into_file",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_redirect_stderr_into_file"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `download_extract_source` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::docker/install_libs.sh::download_extract_source",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::docker/install_libs.sh::download_extract_source"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_run_print_output` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::run::bats_run_print_output",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::run::bats_run_print_output"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_require_minimum_version` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_require_minimum_version",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_require_minimum_version"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `single-use-barrier` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/concurrent-coordination.bash::single-use-barrier",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/concurrent-coordination.bash::single-use-barrier"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `execute_with_unset_bats_vars` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/test_helper.bash::execute_with_unset_bats_vars",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/test_helper.bash::execute_with_unset_bats_vars"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `setup_suite` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash::setup_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash::setup_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_execute` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_execute",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_execute"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `filter_control_sequences` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/test_helper.bash::filter_control_sequences",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/test_helper.bash::filter_control_sequences"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `setup_suite` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash::setup_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash::setup_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_frame_lineno` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/tracing.bash::bats_frame_lineno",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/tracing.bash::bats_frame_lineno"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_run_under_shlock` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/semaphore.bash::bats_run_under_shlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/semaphore.bash::bats_run_under_shlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_test_function` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_test_function",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_test_function"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `failing_helper` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/test_helper.bash::failing_helper",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/test_helper.bash::failing_helper"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_warn_minimum_guaranteed_version` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/warnings.bash::bats_warn_minimum_guaranteed_version",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/warnings.bash::bats_warn_minimum_guaranteed_version"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_error_trap` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/tracing.bash::bats_error_trap",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/tracing.bash::bats_error_trap"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `bats_frame_function` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/tracing.bash::bats_frame_function",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/tracing.bash::bats_frame_function"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `teardown_suite` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `teardown_suite` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `setup_suite` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/no_failure_no_output/setup_suite.bash",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/no_failure_no_output/setup_suite.bash"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_all_in` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `main` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `write_changelog` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::write_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_load_library` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_load_library",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_load_library"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_redirect_stderr_into_file` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_redirect_stderr_into_file",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_redirect_stderr_into_file"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `download_extract_source` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::docker/install_libs.sh::download_extract_source",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::docker/install_libs.sh::download_extract_source"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_run_print_output` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::run::bats_run_print_output",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::run::bats_run_print_output"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_require_minimum_version` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_require_minimum_version",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_require_minimum_version"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `single-use-barrier` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/concurrent-coordination.bash::single-use-barrier",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/concurrent-coordination.bash::single-use-barrier"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `execute_with_unset_bats_vars` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/test_helper.bash::execute_with_unset_bats_vars",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/test_helper.bash::execute_with_unset_bats_vars"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `setup_suite` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/exported_vars/setup_suite.bash",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/exported_vars/setup_suite.bash"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `install_tini` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::docker/install_tini.sh",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::docker/install_tini.sh"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `setup_suite` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash::setup_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash::setup_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_execute` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_execute",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_execute"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `filter_control_sequences` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/test_helper.bash::filter_control_sequences",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/test_helper.bash::filter_control_sequences"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `test_helper` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/load/test_helper.bash",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/load/test_helper.bash"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `setup_suite` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash::setup_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash::setup_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_frame_lineno` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/tracing.bash::bats_frame_lineno",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/tracing.bash::bats_frame_lineno"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_run_under_shlock` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/semaphore.bash::bats_run_under_shlock",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/semaphore.bash::bats_run_under_shlock"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `bats_test_function` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_test_function",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_test_function"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `shellcheck.sh`",
+    "query": {
+      "file_path": "shellcheck.sh",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::shellcheck.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `docker/install_tini.sh`",
+    "query": {
+      "file_path": "docker/install_tini.sh",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::docker/install_tini.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `docker/install_libs.sh`",
+    "query": {
+      "file_path": "docker/install_libs.sh",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::docker/install_libs.sh::download_extract_source",
+        "bash::module::docker/install_libs.sh",
+        "bash::module::docker/install_libs.sh::install_files",
+        "bash::module::docker/install_libs.sh::_log",
+        "bash::module::docker/install_libs.sh::create_temp_dirs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/concurrent-coordination.bash`",
+    "query": {
+      "file_path": "test/concurrent-coordination.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/concurrent-coordination.bash::single-use-barrier",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::wait",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::_filename",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::signal",
+        "bash::module::test/concurrent-coordination.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/test_helper.bash`",
+    "query": {
+      "file_path": "test/test_helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/test_helper.bash::execute_with_unset_bats_vars",
+        "bash::module::test/test_helper.bash::filter_control_sequences",
+        "bash::module::test/test_helper.bash::fixtures",
+        "bash::module::test/test_helper.bash::reentrant_run",
+        "bash::module::test/test_helper.bash::emit_debug_output"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/teardown_suite_override_status/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/teardown_suite_override_status/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash",
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::setup_suite"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/preserve_IFS/helper.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/preserve_IFS/helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/preserve_IFS/helper.bash",
+        "bash::module::test/fixtures/bats/preserve_IFS/helper.bash::check_ifs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/preserve_IFS/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/preserve_IFS/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash",
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash::teardown_suite"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/test_helper.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/test_helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/test_helper.bash::failing_helper",
+        "bash::module::test/fixtures/bats/test_helper.bash",
+        "bash::module::test/fixtures/bats/test_helper.bash::help_me",
+        "bash::module::test/fixtures/bats/test_helper.bash::return_0",
+        "bash::module::test/fixtures/bats/test_helper.bash::return_1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/unofficial_bash_strict_mode.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/unofficial_bash_strict_mode.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/unofficial_bash_strict_mode.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/external_functions.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/external_functions.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/external_functions.bash::teardown_file",
+        "bash::module::test/fixtures/bats/external_functions.bash::setup",
+        "bash::module::test/fixtures/bats/external_functions.bash",
+        "bash::module::test/fixtures/bats/external_functions.bash::setup_file",
+        "bash::module::test/fixtures/bats/external_functions.bash::teardown"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash::bats::on_failure",
+        "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/cmd_using_stdin.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/cmd_using_stdin.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/cmd_using_stdin.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/bats/exit_11.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/exit_11.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/exit_11.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/suite_setup_teardown/no_setup_suite_function/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/suite_setup_teardown/no_setup_suite_function/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/no_setup_suite_function/setup_suite.bash::teardown_suite",
+        "bash::module::test/fixtures/suite_setup_teardown/no_setup_suite_function/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/suite_setup_teardown/call_load/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/suite_setup_teardown/call_load/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/call_load/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/suite_setup_teardown/call_load/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/suite_setup_teardown/call_load/test_helper.bash`",
+    "query": {
+      "file_path": "test/fixtures/suite_setup_teardown/call_load/test_helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/call_load/test_helper.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/suite_setup_teardown/exported_vars/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/suite_setup_teardown/exported_vars/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/exported_vars/setup_suite.bash",
+        "bash::module::test/fixtures/suite_setup_teardown/exported_vars/setup_suite.bash::setup_suite"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/suite_setup_teardown/output_with_failure/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/suite_setup_teardown/output_with_failure/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/output_with_failure/setup_suite.bash",
+        "bash::module::test/fixtures/suite_setup_teardown/output_with_failure/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/suite_setup_teardown/output_with_failure/setup_suite.bash::teardown_suite"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/suite_setup_teardown/error_in_setup_suite/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/suite_setup_teardown/error_in_setup_suite/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/error_in_setup_suite/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/suite_setup_teardown/error_in_setup_suite/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash::teardown_suite",
+        "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/folder2/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `teardown_suite` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `teardown_suite` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `bats_all_in` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/common.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `main` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::contrib/release.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `write_changelog` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::contrib/release.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `bats_load_library` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_load_library"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/test_functions.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `bats_redirect_stderr_into_file` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_redirect_stderr_into_file"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/test_functions.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `download_extract_source` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::docker/install_libs.sh::download_extract_source"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::docker/install_libs.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `bats_run_print_output` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::lib/bats-core/test_functions.bash::run::bats_run_print_output"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/test_functions.bash::run"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `bats_require_minimum_version` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::lib/bats-core/common.bash::bats_require_minimum_version"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/common.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `single-use-barrier` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::test/concurrent-coordination.bash::single-use-barrier"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/concurrent-coordination.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `execute_with_unset_bats_vars` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::test/test_helper.bash::execute_with_unset_bats_vars"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/test_helper.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `teardown_suite` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `teardown_suite` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `bats_all_in` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/common.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `main` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::contrib/release.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `write_changelog` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::contrib/release.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `bats_load_library` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_load_library"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/test_functions.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `bats_redirect_stderr_into_file` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_redirect_stderr_into_file"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/test_functions.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `download_extract_source` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "bash::module::docker/install_libs.sh::download_extract_source"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::docker/install_libs.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/concurrent-coordination.bash`",
+    "query": {
+      "file_path": "test/concurrent-coordination.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/concurrent-coordination.bash::single-use-barrier",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::wait",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::_filename",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::signal",
+        "bash::module::test/concurrent-coordination.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/test_helper.bash`",
+    "query": {
+      "file_path": "test/test_helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/test_helper.bash::execute_with_unset_bats_vars",
+        "bash::module::test/test_helper.bash::filter_control_sequences",
+        "bash::module::test/test_helper.bash::fixtures",
+        "bash::module::test/test_helper.bash::reentrant_run",
+        "bash::module::test/test_helper.bash::emit_debug_output",
+        "bash::module::test/test_helper.bash::emulate_bats_env",
+        "bash::module::test/test_helper.bash",
+        "bash::module::test/test_helper.bash::tput"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-002",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/fixtures/bats/teardown_suite_override_status/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/teardown_suite_override_status/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash",
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::setup_suite"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-003",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/fixtures/bats/preserve_IFS/helper.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/preserve_IFS/helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/preserve_IFS/helper.bash",
+        "bash::module::test/fixtures/bats/preserve_IFS/helper.bash::check_ifs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-004",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/fixtures/bats/preserve_IFS/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/preserve_IFS/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash",
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash::teardown_suite"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-005",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/fixtures/bats/test_helper.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/test_helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/test_helper.bash::failing_helper",
+        "bash::module::test/fixtures/bats/test_helper.bash",
+        "bash::module::test/fixtures/bats/test_helper.bash::help_me",
+        "bash::module::test/fixtures/bats/test_helper.bash::return_0",
+        "bash::module::test/fixtures/bats/test_helper.bash::return_1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-006",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-007",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `test/fixtures/bats/unofficial_bash_strict_mode.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/unofficial_bash_strict_mode.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/unofficial_bash_strict_mode.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-000",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/bats/teardown_suite_override_status/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/teardown_suite_override_status/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash",
+        "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::setup_suite"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-001",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/bats/preserve_IFS/helper.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/preserve_IFS/helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/preserve_IFS/helper.bash",
+        "bash::module::test/fixtures/bats/preserve_IFS/helper.bash::check_ifs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-002",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/bats/preserve_IFS/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/preserve_IFS/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash",
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/bats/preserve_IFS/setup_suite.bash::teardown_suite"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-003",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/bats/test_helper.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/test_helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/test_helper.bash::failing_helper",
+        "bash::module::test/fixtures/bats/test_helper.bash",
+        "bash::module::test/fixtures/bats/test_helper.bash::help_me",
+        "bash::module::test/fixtures/bats/test_helper.bash::return_0",
+        "bash::module::test/fixtures/bats/test_helper.bash::return_1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-004",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/gobble_up_stdin_sleep_and_print_finish.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-005",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/bats/unofficial_bash_strict_mode.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/unofficial_bash_strict_mode.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/unofficial_bash_strict_mode.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-006",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/bats/external_functions.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/external_functions.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/external_functions.bash::teardown_file",
+        "bash::module::test/fixtures/bats/external_functions.bash::setup",
+        "bash::module::test/fixtures/bats/external_functions.bash",
+        "bash::module::test/fixtures/bats/external_functions.bash::setup_file",
+        "bash::module::test/fixtures/bats/external_functions.bash::teardown"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-007",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash`",
+    "query": {
+      "file_path": "test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash::setup_suite",
+        "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash::bats::on_failure",
+        "bash::module::test/fixtures/bats/failure_callback_setup_suite/setup_suite.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-000",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_helper` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_helper",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/load/test_helper.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-001",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_helper` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_helper",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite/multiple_load_constants/test_helper.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-002",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_helper` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_helper",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/bats/test_helper.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-003",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_functions` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_functions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::lib/bats-core/test_functions.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-004",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_helper` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_helper",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite_setup_teardown/call_load/test_helper.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-005",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_helper` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_helper",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/test_helper.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "test_to_prod_mapping-006",
+    "category": "TestGen",
+    "sub_type": "test_to_prod_mapping",
+    "intent": "Map test `test_helper` back to its production target",
+    "query": {
+      "bare_name": true,
+      "name": "test_helper",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/fixtures/suite/errors_in_multiple_load/test_helper.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `teardown_suite`",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `teardown_suite`",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `bats_all_in`",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `main`",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `write_changelog`",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::write_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `bats_load_library`",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_load_library",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_load_library"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `bats_redirect_stderr_into_file`",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_redirect_stderr_into_file",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_redirect_stderr_into_file"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `download_extract_source`",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::docker/install_libs.sh::download_extract_source",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::docker/install_libs.sh::download_extract_source"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/no_failure_no_output/setup_suite.bash",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/no_failure_no_output/setup_suite.bash"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::write_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `teradown_suite` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "teradown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `teradown_suite` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "teradown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `seutp_suite` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "seutp_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `bast_all_in` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "bast_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `wrtie_changelog` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "wrtie_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `bast_load_library` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "bast_load_library",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `teardown_suite` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `teardown_suite` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `bats_all_in` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `main` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `write_changelog` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::write_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `bats_load_library` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/test_functions.bash::bats_load_library",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/test_functions.bash::bats_load_library"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/no_failure_no_output/setup_suite.bash",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/no_failure_no_output/setup_suite.bash"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::write_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/bats/teardown_suite_override_status/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/pick_up_toplevel/setup_suite.bash::teardown_suite"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::test/fixtures/suite_setup_teardown/no_failure_no_output/setup_suite.bash",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::test/fixtures/suite_setup_teardown/no_failure_no_output/setup_suite.bash"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::lib/bats-core/common.bash::bats_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::lib/bats-core/common.bash::bats_all_in"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::main",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::main"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "bash::module::contrib/release.sh::write_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "bash::module::contrib/release.sh::write_changelog"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `shellcheck.sh`",
+    "query": {
+      "file_path": "shellcheck.sh",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::shellcheck.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `docker/install_tini.sh`",
+    "query": {
+      "file_path": "docker/install_tini.sh",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::docker/install_tini.sh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `docker/install_libs.sh`",
+    "query": {
+      "file_path": "docker/install_libs.sh",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::docker/install_libs.sh::download_extract_source",
+        "bash::module::docker/install_libs.sh",
+        "bash::module::docker/install_libs.sh::install_files",
+        "bash::module::docker/install_libs.sh::_log",
+        "bash::module::docker/install_libs.sh::create_temp_dirs"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/concurrent-coordination.bash`",
+    "query": {
+      "file_path": "test/concurrent-coordination.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/concurrent-coordination.bash::single-use-barrier",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::wait",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::_filename",
+        "bash::module::test/concurrent-coordination.bash::single-use-latch::signal",
+        "bash::module::test/concurrent-coordination.bash"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `test/test_helper.bash`",
+    "query": {
+      "file_path": "test/test_helper.bash",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "bash::module::test/test_helper.bash::execute_with_unset_bats_vars",
+        "bash::module::test/test_helper.bash::filter_control_sequences",
+        "bash::module::test/test_helper.bash::fixtures",
+        "bash::module::test/test_helper.bash::reentrant_run",
+        "bash::module::test/test_helper.bash::emit_debug_output"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `teradown_suite` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "teradown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `teradown_suite` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "teradown_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `seutp_suite` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "seutp_suite",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `bast_all_in` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "bast_all_in",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `wrtie_changelog` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "wrtie_changelog",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `bast_load_library` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "bast_load_library",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  }
+]

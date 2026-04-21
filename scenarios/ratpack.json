@@ -1,0 +1,4786 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `JavadocCodeSnippetTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-001",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `SomeType` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "SomeType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/BindingsSpecSpec.groovy::SomeType"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-002",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `SiteModule` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "SiteModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-003",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `JavadocCodeSnippetTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-004",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `SiteSmokeSpec` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "SiteSmokeSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-005",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Holder1` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Holder1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionSpec.groovy::Holder1"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-006",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `AsyncApi` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "AsyncApi",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test/src/test/groovy/ratpack/test/exec/ExecHarnessSpec.groovy::AsyncApi"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-007",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `HostRoutingSpec` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "HostRoutingSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/HostRoutingSpec.groovy::HostRoutingSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-008",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `DefaultResponseSpec` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "DefaultResponseSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/DefaultResponseSpec.groovy::DefaultResponseSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-009",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `TestEnvironmentProvider` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "TestEnvironmentProvider",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-manual/ratpack-manual.gradle::TestEnvironmentProvider"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-010",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Conf2` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Conf2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerChannelOptionsSpec.groovy::ServerChannelOptionsSpec::Conf2"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-011",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `ArgsConfigSourceSpec` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "ArgsConfigSourceSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-config/src/test/groovy/ratpack/config/internal/source/ArgsConfigSourceSpec.groovy::ArgsConfigSourceSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-012",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `GroovyChainDslFixture` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "GroovyChainDslFixture",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy::GroovyChainDslFixture"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-013",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `TemplateRenderingJarSpec` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "TemplateRenderingJarSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/template/TemplateRenderingJarSpec.groovy::TemplateRenderingJarSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-014",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `BaseExecutionSpec` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "BaseExecutionSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/BaseExecutionSpec.groovy::BaseExecutionSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-015",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `JavadocCodeSnippetTests` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-handlebars/src/test/groovy/ratpack/handlebars/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-016",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `TransformingPublisherVerification` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "TransformingPublisherVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/TransformingPublisherVerification.groovy::TransformingPublisherVerification"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-017",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `MockGithubData` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "MockGithubData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy::MockGithubData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-018",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `HttpClientRef` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "HttpClientRef",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/core/http/client/HttpClientRef.groovy::HttpClientRef"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-019",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `HealthCheckFooUnhealthy2` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "HealthCheckFooUnhealthy2",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/health/HealthCheckHandlerSpec.groovy::HealthCheckFooUnhealthy2"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-020",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `Injected2Handler` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "Injected2Handler",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/InjectionHandlerSpec.groovy::Injected2Handler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-021",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `HealthCheckFooHealthy` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "HealthCheckFooHealthy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/health/HealthCheckHandlerSpec.groovy::HealthCheckFooHealthy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-022",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `MulticastPublisherVerification` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "MulticastPublisherVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/MulticastPublisherVerification.groovy::MulticastPublisherVerification"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-000",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `getProjectName` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "getProjectName",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-001",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `markupTemplateRenderableDecorator` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "markupTemplateRenderableDecorator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-002",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `gitHubApi` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "gitHubApi",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubApi"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-003",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `GitHubConfig` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "GitHubConfig",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::GitHubConfig"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-004",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `assetLinkService` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "assetLinkService",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::assetLinkService"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-005",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `gitHubData` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "gitHubData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-006",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `configure` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "configure",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::configure"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-007",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `getProjectName` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "getProjectName",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-008",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `cleanup` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "cleanup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::cleanup"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-009",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `def` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-010",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `setup` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "setup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::setup"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-011",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `returnAsync` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "returnAsync",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test/src/test/groovy/ratpack/test/exec/ExecHarnessSpec.groovy::AsyncApi::returnAsync"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-012",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `def` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/HostRoutingSpec.groovy::HostRoutingSpec::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-013",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `asArguments` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "asArguments",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-manual/ratpack-manual.gradle::TestEnvironmentProvider::asArguments"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-014",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `setOptions` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "setOptions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerChannelOptionsSpec.groovy::ServerChannelOptionsSpec::Conf2::setOptions"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-015",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `loadConfig` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "loadConfig",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-config/src/test/groovy/ratpack/config/internal/source/ArgsConfigSourceSpec.groovy::ArgsConfigSourceSpec::loadConfig"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-016",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `def` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-config/src/test/groovy/ratpack/config/internal/source/ArgsConfigSourceSpec.groovy::ArgsConfigSourceSpec::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-017",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `post` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "post",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy::GroovyChainDslFixture::post"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-018",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `pre` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "pre",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy::GroovyChainDslFixture::pre"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-019",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `setup` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "setup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/template/TemplateRenderingJarSpec.groovy::TemplateRenderingJarSpec::setup"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-020",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `execStarter` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "execStarter",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/BaseExecutionSpec.groovy::BaseExecutionSpec::execStarter"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-021",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `counts` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "counts",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/BaseExecutionSpec.groovy::BaseExecutionSpec::counts"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-022",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `getProjectName` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "getProjectName",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-handlebars/src/test/groovy/ratpack/handlebars/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `DefaultResponseTransmitterBlackboxVerification` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `onNext` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-002",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `createPublisher` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-003",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `def` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-004",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `getRatpackFile` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-005",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `getReleasedVersions` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-006",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `def` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-007",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `markupTemplateRenderableDecorator` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-008",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `def` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerConfigBuilderSpec.groovy::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerConfigBuilderSpec.groovy::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-009",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `subscribe` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/IterablePromisePublisherVerification.groovy::IterablePromisePublisherVerification::createPublisher::subscribe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/IterablePromisePublisherVerification.groovy::IterablePromisePublisherVerification::createPublisher::subscribe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-010",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `onError` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxPublisherSpec.groovy::RxPublisherSpec::def::onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxPublisherSpec.groovy::RxPublisherSpec::def::onError"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-011",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `def` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy::H2ModuleSpec::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy::H2ModuleSpec::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-012",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `RatpackSiteUnderTest` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/test/groovy/ratpack/site/RatpackSiteUnderTest.groovy::RatpackSiteUnderTest::RatpackSiteUnderTest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/test/groovy/ratpack/site/RatpackSiteUnderTest.groovy::RatpackSiteUnderTest::RatpackSiteUnderTest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-013",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `def` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-session-redis/src/test/groovy/ratpack/session/redis/RedisSessionSpec.groovy::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-session-redis/src/test/groovy/ratpack/session/redis/RedisSessionSpec.groovy::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-014",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `loadConfig` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-config/src/test/groovy/ratpack/config/internal/source/ArgsConfigSourceSpec.groovy::ArgsConfigSourceSpec::loadConfig",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-config/src/test/groovy/ratpack/config/internal/source/ArgsConfigSourceSpec.groovy::ArgsConfigSourceSpec::loadConfig"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-015",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `setup` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/file/internal/FileCompressionSpec.groovy::setup",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/file/internal/FileCompressionSpec.groovy::setup"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-016",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `msPerRequest` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::perf/src/main/groovy/ratpack/perf/support/RunResults.groovy::RunResults::msPerRequest",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::perf/src/main/groovy/ratpack/perf/support/RunResults.groovy::RunResults::msPerRequest"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-017",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `success` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/PromiseOperationsSpec.groovy::success",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/PromiseOperationsSpec.groovy::success"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-018",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `def` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/path/PathBindingSpecSpec.groovy::PathBindingSpecSpec::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/path/PathBindingSpecSpec.groovy::PathBindingSpecSpec::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-019",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `createSnippet` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-manual/src/test/groovy/ratpack/manual/snippets/extractor/ManualSnippetExtractor.groovy::ManualSnippetExtractor::createSnippet",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-manual/src/test/groovy/ratpack/manual/snippets/extractor/ManualSnippetExtractor.groovy::ManualSnippetExtractor::createSnippet"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-020",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `def` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/path/ByMethodRoutingSpec.groovy::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/path/ByMethodRoutingSpec.groovy::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-021",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `clean` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::gradle/markdown2book.gradle::clean",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::gradle/markdown2book.gradle::clean"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-022",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `onNext` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxPublisherSpec.groovy::RxPublisherSpec::def::onNext",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxPublisherSpec.groovy::RxPublisherSpec::def::onNext"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `Requester` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::perf/src/main/groovy/ratpack/perf/support/Requester.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::perf/src/main/groovy/ratpack/perf/support/Requester.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `JavadocCodeSnippetTests` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-002",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `JavadocCodeSnippetTests` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-retrofit2/src/test/groovy/ratpack/retrofit/JavadocCodeSnippetTests.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-retrofit2/src/test/groovy/ratpack/retrofit/JavadocCodeSnippetTests.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-003",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `DefaultResponseTransmitterBlackboxVerification` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-004",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `GithubRequester` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GithubRequester.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GithubRequester.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-005",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `onNext` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-006",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `createPublisher` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-007",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `def` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-008",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `RegistryContractSpec` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/registry/RegistryContractSpec.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/registry/RegistryContractSpec.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-009",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `getRatpackFile` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-010",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `getReleasedVersions` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-011",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `def` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-012",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `checkstyle` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::gradle/checkstyle.gradle",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::gradle/checkstyle.gradle"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-013",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `SiteErrorHandler` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteErrorHandler.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteErrorHandler.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-014",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `SomeType` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/BindingsSpecSpec.groovy::SomeType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/BindingsSpecSpec.groovy::SomeType"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-015",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `markupTemplateRenderableDecorator` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-016",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `SpecifiedContentTypeSpec` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/SpecifiedContentTypeSpec.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/SpecifiedContentTypeSpec.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-017",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `def` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerConfigBuilderSpec.groovy::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerConfigBuilderSpec.groovy::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-018",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ExceptionTransformer` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/executer/ExceptionTransformer.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/executer/ExceptionTransformer.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-019",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `subscribe` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/IterablePromisePublisherVerification.groovy::IterablePromisePublisherVerification::createPublisher::subscribe",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/IterablePromisePublisherVerification.groovy::IterablePromisePublisherVerification::createPublisher::subscribe"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-020",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `PathBindingSpecSpec` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/path/PathBindingSpecSpec.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/path/PathBindingSpecSpec.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-021",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `onError` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxPublisherSpec.groovy::RxPublisherSpec::def::onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxPublisherSpec.groovy::RxPublisherSpec::def::onError"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-022",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `CloseEventHandlerSpec` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/internal/CloseEventHandlerSpec.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/internal/CloseEventHandlerSpec.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-h2/ratpack-h2.gradle`",
+    "query": {
+      "file_path": "ratpack-h2/ratpack-h2.gradle",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-h2/ratpack-h2.gradle"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-002",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy`",
+    "query": {
+      "file_path": "ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-003",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy::H2ModuleSpec::def",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy::H2ModuleSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-004",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-spring-boot/ratpack-spring-boot.gradle`",
+    "query": {
+      "file_path": "ratpack-spring-boot/ratpack-spring-boot.gradle",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/ratpack-spring-boot.gradle"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-005",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-006",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy`",
+    "query": {
+      "file_path": "ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec::build::RegistrySpec::getObjectType",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec::build",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec::build::RegistrySpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-007",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy`",
+    "query": {
+      "file_path": "ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-008",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/ratpack-site.gradle`",
+    "query": {
+      "file_path": "ratpack-site/ratpack-site.gradle",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/ratpack-site.gradle"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-009",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::cleanup",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::def",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::setup"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-010",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::openUrlConnection::checkServerTrusted",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::visitCrawlable",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::addPageErrors",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::openUrlConnection::getAcceptedIssuers",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::findPageLinks"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-011",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy::HtmlPage",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy::HtmlPage::statusCode",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-012",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/test/groovy/ratpack/site/crawl/PrettyPrintCollection.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/crawl/PrettyPrintCollection.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/PrettyPrintCollection.groovy::PrettyPrintCollection",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/PrettyPrintCollection.groovy::PrettyPrintCollection::toString",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/PrettyPrintCollection.groovy::PrettyPrintCollection::PrettyPrintCollection",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/PrettyPrintCollection.groovy",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/PrettyPrintCollection.groovy::PrettyPrintCollection::isEmpty"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-013",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/test/groovy/ratpack/site/LinkCrawlSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/LinkCrawlSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/LinkCrawlSpec.groovy::BadMarkdownLinkSyntax",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/LinkCrawlSpec.groovy::findPageLinks",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/LinkCrawlSpec.groovy",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/LinkCrawlSpec.groovy::BadMarkdownLinkSyntax::toString",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/LinkCrawlSpec.groovy::isCrawlable"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-014",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy::MockGithubData",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy::MockGithubData::getReleasedVersions",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy::MockGithubData::getUnreleasedVersions",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy::MockGithubData::forceRefresh"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-015",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy::TestConfig::getChromeDriverPath",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy::TestConfig::getManualVersions",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy::TestConfig::getCurrentVersion",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy::TestConfig"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-016",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/test/groovy/ratpack/site/RatpackSiteUnderTest.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/RatpackSiteUnderTest.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/RatpackSiteUnderTest.groovy::RatpackSiteUnderTest::RatpackSiteUnderTest",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/RatpackSiteUnderTest.groovy",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/RatpackSiteUnderTest.groovy::RatpackSiteUnderTest",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/RatpackSiteUnderTest.groovy::RatpackSiteUnderTest::addImpositions"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-017",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/browserTest/groovy/GebConfig.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/browserTest/groovy/GebConfig.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/browserTest/groovy/GebConfig.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-018",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/browserTest/groovy/ratpack/site/pages/HomePage.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/browserTest/groovy/ratpack/site/pages/HomePage.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/pages/HomePage.groovy",
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/pages/HomePage.groovy::HomePage"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-019",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/browserTest/groovy/ratpack/site/pages/ManualPage.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/browserTest/groovy/ratpack/site/pages/ManualPage.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/pages/ManualPage.groovy",
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/pages/ManualPage.groovy::ManualPage"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-020",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/browserTest/groovy/ratpack/site/pages/VersionsPage.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/browserTest/groovy/ratpack/site/pages/VersionsPage.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/pages/VersionsPage.groovy::VersionsPage",
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/pages/VersionsPage.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-021",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/browserTest/groovy/ratpack/site/SiteBrowserSmokeSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/browserTest/groovy/ratpack/site/SiteBrowserSmokeSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/SiteBrowserSmokeSpec.groovy::SiteBrowserSmokeSpec::def",
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/SiteBrowserSmokeSpec.groovy::SiteBrowserSmokeSpec::cleanupSpec",
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/SiteBrowserSmokeSpec.groovy",
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/SiteBrowserSmokeSpec.groovy::SiteBrowserSmokeSpec",
+        "groovy::module::ratpack-site/src/browserTest/groovy/ratpack/site/SiteBrowserSmokeSpec.groovy::SiteBrowserSmokeSpec::setup"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-022",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubApi",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::GitHubConfig",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::assetLinkService"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `JavadocCodeSnippetTests` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-001",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `DefaultResponseTransmitterBlackboxVerification` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-002",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `onNext` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-003",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `createPublisher` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-004",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `def` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-005",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `getRatpackFile` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-006",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `getReleasedVersions` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-007",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `def` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec::def"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-008",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `SomeType` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/BindingsSpecSpec.groovy::SomeType"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/BindingsSpecSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-009",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `markupTemplateRenderableDecorator` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-010",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `def` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerConfigBuilderSpec.groovy::def"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerConfigBuilderSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-011",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `subscribe` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/IterablePromisePublisherVerification.groovy::IterablePromisePublisherVerification::createPublisher::subscribe"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/IterablePromisePublisherVerification.groovy::IterablePromisePublisherVerification::createPublisher"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-000",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxPublisherSpec.groovy::RxPublisherSpec::def::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-001",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/ExecutionSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-002",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/StreamsSpec.groovy::StreamsSpec::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-003",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorErrorHandlingSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-004",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/StreamForkSpec.groovy::StreamForkSpec::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-005",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/ResponseStreamingSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-006",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/websocket/RecordingWebSocketClient.groovy::RecordingWebSocketClient::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-007",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/StreamExecutionSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-008",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxErrorHandlingSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-009",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/file/FileIoSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-010",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `getThrownException` type",
+    "query": {
+      "bare_name": true,
+      "name": "getThrownException",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxErrorHandlingSpec.groovy::getThrownException"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-011",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/client/HttpClientResponseStreamingSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-000",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `JavadocCodeSnippetTests` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-002",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `SiteModule` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubApi",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::GitHubConfig",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::assetLinkService",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-003",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `JavadocCodeSnippetTests` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-004",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `SiteSmokeSpec` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::cleanup",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::def",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::setup"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-006",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `AsyncApi` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-test/src/test/groovy/ratpack/test/exec/ExecHarnessSpec.groovy::AsyncApi"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test/src/test/groovy/ratpack/test/exec/ExecHarnessSpec.groovy::AsyncApi::returnAsync"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-007",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `HostRoutingSpec` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/HostRoutingSpec.groovy::HostRoutingSpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/HostRoutingSpec.groovy::HostRoutingSpec::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-009",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `TestEnvironmentProvider` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-manual/ratpack-manual.gradle::TestEnvironmentProvider"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-manual/ratpack-manual.gradle::TestEnvironmentProvider::asArguments"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-010",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `Conf2` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerChannelOptionsSpec.groovy::ServerChannelOptionsSpec::Conf2"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/server/ServerChannelOptionsSpec.groovy::ServerChannelOptionsSpec::Conf2::setOptions"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-011",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `ArgsConfigSourceSpec` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-config/src/test/groovy/ratpack/config/internal/source/ArgsConfigSourceSpec.groovy::ArgsConfigSourceSpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-config/src/test/groovy/ratpack/config/internal/source/ArgsConfigSourceSpec.groovy::ArgsConfigSourceSpec::loadConfig",
+        "groovy::module::ratpack-config/src/test/groovy/ratpack/config/internal/source/ArgsConfigSourceSpec.groovy::ArgsConfigSourceSpec::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "error_wrapping_pattern-000",
+    "category": "BugFix",
+    "sub_type": "error_wrapping_pattern",
+    "intent": "Example of error-wrapping pattern: `async`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/PromiseBlockingSpec.groovy::PromiseBlockingSpec::async",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/PromiseBlockingSpec.groovy::PromiseBlockingSpec::async"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-000",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `JavadocCodeSnippetTests` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-002",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `SiteModule` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubApi",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::GitHubConfig",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::assetLinkService",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubData",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::configure"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-003",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `JavadocCodeSnippetTests` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-004",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `SiteSmokeSpec` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::cleanup",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::def",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::setup"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-006",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `AsyncApi` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-test/src/test/groovy/ratpack/test/exec/ExecHarnessSpec.groovy::AsyncApi"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test/src/test/groovy/ratpack/test/exec/ExecHarnessSpec.groovy::AsyncApi::returnAsync"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "methods_of_class-007",
+    "category": "Refactor",
+    "sub_type": "methods_of_class",
+    "intent": "Rename audit on `HostRoutingSpec` — every method",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/HostRoutingSpec.groovy::HostRoutingSpec"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/HostRoutingSpec.groovy::HostRoutingSpec::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-000",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `JavadocCodeSnippetTests` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-001",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `DefaultResponseTransmitterBlackboxVerification` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-002",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `onNext` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-003",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `createPublisher` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-004",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `def` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-005",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `getRatpackFile` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-006",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `getReleasedVersions` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "call_site_enumeration-007",
+    "category": "Refactor",
+    "sub_type": "call_site_enumeration",
+    "intent": "Bug suspected in `def` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec::def"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-000",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy`",
+    "query": {
+      "file_path": "ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-001",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy::H2ModuleSpec::def",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy::H2ModuleSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-002",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-003",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy`",
+    "query": {
+      "file_path": "ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec::build::RegistrySpec::getObjectType",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec::build",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec::build::RegistrySpec",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec::build::RegistrySpec::isSingleton",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringRegistrySpec.groovy::SpringRegistrySpec::build::RegistrySpec::getObject"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-004",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy`",
+    "query": {
+      "file_path": "ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/JavadocCodeSnippetTests.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-005",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::cleanup",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::def",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec::setup"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-006",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::openUrlConnection::checkServerTrusted",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::visitCrawlable",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::addPageErrors",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::openUrlConnection::getAcceptedIssuers",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::findPageLinks",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::getDownloadableExtensions",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::shouldUseHeadRequest",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/Crawler.groovy::Crawler"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "existing_tests_in_file-007",
+    "category": "TestGen",
+    "sub_type": "existing_tests_in_file",
+    "intent": "Agent writing a test — check existing in `ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy::HtmlPage",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy::HtmlPage::statusCode",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/crawl/HtmlPage.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-000",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyHandlersFixture.groovy`",
+    "query": {
+      "file_path": "ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyHandlersFixture.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyHandlersFixture.groovy::GroovyHandlersFixture::pre",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyHandlersFixture.groovy::GroovyHandlersFixture::post",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyHandlersFixture.groovy",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyHandlersFixture.groovy::GroovyHandlersFixture"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-001",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/JavaChainDslFixture.groovy`",
+    "query": {
+      "file_path": "ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/JavaChainDslFixture.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/JavaChainDslFixture.groovy::JavaChainDslFixture::post",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/JavaChainDslFixture.groovy::JavaChainDslFixture",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/JavaChainDslFixture.groovy",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/JavaChainDslFixture.groovy::JavaChainDslFixture::pre"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-002",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy`",
+    "query": {
+      "file_path": "ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy::GroovyChainDslFixture",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy::GroovyChainDslFixture::post",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyChainDslFixture.groovy::GroovyChainDslFixture::pre"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-003",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptRatpackDslFixture.groovy`",
+    "query": {
+      "file_path": "ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptRatpackDslFixture.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptRatpackDslFixture.groovy::GroovyScriptRatpackDslFixture",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptRatpackDslFixture.groovy",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptRatpackDslFixture.groovy::GroovyScriptRatpackDslFixture::around"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-004",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptFixture.groovy`",
+    "query": {
+      "file_path": "ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptFixture.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptFixture.groovy::GroovyScriptFixture",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptFixture.groovy::GroovyScriptFixture::post",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyScriptFixture.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-005",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyRatpackDslNoRunFixture.groovy`",
+    "query": {
+      "file_path": "ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyRatpackDslNoRunFixture.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyRatpackDslNoRunFixture.groovy::GroovyRatpackDslNoRunFixture::around",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyRatpackDslNoRunFixture.groovy",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/fixture/GroovyRatpackDslNoRunFixture.groovy::GroovyRatpackDslNoRunFixture"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fixture_discovery-006",
+    "category": "TestGen",
+    "sub_type": "fixture_discovery",
+    "intent": "Find shared fixtures in `ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy::setup::configure",
+        "groovy::module::ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy::Outer",
+        "groovy::module::ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy::OuterExternalizable::Child::readExternal",
+        "groovy::module::ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy::OuterExternalizable::Child",
+        "groovy::module::ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy::OuterExternalizable",
+        "groovy::module::ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy::OuterExternalizable::readExternal",
+        "groovy::module::ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy::setup::configure::allow",
+        "groovy::module::ratpack-session/src/testFixtures/groovy/ratpack/session/BaseSessionSerializationSpec.groovy::setup::configure::error"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "mock_pattern-000",
+    "category": "TestGen",
+    "sub_type": "mock_pattern",
+    "intent": "Mock pattern example: `MockGithubData`",
+    "query": {
+      "bare_name": true,
+      "name": "MockGithubData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy::MockGithubData"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "mock_pattern-001",
+    "category": "TestGen",
+    "sub_type": "mock_pattern",
+    "intent": "Mock pattern example: `MockGithubData`",
+    "query": {
+      "bare_name": true,
+      "name": "MockGithubData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/github/MockGithubData.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "mock_pattern-002",
+    "category": "TestGen",
+    "sub_type": "mock_pattern",
+    "intent": "Mock pattern example: `MockApiSpec`",
+    "query": {
+      "bare_name": true,
+      "name": "MockApiSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test/src/test/groovy/ratpack/test/mock/MockApiSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "mock_pattern-003",
+    "category": "TestGen",
+    "sub_type": "mock_pattern",
+    "intent": "Mock pattern example: `StubNestedRenderer`",
+    "query": {
+      "bare_name": true,
+      "name": "StubNestedRenderer",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/template/internal/TemplateCompilerSpec.groovy::TemplateCompilerSpec::StubNestedRenderer"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "assertion_idiom-000",
+    "category": "TestGen",
+    "sub_type": "assertion_idiom",
+    "intent": "Assertion idiom: `assertIsFile`",
+    "query": {
+      "bare_name": true,
+      "name": "assertIsFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-gradle/src/test/groovy/ratpack/gradle/functional/TestFile.groovy::TestFile::assertIsFile"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-000",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `JavadocCodeSnippetTests`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-001",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `SomeType`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/BindingsSpecSpec.groovy::SomeType",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/BindingsSpecSpec.groovy::SomeType"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-002",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `SiteModule`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-003",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `JavadocCodeSnippetTests`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-004",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `SiteSmokeSpec`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/test/groovy/ratpack/site/SiteSmokeSpec.groovy::SiteSmokeSpec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-005",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `Holder1`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionSpec.groovy::Holder1",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionSpec.groovy::Holder1"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-006",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `AsyncApi`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-test/src/test/groovy/ratpack/test/exec/ExecHarnessSpec.groovy::AsyncApi",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-test/src/test/groovy/ratpack/test/exec/ExecHarnessSpec.groovy::AsyncApi"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "nearest_feature_template-007",
+    "category": "FeatureAdd",
+    "sub_type": "nearest_feature_template",
+    "intent": "Agent scaffolding mirrored on `HostRoutingSpec`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/HostRoutingSpec.groovy::HostRoutingSpec",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/internal/HostRoutingSpec.groovy::HostRoutingSpec"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-000",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `registerTests`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/AbstractJavadocCodeSnippetTests.groovy::AbstractJavadocCodeSnippetTests::registerTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/snippets/AbstractJavadocCodeSnippetTests.groovy::AbstractJavadocCodeSnippetTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "di_wiring_registration-001",
+    "category": "FeatureAdd",
+    "sub_type": "di_wiring_registration",
+    "intent": "Find wiring call-sites for `registerTests`",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "groovy::module::ratpack-manual/src/test/groovy/ratpack/manual/ManualCodeSnippetTests.groovy::ManualCodeSnippetTests::registerTests"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-manual/src/test/groovy/ratpack/manual/ManualCodeSnippetTests.groovy::ManualCodeSnippetTests"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-000",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `JavadocCodeSnippetTests`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-001",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `DefaultResponseTransmitterBlackboxVerification`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-002",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `onNext`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-003",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `createPublisher`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-004",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `def`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-005",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `getRatpackFile`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-006",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `getReleasedVersions`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "public_api_surface-007",
+    "category": "FeatureAdd",
+    "sub_type": "public_api_surface",
+    "intent": "Public API surface: `def`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-session/src/test/groovy/ratpack/session/SessionTerminationSpec.groovy::SessionTerminationSpec::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::perf/src/main/groovy/ratpack/perf/support/Requester.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::perf/src/main/groovy/ratpack/perf/support/Requester.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-retrofit2/src/test/groovy/ratpack/retrofit/JavadocCodeSnippetTests.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-retrofit2/src/test/groovy/ratpack/retrofit/JavadocCodeSnippetTests.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GithubRequester.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GithubRequester.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_exists-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_exists",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exact_symbol_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "scip-python fake pkg 0.0.0 fake/Nothing#",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "does_not_exist_qualified_name",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "::fabricated::path::",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "Nothing at all",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exact_symbol_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "exact_symbol_absent",
+    "intent": "Precision-layer: fabricated full id must return empty",
+    "query": {
+      "bare_name": false,
+      "name": "fake::DoesNotExist#fabricated()",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `ZZZ_NotARealClass` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "ZZZ_NotARealClass",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `BugFixBot9000` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "BugFixBot9000",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `__hallucinated__` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "__hallucinated__",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `OverrideAllTheThings` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "OverrideAllTheThings",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fake_type_absent-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fake_type_absent",
+    "intent": "Precision-layer: invented class name `QuantumTeleportManager` must not resolve",
+    "query": {
+      "bare_name": true,
+      "name": "QuantumTeleportManager",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-000",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `Reuqester` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Reuqester",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-001",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `JaavdocCodeSnippetTests` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "JaavdocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-002",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `JaavdocCodeSnippetTests` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "JaavdocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-003",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `DeafultResponseTransmitterBlackboxVerification` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "DeafultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-004",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `GihtubRequester` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "GihtubRequester",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "typo_detection-005",
+    "category": "ApiDiscovery",
+    "sub_type": "typo_detection",
+    "intent": "Typo `oneNxt` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "oneNxt",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "bare_name_collision-002",
+    "category": "ApiDiscovery",
+    "sub_type": "bare_name_collision",
+    "intent": "Ambiguity: `get` has 5 candidates — list them all",
+    "query": {
+      "bare_name": true,
+      "name": "get",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/GuiceRegistrySpec.groovy::get",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GitHubApi.groovy::GitHubApi::get",
+        "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GitHubDataCache.groovy::GitHubDataCache::get",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/test/internal/testname/CurrentTestName.groovy::CurrentTestName::get",
+        "groovy::module::ratpack-guice/src/test/groovy/ratpack/guice/BindingsSpecSpec.groovy::Type2Provider::get"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "bare_name_collision-003",
+    "category": "ApiDiscovery",
+    "sub_type": "bare_name_collision",
+    "intent": "Ambiguity: `init` has 2 candidates — list them all",
+    "query": {
+      "bare_name": true,
+      "name": "init",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/ExecInterceptionSpec.groovy::RecordingInterceptor::init",
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/ExecutionSleepSpec.groovy::ExecutionSleepSpec::RecordingInterceptor::init"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-000",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `DefaultResponseTransmitterBlackboxVerification` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-001",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `onNext` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-002",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `createPublisher` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/WiretapPublisherVerification.groovy::WiretapPublisherVerification::createPublisher"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-003",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `def` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-core/src/test/groovy/ratpack/core/handling/HandlersSpec.groovy::def"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-004",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `getRatpackFile` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-groovy/src/test/groovy/ratpack/groovy/StandaloneScriptSpec.groovy::getRatpackFile"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_arity_check-005",
+    "category": "ApiDiscovery",
+    "sub_type": "signature_arity_check",
+    "intent": "Agent verifying signature of `getReleasedVersions` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/NullGitHubData.groovy::NullGitHubData::getReleasedVersions"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-000",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::perf/src/main/groovy/ratpack/perf/support/Requester.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::perf/src/main/groovy/ratpack/perf/support/Requester.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-001",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-002",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-retrofit2/src/test/groovy/ratpack/retrofit/JavadocCodeSnippetTests.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-retrofit2/src/test/groovy/ratpack/retrofit/JavadocCodeSnippetTests.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-003",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-004",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GithubRequester.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GithubRequester.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "naming_convention_query-005",
+    "category": "ApiDiscovery",
+    "sub_type": "naming_convention_query",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `getProjectName` on enclosing type `JavadocCodeSnippetTests`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `markupTemplateRenderableDecorator` on enclosing type `SiteModule`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::markupTemplateRenderableDecorator"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `gitHubApi` on enclosing type `SiteModule`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubApi",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubApi"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `GitHubConfig` on enclosing type `SiteModule`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::GitHubConfig",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::GitHubConfig"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `assetLinkService` on enclosing type `SiteModule`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::assetLinkService",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::assetLinkService"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_type-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_type",
+    "intent": "Disambiguate `gitHubData` on enclosing type `SiteModule`",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubData",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/SiteModule.groovy::SiteModule::gitHubData"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-000",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::perf/src/main/groovy/ratpack/perf/support/Requester.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::perf/src/main/groovy/ratpack/perf/support/Requester.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-001",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-002",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-retrofit2/src/test/groovy/ratpack/retrofit/JavadocCodeSnippetTests.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-retrofit2/src/test/groovy/ratpack/retrofit/JavadocCodeSnippetTests.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-003",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/tck/DefaultResponseTransmitterBlackboxVerification.groovy::DefaultResponseTransmitterBlackboxVerification::DefaultResponseTransmitterBlackboxVerification"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-004",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GithubRequester.groovy",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-site/src/main/groovy/ratpack/site/github/GithubRequester.groovy"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "disambiguate_by_module-005",
+    "category": "ApiDiscovery",
+    "sub_type": "disambiguate_by_module",
+    "intent": "Precision-layer: symbol exists, return the exact id",
+    "query": {
+      "bare_name": false,
+      "name": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorPublisherSpec.groovy::ReactorPublisherSpec::def::onNext"
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-001",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `ratpack-h2/ratpack-h2.gradle`",
+    "query": {
+      "file_path": "ratpack-h2/ratpack-h2.gradle",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-h2/ratpack-h2.gradle"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-002",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy`",
+    "query": {
+      "file_path": "ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy::JavadocCodeSnippetTests::getProjectName",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/JavadocCodeSnippetTests.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-003",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy::H2ModuleSpec::def",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy",
+        "groovy::module::ratpack-h2/src/test/groovy/ratpack/h2/H2ModuleSpec.groovy::H2ModuleSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-004",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `ratpack-spring-boot/ratpack-spring-boot.gradle`",
+    "query": {
+      "file_path": "ratpack-spring-boot/ratpack-spring-boot.gradle",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/ratpack-spring-boot.gradle"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "scope_restricted_lookup-005",
+    "category": "ApiDiscovery",
+    "sub_type": "scope_restricted_lookup",
+    "intent": "Agent discovering siblings in `ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-spring-boot/src/test/groovy/ratpack/spring/SpringBootAppGroovyDslIntegrationSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "fuzzy_match_ranking-000",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `Reuqester` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "Reuqester",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-001",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `JaavdocCodeSnippetTests` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "JaavdocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-002",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `JaavdocCodeSnippetTests` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "JaavdocCodeSnippetTests",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-003",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `DeafultResponseTransmitterBlackboxVerification` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "DeafultResponseTransmitterBlackboxVerification",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-004",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `GihtubRequester` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "GihtubRequester",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "fuzzy_match_ranking-005",
+    "category": "ApiDiscovery",
+    "sub_type": "fuzzy_match_ranking",
+    "intent": "Typo `oneNxt` — should not resolve (adapter may return empty or fuzzy match)",
+    "query": {
+      "bare_name": true,
+      "name": "oneNxt",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_set",
+      "stable_ids": []
+    },
+    "gold_source": "adversarial"
+  },
+  {
+    "id": "exception_raisers-000",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-rx2/src/test/groovy/ratpack/rx2/RxPublisherSpec.groovy::RxPublisherSpec::def::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-001",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/ExecutionSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-002",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/StreamsSpec.groovy::StreamsSpec::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-003",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-reactor/src/test/groovy/ratpack/reactor/flux/ReactorErrorHandlingSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-004",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/stream/StreamForkSpec.groovy::StreamForkSpec::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-005",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-core/src/test/groovy/ratpack/core/http/ResponseStreamingSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-006",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/websocket/RecordingWebSocketClient.groovy::RecordingWebSocketClient::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-007",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `onError` type",
+    "query": {
+      "bare_name": true,
+      "name": "onError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-exec/src/test/groovy/ratpack/exec/StreamExecutionSpec.groovy::onError"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-000",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy::TestConfig::getChromeDriverPath",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy::TestConfig::getManualVersions",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy::TestConfig::getCurrentVersion",
+        "groovy::module::ratpack-site/src/test/groovy/ratpack/site/TestConfig.groovy::TestConfig"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-001",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `ratpack-site/src/browserTest/groovy/GebConfig.groovy`",
+    "query": {
+      "file_path": "ratpack-site/src/browserTest/groovy/GebConfig.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-site/src/browserTest/groovy/GebConfig.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-002",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `ratpack-dropwizard-metrics/src/test/groovy/ratpack/dropwizard/metrics/MetricsExternalConfigSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-dropwizard-metrics/src/test/groovy/ratpack/dropwizard/metrics/MetricsExternalConfigSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-dropwizard-metrics/src/test/groovy/ratpack/dropwizard/metrics/MetricsExternalConfigSpec.groovy",
+        "groovy::module::ratpack-dropwizard-metrics/src/test/groovy/ratpack/dropwizard/metrics/MetricsExternalConfigSpec.groovy::reporter",
+        "groovy::module::ratpack-dropwizard-metrics/src/test/groovy/ratpack/dropwizard/metrics/MetricsExternalConfigSpec.groovy::def"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-003",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `ratpack-test-internal/src/main/groovy/ratpack/config/TestConfig.groovy`",
+    "query": {
+      "file_path": "ratpack-test-internal/src/main/groovy/ratpack/config/TestConfig.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/config/TestConfig.groovy::TestConfig::testConfigProperties",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/config/TestConfig.groovy",
+        "groovy::module::ratpack-test-internal/src/main/groovy/ratpack/config/TestConfig.groovy::TestConfig"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-004",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `ratpack-gradle/src/test/groovy/ratpack/gradle/functional/ConfigCachingSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-gradle/src/test/groovy/ratpack/gradle/functional/ConfigCachingSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-gradle/src/test/groovy/ratpack/gradle/functional/ConfigCachingSpec.groovy::setup",
+        "groovy::module::ratpack-gradle/src/test/groovy/ratpack/gradle/functional/ConfigCachingSpec.groovy"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "config_module_imports-005",
+    "category": "Config",
+    "sub_type": "config_module_imports",
+    "intent": "Config module: `ratpack-consul/src/test/groovy/ratpack/consul/ConsulConfigSpec.groovy`",
+    "query": {
+      "file_path": "ratpack-consul/src/test/groovy/ratpack/consul/ConsulConfigSpec.groovy",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "groovy::module::ratpack-consul/src/test/groovy/ratpack/consul/ConsulConfigSpec.groovy",
+        "groovy::module::ratpack-consul/src/test/groovy/ratpack/consul/ConsulConfigSpec.groovy::ConsulConfigSpec"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]

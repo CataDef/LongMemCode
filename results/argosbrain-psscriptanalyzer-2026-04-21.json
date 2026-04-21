@@ -1,0 +1,106 @@
+{
+  "adapter": {
+    "name": "argosbrain",
+    "version": "0.0.0"
+  },
+  "corpus": {
+    "commit": "main",
+    "name": "psscriptanalyzer",
+    "scenarios_count": 165,
+    "scenarios_sha256": "fnv64:aa45894fe4a2f9ae"
+  },
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "ram_gb": 48
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "ApiDiscovery": {
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_score": 1.0,
+      "n": 53,
+      "passed": 53
+    },
+    "BugFix": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 13,
+      "passed": 13
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 68,
+      "passed": 68
+    },
+    "Config": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 6,
+      "passed": 6
+    },
+    "ControlFlow": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 1,
+      "passed": 1
+    },
+    "FeatureAdd": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 8,
+      "passed": 8
+    },
+    "Refactor": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 8,
+      "passed": 8
+    },
+    "TestGen": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 8,
+      "passed": 8
+    }
+  },
+  "per_gold_source": {
+    "adversarial": {
+      "avg_score": 1.0,
+      "n": 24,
+      "passed": 24
+    },
+    "scip_roundtrip": {
+      "avg_score": 1.0,
+      "n": 141,
+      "passed": 141
+    }
+  },
+  "product": {
+    "commit": "unknown",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.007,
+    "p95_latency_ms": 0.009,
+    "p99_latency_ms": 0.013,
+    "raw_accuracy": 1.0,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 3222,
+    "weighted_accuracy": 1.0
+  }
+}
