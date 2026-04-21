@@ -144,8 +144,12 @@ fn real_main() -> Result<()> {
         },
         "machine": {
             "cpu": machine_cpu(),
-            "ram_gb": 0,
+            "ram_gb": machine_ram_gb(),
             "os": machine_os(),
+        },
+        "product": {
+            "name": "neurogenesis-bundle",
+            "commit": product_commit(),
         },
         "summary": report.summary,
         "per_category": report.per_category,
@@ -447,11 +451,82 @@ fn sha256(bytes: &[u8]) -> String {
 }
 
 fn machine_cpu() -> String {
-    std::env::var("LMC_CPU").unwrap_or_else(|_| "unknown".into())
+    if let Ok(v) = std::env::var("LMC_CPU") {
+        return v;
+    }
+    // Best-effort auto-detect so results files stay citable without
+    // operators having to pass an env var every run. Falls through to
+    // "unknown" if neither sysctl (macOS) nor /proc/cpuinfo (Linux)
+    // gives us a name — keeps the runner working on any host.
+    #[cfg(target_os = "macos")]
+    {
+        if let Ok(out) = std::process::Command::new("sysctl")
+            .args(["-n", "machdep.cpu.brand_string"])
+            .output()
+        {
+            let s = String::from_utf8_lossy(&out.stdout).trim().to_string();
+            if !s.is_empty() {
+                return s;
+            }
+        }
+    }
+    #[cfg(target_os = "linux")]
+    {
+        if let Ok(cpuinfo) = std::fs::read_to_string("/proc/cpuinfo") {
+            for line in cpuinfo.lines() {
+                if let Some(v) = line.strip_prefix("model name") {
+                    return v.trim_start_matches(|c: char| c == ' ' || c == ':').to_string();
+                }
+            }
+        }
+    }
+    "unknown".into()
 }
 
 fn machine_os() -> String {
     std::env::var("LMC_OS").unwrap_or_else(|_| std::env::consts::OS.to_string())
+}
+
+fn machine_ram_gb() -> u64 {
+    if let Ok(v) = std::env::var("LMC_RAM_GB") {
+        if let Ok(n) = v.parse::<u64>() {
+            return n;
+        }
+    }
+    #[cfg(target_os = "macos")]
+    {
+        if let Ok(out) = std::process::Command::new("sysctl")
+            .args(["-n", "hw.memsize"])
+            .output()
+        {
+            if let Ok(bytes) = String::from_utf8_lossy(&out.stdout).trim().parse::<u64>() {
+                return bytes / (1024 * 1024 * 1024);
+            }
+        }
+    }
+    #[cfg(target_os = "linux")]
+    {
+        if let Ok(meminfo) = std::fs::read_to_string("/proc/meminfo") {
+            for line in meminfo.lines() {
+                if let Some(v) = line.strip_prefix("MemTotal:") {
+                    let kb: u64 = v.split_whitespace().next()
+                        .and_then(|s| s.parse().ok()).unwrap_or(0);
+                    return kb / (1024 * 1024);
+                }
+            }
+        }
+    }
+    0
+}
+
+fn product_commit() -> String {
+    // Pin the upstream product commit in the result header so a
+    // third-party auditor can reproduce the exact behavior: a bundle
+    // built from the same corpus but a different neurogenesis commit
+    // may return a different symbol set (decoder bug-fixes, ref-kind
+    // remapping, etc.). Operator sets LMC_PRODUCT_COMMIT explicitly;
+    // this field is "unknown" otherwise — honest, not synthesized.
+    std::env::var("LMC_PRODUCT_COMMIT").unwrap_or_else(|_| "unknown".into())
 }
 
 // Silence unused warning on the import (only .first() needed).
