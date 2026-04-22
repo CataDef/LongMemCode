@@ -1,0 +1,120 @@
+{
+  "adapter": {
+    "config": {
+      "backend": "petgraph in-process, bincode-serialised",
+      "bundle": "kubernetes.argosbundle",
+      "embedding_model": "Jina-Code-v2 INT8 (768d)"
+    },
+    "description": "Structural code-memory engine \u2014 SCIP/LSP/tree-sitter graph, Jina-Code HNSW, keyword hybrid. Zero LLM on read path.",
+    "name": "argosbrain",
+    "repo": "https://github.com/CataDef/neurogenesis",
+    "version": "0.1.0"
+  },
+  "corpus": {
+    "commit": "v1.32.0",
+    "indexer": "scip-go 0.2.1 (skip-tests)",
+    "language": "go",
+    "name": "kubernetes",
+    "scenarios_count": 1456,
+    "scenarios_sha256": "sha256:3b6ae6e370e37529",
+    "symbol_count": 38771,
+    "upstream": "https://github.com/kubernetes/kubernetes"
+  },
+  "date": "2026-04-22",
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max, 14 cores",
+    "note": "bench run on laptop, no other processes pinned; background tasks idle",
+    "os": "macOS 26.3",
+    "ram_gb": 48,
+    "rustc": "1.85.0"
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "ApiDiscovery": {
+      "avg_precision": 1.0,
+      "avg_recall": 1.0,
+      "avg_score": 1.0,
+      "n": 256,
+      "passed": 256
+    },
+    "BugFix": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 292,
+      "passed": 292
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 0.9764957264957265,
+      "n": 468,
+      "passed": 457
+    },
+    "Config": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 52,
+      "passed": 52
+    },
+    "ControlFlow": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 33,
+      "passed": 33
+    },
+    "FeatureAdd": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 152,
+      "passed": 152
+    },
+    "Refactor": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 121,
+      "passed": 121
+    },
+    "TestGen": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 82,
+      "passed": 82
+    }
+  },
+  "per_gold_source": {
+    "adversarial": {
+      "avg_score": 1.0,
+      "n": 100,
+      "passed": 100
+    },
+    "scip_roundtrip": {
+      "avg_score": 0.9918879056047197,
+      "n": 1356,
+      "passed": 1345
+    }
+  },
+  "product": {
+    "commit": "unknown",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.008,
+    "p95_latency_ms": 0.267,
+    "p99_latency_ms": 0.366,
+    "raw_accuracy": 0.992445054945055,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 5399861,
+    "weighted_accuracy": 0.9924786324786325
+  }
+}

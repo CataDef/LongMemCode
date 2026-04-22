@@ -6,6 +6,48 @@ Head-to-head benchmark of code-memory systems used by coding agents (Claude Code
 
 ---
 
+## v0.2 — Kubernetes (scale corpus) · four adapters
+
+*Released 2026-04-22. Full report: [`docs/V0.2_KUBERNETES_REPORT.md`](docs/V0.2_KUBERNETES_REPORT.md).*
+
+This release widens LongMemCode along two axes: a **scale corpus**
+(Kubernetes v1.32.0, 38 771 project symbols, 1 456 scenarios) and **two
+new reference adapters** that represent different classes of memory
+system, not just different performance points within the structural class.
+
+- `sbert-faiss` — dense-semantic baseline, zero LLM.
+- `mem0 @ gpt-4o-mini` — the open-source general-purpose LLM-backed
+  memory system by Mem0. Evaluated here on a code-structural benchmark;
+  Mem0's primary workload is conversational memory, not code retrieval.
+  We publish the result with full framing and exact configuration in the
+  report linked above, so readers can interpret it in context.
+
+### Headline
+
+| Adapter                 | Scope of system   | Scenarios | Accuracy | P99 latency | $ / 1 k     | Result |
+|-------------------------|-------------------|----------:|---------:|------------:|------------:|-------|
+| **ArgosBrain 0.1.0**    | Code-structural   |     1 456 | **99.25 %** | **0.366 ms** | **$0.0000** | [JSON](results/argosbrain-kubernetes-2026-04-22.json) |
+| grep-baseline 0.1.0     | Text-search floor |     1 456 |   5.48 % |  11.838 ms  |  $0.0000    | [JSON](results/grep-kubernetes-2026-04-22.json) |
+| sbert-faiss 0.1.0       | Dense semantic    |       500 |  11.21 % | 327.658 ms  |  $0.0000    | [JSON](results/sbert-faiss-kubernetes-2026-04-22.json) |
+| mem0 2.0.0 @ gpt-4o-mini| General memory    |       500 |   4.93 % | 1 677.407 ms|  ~$0.20\*   | [JSON](results/mem0-kubernetes-2026-04-22.json) |
+
+\* Mem0's SDK does not emit per-call token usage; cost is estimated from
+observed prompt sizes. Full Mem0 ingest over the corpus cost approximately
+$5-8 on `gpt-4o-mini` + `text-embedding-3-small`. See the report for
+caveats around Mem0's ingest-time concurrency behaviour at our test scale.
+
+### What this does and does not measure
+
+LongMemCode measures **code-structural retrieval quality** on a code
+corpus. A general-purpose memory system (Mem0, Zep, Letta) scoring low
+here is not a verdict on that system's core job — it is a measurement of
+scope match. The report walks through the per-category breakdown, the
+adversarial-scenarios subtlety in `ApiDiscovery`, and the configuration
+of every adapter in enough detail that any reader can challenge, rerun,
+or submit a tuned configuration of their own.
+
+---
+
 ## At a glance (v0.1, all five corpora)
 
 > Every coding agent today gets structural context through `grep + cat`. ArgosBrain replaces that floor with a sub-millisecond typed graph retrieval. Same job. Worst-case **<0.5 ms P99**. ~2× more accurate. Same $0 cost.

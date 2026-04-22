@@ -1,0 +1,355 @@
+[
+  {
+    "id": "lookup_class_by_name-000",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `FitError` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "FitError",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/scheduler/framework`/FitError#"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_class_by_name-001",
+    "category": "Completion",
+    "sub_type": "lookup_class_by_name",
+    "intent": "Agent importing class `RoleBindingList` — needs the canonical id",
+    "query": {
+      "bare_name": true,
+      "kind": "struct",
+      "name": "RoleBindingList",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/rbac`/RoleBindingList#"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-000",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `Error` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "Error",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/scheduler/framework`/FitError#Error()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "lookup_method_on_type-001",
+    "category": "Completion",
+    "sub_type": "lookup_method_on_type",
+    "intent": "Agent calling method `DeepCopyInto` on its type",
+    "query": {
+      "bare_name": true,
+      "name": "DeepCopyInto",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/rbac`/RoleBindingList#DeepCopyInto()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-000",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `ShortNames` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/registry/apps/statefulset/storage`/REST#ShortNames().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/registry/apps/statefulset/storage`/REST#ShortNames()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "signature_recall-001",
+    "category": "Completion",
+    "sub_type": "signature_recall",
+    "intent": "Agent verifying signature of `isAnnotationMapEqual` before calling it",
+    "query": {
+      "bare_name": false,
+      "name": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/kubelet/config`/isAnnotationMapEqual().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/kubelet/config`/isAnnotationMapEqual()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-000",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `ShortNames` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/registry/apps/statefulset/storage`/REST#ShortNames().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/registry/apps/statefulset/storage`/REST#ShortNames()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "import_path_resolution-001",
+    "category": "Completion",
+    "sub_type": "import_path_resolution",
+    "intent": "Agent needs the file path where `isAnnotationMapEqual` is defined",
+    "query": {
+      "bare_name": false,
+      "name": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/kubelet/config`/isAnnotationMapEqual().",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "exact_symbol",
+      "stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/kubelet/config`/isAnnotationMapEqual()."
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-000",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in ``",
+    "query": {
+      "file_path": "",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod golang.org/x/tools v0.26.0 `golang.org/x/tools/internal/event/keys`/Tag#",
+        "scip-go gomod go.etcd.io/etcd/raft/v3 v3.5.16 `go.etcd.io/etcd/raft/v3`/DefaultLogger#",
+        "scip-go gomod k8s.io/cri-api v1.32.0 `k8s.io/cri-api/pkg/apis/testing`/FakeRuntimeService#",
+        "scip-go gomod google.golang.org/grpc v1.65.0 `google.golang.org/grpc/grpclog`/componentData#",
+        "scip-go gomod k8s.io/api v1.32.0 `k8s.io/api/imagepolicy/v1alpha1`/ImageReview#"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "cross_module_sibling-001",
+    "category": "Completion",
+    "sub_type": "cross_module_sibling",
+    "intent": "Agent discovering siblings in `build/pause/windows/wincat/wincat.go`",
+    "query": {
+      "file_path": "build/pause/windows/wincat/wincat.go",
+      "op": "file_symbols"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "file:build/pause/windows/wincat/wincat.go",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/build/pause/windows/wincat`/main().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/build/pause/windows/wincat`/"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "builder_chain_recall-000",
+    "category": "Completion",
+    "sub_type": "builder_chain_recall",
+    "intent": "Agent chaining builder calls on `builder`",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e/dra`/builder#"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e/dra`/builder#podExternalMultiple().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e/dra`/builder#class().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e/dra`/builder#parametersEnv()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "builder_chain_recall-001",
+    "category": "Completion",
+    "sub_type": "builder_chain_recall",
+    "intent": "Agent chaining builder calls on `builder`",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e_node/builder`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e_node/builder`/GetTargetBuildArch().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e_node/builder`/GetKubeletServerBin().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e_node/builder`/BuildGo()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callers_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callers_of_symbol",
+    "intent": "Bug suspected in `core` — enumerate callers",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/v1`/Convert_v1_NamespaceList_To_core_NamespaceList().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/v1`/Convert_v1_PersistentVolumeClaim_To_core_PersistentVolumeClaim().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/v1`/autoConvert_core_PortStatus_To_v1_PortStatus().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/validation`/ValidateSecurityContext().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/validation`/validateStartupProbe()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "callees_of_symbol-000",
+    "category": "BugFix",
+    "sub_type": "callees_of_symbol",
+    "intent": "Bug downstream of `GetOpenAPIDefinitions` — enumerate callees",
+    "query": {
+      "op": "callees",
+      "sym_stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/generated/openapi`/GetOpenAPIDefinitions()."
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/generated/openapi`/schema_k8sio_api_flowcontrol_v1_FlowSchema().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/generated/openapi`/schema_pkg_apis_metrics_v1beta1_PodMetricsList().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/generated/openapi`/schema_k8sio_api_core_v1_PersistentVolumeSpec().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/generated/openapi`/schema_pkg_apis_apiextensions_v1beta1_CustomResourceDefinitionCondition().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/generated/openapi`/schema_k8sio_api_core_v1_ReplicationController()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "override_detection-000",
+    "category": "BugFix",
+    "sub_type": "override_detection",
+    "intent": "Agent refactoring `Plugin` — find every override",
+    "query": {
+      "op": "implementors",
+      "sym_stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/scheduler/framework`/Plugin#"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/scheduler/framework/plugins/volumerestrictions`/VolumeRestrictions#",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/cmd/kubeadm/app/preflight`/ServiceCheck#",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/scheduler/testing/framework`/FakeReservePlugin#",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e/upgrades/node`/SecretUpgradeTest#",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/test/e2e/upgrades/storage`/PersistentVolumeUpgradeTest#"
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "multi_hop_impact-000",
+    "category": "BugFix",
+    "sub_type": "multi_hop_impact",
+    "intent": "Multi-hop impact starting from `core` (depth-1 approximation)",
+    "query": {
+      "op": "callers",
+      "sym_stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core`/"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/v1`/Convert_v1_NamespaceList_To_core_NamespaceList().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/v1`/Convert_v1_PersistentVolumeClaim_To_core_PersistentVolumeClaim().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/v1`/autoConvert_core_PortStatus_To_v1_PortStatus().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/validation`/ValidateSecurityContext().",
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/apis/core/validation`/validateStartupProbe()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_type_discovery-000",
+    "category": "BugFix",
+    "sub_type": "exception_type_discovery",
+    "intent": "Agent triaging error — locate `Error` type",
+    "query": {
+      "bare_name": true,
+      "name": "Error",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/volume/util`/MultipleSELinuxLabelsError#Error()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "class_field_invariants-000",
+    "category": "BugFix",
+    "sub_type": "class_field_invariants",
+    "intent": "Agent understanding invariants of `FitError` — members",
+    "query": {
+      "op": "contained_by",
+      "sym_stable_id": "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/scheduler/framework`/FitError#"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/scheduler/framework`/FitError#Error()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  },
+  {
+    "id": "exception_raisers-000",
+    "category": "ControlFlow",
+    "sub_type": "exception_raisers",
+    "intent": "Agent triaging error — locate `Error` type",
+    "query": {
+      "bare_name": true,
+      "name": "Error",
+      "op": "lookup"
+    },
+    "expected": {
+      "kind": "contains",
+      "required": [
+        "scip-go gomod k8s.io/kubernetes v1.32.0 `k8s.io/kubernetes/pkg/volume/util`/MultipleSELinuxLabelsError#Error()."
+      ]
+    },
+    "gold_source": "scip_roundtrip"
+  }
+]

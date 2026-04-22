@@ -1,0 +1,66 @@
+{
+  "adapter": {
+    "name": "unknown",
+    "version": "0.0.0"
+  },
+  "corpus": {
+    "commit": "unknown",
+    "name": "unknown",
+    "scenarios_count": 19,
+    "scenarios_sha256": "fnv64:0a85d00607838a49"
+  },
+  "longmemcode_version": "0.1",
+  "machine": {
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "ram_gb": 48
+  },
+  "notes": [
+    "scip_roundtrip scenarios: gold = bundle's own structural facts; tests decoder fidelity + speed.",
+    "adversarial scenarios: fabricated names; gold = empty; tests anti-hallucination."
+  ],
+  "per_category": {
+    "BugFix": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 6,
+      "passed": 6
+    },
+    "Completion": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 12,
+      "passed": 12
+    },
+    "ControlFlow": {
+      "avg_precision": null,
+      "avg_recall": null,
+      "avg_score": 1.0,
+      "n": 1,
+      "passed": 1
+    }
+  },
+  "per_gold_source": {
+    "scip_roundtrip": {
+      "avg_score": 1.0,
+      "n": 19,
+      "passed": 19
+    }
+  },
+  "product": {
+    "commit": "unknown",
+    "name": "neurogenesis-bundle"
+  },
+  "summary": {
+    "cost_per_1k_queries_usd": 0.0,
+    "p50_latency_ms": 0.018,
+    "p95_latency_ms": 165.049,
+    "p99_latency_ms": 165.049,
+    "raw_accuracy": 1.0,
+    "total_cost_usd": 0.0,
+    "total_tokens_returned": 216870,
+    "weighted_accuracy": 1.0
+  }
+}
