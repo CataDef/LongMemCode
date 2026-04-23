@@ -16,16 +16,8 @@ repository = "https://github.com/CataDef/LongMemCode"
 publish = false
 
 [workspace.dependencies]
-# Product dep — we never modify upstream, only consume Bundle + friends.
-# Local path dep during sandbox development; the committed version
-# uses a git dep pinned to a neurogenesis commit so downstream users
-# get reproducible builds without needing the product checked out
-# locally. When publishing this workspace:
-#
-#     neurogenesis-bundle = { git = "https://github.com/CataDef/neurogenesis", rev = "..." }
-#     neurogenesis-ingest = { git = "https://github.com/CataDef/neurogenesis", rev = "..." }
-neurogenesis-bundle = { git = "https://github.com/CataDef/neurogenesis", branch = "main" }
-neurogenesis-ingest = { git = "https://github.com/CataDef/neurogenesis", branch = "main" }
+neurogenesis-bundle = { git = "https://github.com/CataDef/neurogenesis", rev = "7211ef4ee820e4e5d4e7e7af57e59dcdb0a44184" }
+neurogenesis-ingest = { git = "https://github.com/CataDef/neurogenesis", rev = "7211ef4ee820e4e5d4e7e7af57e59dcdb0a44184" }
 
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
