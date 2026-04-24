@@ -6,6 +6,40 @@ Head-to-head benchmark of code-memory systems used by coding agents (Claude Code
 
 ---
 
+## v0.2.1 — Kubernetes (workflow-shape categories added)
+
+*Released 2026-04-24. Methodology: [`docs/V0.2_METHODOLOGY.md`](docs/V0.2_METHODOLOGY.md).*
+
+This release adds four new scenario categories to the Kubernetes
+corpus that capture **sustained-session workflow shapes** rather than
+one-shot retrieval:
+
+- **ConversationalContinuation** — follow-up queries on prior context
+- **RereadCascade** — same lookup repeated 3-5× per session
+- **BashFeedbackLoop** — Go compiler errors → source symbol (grounded
+  in 100 real Kubernetes fix commits mined from git history)
+- **SubAgentContextHandoff** — main → sub-agent process handoff
+
+953 total scenarios, deterministic ground truth, no LLM judge. Three
+of the four new categories use a "non-empty result is pass" oracle in
+v0.2.1 — see methodology §4 for the explicit caveat. v0.3 will pin
+exact expected results for these.
+
+### Headline
+
+| Adapter                 | Scope of system   | Scenarios | Accuracy | P99 latency | $ / 1 k     | Result |
+|-------------------------|-------------------|----------:|---------:|------------:|------------:|-------|
+| **ArgosBrain 0.7.0**    | Code-structural   |       953 | **99.16 %** | **0.402 ms** | **$0.0000** | [JSON](results/argosbrain-kubernetes-v2-2026-04-24.json) |
+
+8/10 categories at 100 %. The two with misses (Completion, RereadCascade)
+hit ambiguous bare-name lookups in the v0.1 rollover where the v0.1
+oracle had picked an obscure variant (e.g. `csi-test/mock/Service`)
+while the structural ranker prefers production code (`pkg/apis/core/Service`).
+v0.3 oracle pinning will resolve the ambiguity by canonical-result
+freezing.
+
+---
+
 ## v0.2 — Kubernetes (scale corpus) · four adapters
 
 *Released 2026-04-22. Full report: [`docs/V0.2_KUBERNETES_REPORT.md`](docs/V0.2_KUBERNETES_REPORT.md).*
