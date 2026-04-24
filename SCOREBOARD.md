@@ -6,6 +6,37 @@ Head-to-head benchmark of code-memory systems used by coding agents (Claude Code
 
 ---
 
+## v0.3 — Kubernetes (pinned oracle, adversarially scoreable)
+
+*Released 2026-04-24. Methodology: [`docs/V0.3_METHODOLOGY.md`](docs/V0.3_METHODOLOGY.md).*
+
+v0.3 strengthens the three v0.2.1 weak-oracle categories
+(ConversationalContinuation, RereadCascade, SubAgentContextHandoff)
+by pinning concrete top-3 expected stable IDs from a deterministic
+reference run. Same 953 scenarios, same protocol; oracle is now
+exact-set rather than "non-empty pass." Other adapters are now
+adversarially scoreable against this suite — returning *different*
+non-empty results no longer passes.
+
+272 of 361 weak scenarios pinned; 89 skipped (reference returned empty,
+flagged via `expected.pin_skipped_reason`).
+
+### Headline
+
+| Adapter                 | Scope of system   | Scenarios | Accuracy | P99 latency | $ / 1 k     | Result |
+|-------------------------|-------------------|----------:|---------:|------------:|------------:|-------|
+| **ArgosBrain 0.7.0**    | Code-structural   |       953 | **99.16 %** | **0.404 ms** | **$0.0000** | [JSON](results/argosbrain-kubernetes-v3-2026-04-24.json) |
+
+> ArgosBrain is the reference adapter the v0.3 oracle is pinned
+> against; it scores 100 % on the 272 pinned scenarios by construction.
+> The 99.16 % overall reflects 8 misses in the *unpinned* v0.1
+> rollover scenarios (4 ambiguous bare-name lookups in Kubernetes
+> where the v0.1 oracle picked an obscure variant). Other adapters
+> running this suite will face the full pinned set as a strict
+> exact-contains test.
+
+---
+
 ## v0.2.1 — Kubernetes (workflow-shape categories added)
 
 *Released 2026-04-24. Methodology: [`docs/V0.2_METHODOLOGY.md`](docs/V0.2_METHODOLOGY.md).*
