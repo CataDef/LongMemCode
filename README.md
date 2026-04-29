@@ -6,6 +6,44 @@ LongMemCode is what [LongMemEval](https://github.com/xiaowu0162/LongMemEval) is 
 
 If you ship a memory layer that plugs into Cursor / Claude Code / Aider / Cline / Copilot, you should be able to rank yourself on LongMemCode.
 
+---
+
+## 🚀 LongMemCode 2 — 1 456-scenario Kubernetes corpus
+
+**The largest single-corpus stress test in the suite.** Built on the
+Kubernetes v1.32.0 source tree (~14 k Go files), the
+[`kubernetes-2k.json`](scenarios/kubernetes-2k.json) corpus runs
+**1 456 scenarios** through every adapter in one sweep — the toughest
+ground-truth signal LongMemCode publishes today.
+
+Why it matters: most code-memory benchmarks live at the ~500 scenario
+scale. At ~3× that, kubernetes-2k is the first corpus where
+methodology gaps that LongMemCode v0.1 papered over (small-N
+variance, rare-pattern coverage, latency tail) become statistically
+visible. If your adapter passes here at 95 %+, it has earned the
+"production-ready for monorepos" badge.
+
+**Total scenarios across all 40 corpora**: **14 228**. Smaller corpora
+(FastAPI, clap, fastify, etc.) remain useful — different language /
+domain mixes catch different adapter weaknesses — but
+`kubernetes-2k` is the headline.
+
+| Corpus | Scenarios | Stack |
+|--------|----------:|-------|
+| **`kubernetes-2k`** | **1 456** | Go monorepo (the headline) |
+| `kubernetes-v3` | 953 | Pinned-oracle subset of the same |
+| `kubernetes-v2` | 953 | v0.2.1 weak-oracle baseline |
+| `clap` | 536 | Rust |
+| `ruby-stdlib` | 505 | Ruby |
+| `fastapi` | 425 | Python |
+| (35 more, see [`scenarios/`](scenarios/)) | … | Go, Rust, Python, Ruby, Lua, Elixir, … |
+| **TOTAL** | **14 228** | |
+
+Submit your adapter scores via PR per [`results/README.md`](results/README.md).
+Adapter scoring on `kubernetes-2k` alone takes a publishable result
+seriously — partial submissions on smaller corpora are welcome but
+flagged as such on the scoreboard.
+
 ## Live scoreboard
 
 See [**SCOREBOARD.md**](SCOREBOARD.md) for the current rankings across every adapter that has submitted a result. The scoreboard breaks systems down on four columns — accuracy, P95 latency, compression, and **dollars per 1 000 queries** — so readers can pick the operating point that fits their budget. `$0.00` for systems that don't pay for a read-time LLM call is an important column, not a missing one.
