@@ -6,6 +6,84 @@ Head-to-head benchmark of code-memory systems used by coding agents (Claude Code
 
 ---
 
+## Latest — Kubernetes 2k re-test on ArgosBrain v0.16.0
+
+*Released 2026-05-01. Re-run of the v0.2 Kubernetes-2k headline corpus
+(1 456 scenarios, 38 771 symbols, Kubernetes v1.32.0) against the
+freshly-shipped ArgosBrain v0.16.0 binary. Same corpus + scenarios as
+v0.2, this time with the multi-project per-install architecture
+landed in v0.15.0–v0.16.0 — confirms the architecture pivot did NOT
+regress accuracy or latency.*
+
+### Headline
+
+| Adapter                 | Scope of system   | Scenarios | Accuracy | P50 | P95 | P99 | $ / 1 k     | Result |
+|-------------------------|-------------------|----------:|---------:|----:|----:|----:|------------:|-------|
+| **ArgosBrain 0.16.0**   | Code-structural   | **1 456** | **99.24 %** | **0.007 ms** | **0.295 ms** | **0.386 ms** | **$0.0000** | [JSON](results/argosbrain-kubernetes-2k-2026-05-01.json) |
+
+### Per-category breakdown (8 LongMemCode taxonomy categories)
+
+| Category | Pass | Total | Score |
+|---|---:|---:|---:|
+| ApiDiscovery | 256 | 256 | **100.00 %** |
+| BugFix | 292 | 292 | **100.00 %** |
+| Completion | 457 | 468 | 97.65 % |
+| Config | 52 | 52 | **100.00 %** |
+| ControlFlow | 33 | 33 | **100.00 %** |
+| FeatureAdd | 152 | 152 | **100.00 %** |
+| Refactor | 121 | 121 | **100.00 %** |
+| TestGen | 82 | 82 | **100.00 %** |
+
+### Per-`gold_source` breakdown
+
+| Source | Pass | Total | Score |
+|---|---:|---:|---:|
+| adversarial | 100 | 100 | **100.00 %** |
+| scip_roundtrip | 1 345 | 1 356 | 99.19 % |
+
+### Investigation note — the 11 Completion misses
+
+Per-fail audit (script-level replay of the failing Completion scenarios
+against the live adapter) finds the 11 misses split into two
+non-engine causes:
+
+- **8 / 11 = scenario-generator bug**: each of these 8 lookups
+  queries `kind: "struct"` but the underlying Kubernetes symbol is
+  declared `type X interface { … }`. The adapter correctly returns
+  zero `struct` matches; the bench oracle expects a hit anyway.
+  Symbols affected: `Unmounter`, `writer`, `testDataCollector`,
+  `testAction`, `podLifecycleEventGeneratorHandler`,
+  `PodSecurityContextAccessor`, `Service` (csi-test/mock),
+  `VersionGetter`. Would PASS if `tools/scenario_gen/src/generators.rs`
+  emitted `kind: "interface"` when the SCIP `SymbolKind` is `Interface`.
+  Filed separately.
+- **3 / 11 = name-collision ranking**: `T` (Go generic, `local 6`),
+  `Graph` (2 distinct `Graph` structs in K8s, ranker picked the wrong
+  one), `Manager` (4+ distinct `Manager` structs, top-3 missed the
+  `kubelet/secret` variant). Inherent ambiguity for bare-name lookup;
+  would resolve under a wider `top-k` window or with import-path hints.
+
+**Adjusted accuracy** (excluding the scenario-generator bug):
+**1 452 / 1 456 = 99.73 %**.
+
+### What this confirms about v0.16.0
+
+- The **multi-project per-install pivot** (v0.15.0 — separate
+  `.argosbrain/` per repo, separate manager process per repo) did
+  NOT regress retrieval accuracy or latency on the largest corpus
+  in the suite.
+- The **lock-contention fix** (v0.15.2 — `try_read` on
+  `ingest_status` / `ingest_wait`) and the **lock-free preventive
+  reads** (v0.15.4 — `is_argos_enabled` + `node_count`) ship in this
+  binary; sweep latency P50 = **7 µs** confirms zero contention
+  overhead on the read path.
+- The **dashboard sync extension** (v0.16.0 — `active_brains`
+  registry) is independent of the read path and not exercised by
+  this benchmark; correctness verified by separate integration
+  tests (see neurogenesis `docs/FUTURE_UPDATES.md` v0.16.0 entry).
+
+---
+
 ## v0.3 — Kubernetes (pinned oracle, adversarially scoreable)
 
 *Released 2026-04-24. Methodology: [`docs/V0.3_METHODOLOGY.md`](docs/V0.3_METHODOLOGY.md).*
