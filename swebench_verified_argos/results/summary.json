@@ -1,0 +1,11 @@
+{
+ "model": "claude-opus-4-8",
+ "benchmark": "SWE-bench Verified (500)",
+ "vanilla_resolved": 435,
+ "vanilla_pct": 87.0,
+ "argos_attack_set": 64,
+ "argos_rescues": 22,
+ "total_resolved": 457,
+ "total_pct": 91.4,
+ "official_opus48": 88.6
+}

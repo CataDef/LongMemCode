@@ -1,0 +1,594 @@
+[
+ {
+  "instance_id": "astropy__astropy-13398",
+  "resolved": true,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 1,
+   "symbol_exists": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "astropy__astropy-14369",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "astropy__astropy-14598",
+  "resolved": false,
+  "argos_calls": 5,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "astropy__astropy-7606",
+  "resolved": false,
+  "argos_calls": 0,
+  "argos_tools": {}
+ },
+ {
+  "instance_id": "astropy__astropy-8707",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "astropy__astropy-8872",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-10097",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-10554",
+  "resolved": true,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-10999",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-11141",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-11532",
+  "resolved": false,
+  "argos_calls": 0,
+  "argos_tools": {}
+ },
+ {
+  "instance_id": "django__django-11734",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-11820",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-12273",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-13212",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-13512",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 2
+  }
+ },
+ {
+  "instance_id": "django__django-13513",
+  "resolved": false,
+  "argos_calls": 5,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-14034",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-14155",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-14170",
+  "resolved": false,
+  "argos_calls": 4,
+  "argos_tools": {
+   "preflight": 3,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-14771",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-15098",
+  "resolved": true,
+  "argos_calls": 7,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 3,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-15732",
+  "resolved": true,
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-16256",
+  "resolved": false,
+  "argos_calls": 6,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-16502",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-16950",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-23299",
+  "resolved": true,
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25479",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-26208",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-26466",
+  "resolved": false,
+  "argos_calls": 6,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "psf__requests-1724",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pydata__xarray-6938",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pydata__xarray-6992",
+  "resolved": true,
+  "argos_calls": 7,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 3,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pydata__xarray-7229",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pylint-dev__pylint-4604",
+  "resolved": false,
+  "argos_calls": 5,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pylint-dev__pylint-4661",
+  "resolved": false,
+  "argos_calls": 5,
+  "argos_tools": {
+   "search": 2,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pylint-dev__pylint-6528",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pylint-dev__pylint-7080",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pylint-dev__pylint-7277",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pytest-dev__pytest-10356",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7236",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10435",
+  "resolved": true,
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10614",
+  "resolved": false,
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-11510",
+  "resolved": true,
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7462",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7590",
+  "resolved": true,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7748",
+  "resolved": true,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8595",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9461",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9602",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9711",
+  "resolved": false,
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 2,
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-12489",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-13852",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-16597",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-18199",
+  "resolved": false,
+  "argos_calls": 4,
+  "argos_tools": {
+   "preflight": 1,
+   "symbol_exists": 1,
+   "callers": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-18763",
+  "resolved": true,
+  "argos_calls": 3,
+  "argos_tools": {
+   "symbol_exists": 1,
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-19495",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-19783",
+  "resolved": false,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-20428",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-20438",
+  "resolved": false,
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-20916",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-21596",
+  "resolved": false,
+  "argos_calls": 3,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-21612",
+  "resolved": true,
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-21930",
+  "resolved": true,
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ }
+]

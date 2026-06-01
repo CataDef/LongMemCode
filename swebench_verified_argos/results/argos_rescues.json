@@ -1,0 +1,209 @@
+[
+ {
+  "instance_id": "astropy__astropy-13398",
+  "repo": "astropy",
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 1,
+   "symbol_exists": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "astropy__astropy-14369",
+  "repo": "astropy",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-10097",
+  "repo": "django",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-10554",
+  "repo": "django",
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-14771",
+  "repo": "django",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-15098",
+  "repo": "django",
+  "argos_calls": 7,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 3,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-15732",
+  "repo": "django",
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-16502",
+  "repo": "django",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "django__django-16950",
+  "repo": "django",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-23299",
+  "repo": "matplotlib",
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25479",
+  "repo": "matplotlib",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pydata__xarray-6992",
+  "repo": "pydata",
+  "argos_calls": 7,
+  "argos_tools": {
+   "search": 3,
+   "preflight": 3,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pydata__xarray-7229",
+  "repo": "pydata",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7236",
+  "repo": "pytest-dev",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10435",
+  "repo": "sphinx-doc",
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-11510",
+  "repo": "sphinx-doc",
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7590",
+  "repo": "sphinx-doc",
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7748",
+  "repo": "sphinx-doc",
+  "argos_calls": 3,
+  "argos_tools": {
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-18763",
+  "repo": "sympy",
+  "argos_calls": 3,
+  "argos_tools": {
+   "symbol_exists": 1,
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-19495",
+  "repo": "sympy",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-21612",
+  "repo": "sympy",
+  "argos_calls": 2,
+  "argos_tools": {
+   "preflight": 1,
+   "verify_no_fake_done": 1
+  }
+ },
+ {
+  "instance_id": "sympy__sympy-21930",
+  "repo": "sympy",
+  "argos_calls": 4,
+  "argos_tools": {
+   "search": 1,
+   "preflight": 2,
+   "verify_no_fake_done": 1
+  }
+ }
+]
